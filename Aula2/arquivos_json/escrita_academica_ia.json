@@ -1,0 +1,31 @@
+{
+    "titulo": "Escrita acadêmica ética, responsável e humana com inteligência artificial",
+    "autores": [
+        "Rafael Cardoso Sampaio"
+    ],
+    "ano_publicacao": 2025,
+    "palavras_chave": [
+        "escrita acadêmica",
+        "integridade científica",
+        "Inteligência Artificial Generativa",
+        "autoria",
+        "revisão narrativa"
+    ],
+    "resumo": "Introdução: A rápida disseminação da inteligência artificial generativa (IAG) transformou práticas de escrita acadêmica, ampliando a eficiência, mas levantando preocupações sobre autoria, integridade, privacidade e desenvolvimento cognitivo. A literatura recente tem se concentrado em debates normativos e em políticas institucionais sobre autoria e transparência, mas oferece pouca orientação operacional sobre como utilizar a IA sem comprometer a formação intelectual, especialmente entre jovens pesquisadores(as). Este artigo busca preencher essa lacuna ao propor um método estruturado de uso ético, responsável e humano da IA. Materiais e métodos: O estudo realiza uma revisão narrativa de literatura sobre riscos associados à escrita com IA (e.g., diluição da autoria, descarregamento cognitivo, vieses, privacidade e 'alucinações') e integra essa revisão com documentos normativos e diretrizes institucionais. A partir dessa síntese, o artigo desenvolve um guia prático composto por cinco fases metodológicas para orientar o uso crítico da tecnologia. Resultados: O guia proposto organiza o processo de escrita em etapas: planejamento humano prévio; escrita assistida e curadoria crítica; apropriação e reescrita autoral; verificação rigorosa de fatos, fontes e lógica argumentativa; e responsabilidade final com declaração transparente do uso de IA. Cada fase fornece salvaguardas para mitigar riscos cognitivos, éticos e epistêmicos, preservando a agência autoral. Discussão: Argumenta-se que o uso ético da IA depende menos de proibições formais e mais do desenvolvimento de práticas de vigilância intelectual, documentação e reflexão contínua. Embora o processo reduza parte da eficiência oferecida pela IA, contribui para fortalecer competências cognitivas, proteger a integridade científica e equilibrar inovação tecnológica com responsabilidade humana.",
+    "referencias": [
+        "Bai, S., Gonda, D.E. & Hew, K.F. (2024) Write-curate-verify: a case study of leveraging generative AI for scenario writing in scenario-based learning. IEEE Transactions on Learning Technologies, 17, pp. 1301-1312. DOI",
+        "Floridi, L. (2025) Distant writing: Literary production in the age of artificial intelligence. Minds and Machines, 35(3), 30. DOI",
+        "Jin, F., Sun, L. & Pan, Y., et al. (2025) High heels, compass, spider-man, or drug? Metaphor analysis of generative artificial intelligence in academic writing. Computers & Education, 228, 105248. DOI",
+        "Lee, H., Sarkar, A. & Tankelevitch, L., et al. (2025) The impact of generative AI on critical thinking: self-reported reductions in cognitive effort and confidence effects from a survey of knowledge workers. Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems. Yokohama, Japão. DOI",
+        "Lopes, C., Forgas, R.C. & Cerdà-Navarr, A. (2024) Tese de doutorado em educação escrita por inteligência artificial? Revista Brasileira de Educação, 29, e290065. DOI",
+        "Mei, P., Brewis, D. & Nwaiwu, F., et al. (2025) If ChatGPT can do it, where is my creativity? Generative AI boosts performance but diminishes experience in creative writing. Computers in Human Behavior: Artificial Humans, 4, 100140. DOI",
+        "Mollick, E.R. & Mollick, L. (2024) Instructors as innovators: a future-focused approach to new AI learning opportunities, with prompts. SSRN Electronic Journal [Preprint]. DOI",
+        "Pereira, R., Reis, I.W. & Ulbricht, V., et al. (2024) Generative artificial intelligence and academic writing: an analysis of the perceptions of researchers in training. Management Research: Journal of the Iberoamerican Academy of Management, 22(4), pp. 429-450. DOI",
+        "Resnik, D. & Hosseini, M. (2025) Disclosing artificial intelligence use in scientific research and publication: when should disclosure be mandatory, optional, or unnecessary? Accountability in Research, 2025, pp. 1-13. DOI",
+        "Sampaio, R. & Figueiredo, D. (2025) Prompts (infalíveis!) para pesquisa acadêmica com inteligência artificial. Teresina: EDUFPI.",
+        "Sampaio, R., Sabbatini, M. & Limongi, R. (2024) Diretrizes para o uso ético e responsável da inteligência artificial generativa: um guia prático para pesquisadores. São Paulo: Sociedade Brasileira de Estudos Interdisciplinares da Comunicação.",
+        "Schilke, O. & Reimann, M. (2005) The transparency dilemma: how AI disclosure erodes trust. Organizational Behavior and Human Decision Processes, 188, 104405. DOI",
+        "Trindade, A. & Oliveira, H. (2024) Inteligência artificial generativa e competência em informação: habilidades informacionais necessárias ao uso de ferramentas de IA generativa em demandas informacionais acadêmico-científicas. Perspectivas em Ciência da Informação, 29, e-47485. DOI",
+        "Winberg, C., Engel-Hills, P. & Winberg, S. (2024) 'Am I in control of my own writing?' Training postgraduate candidates in the responsible use of generative artificial intelligence in academic writing. African Journal of Inter/Multidisciplinary Studies, 6(1), pp. 1-12. DOI"
+    ]
+}

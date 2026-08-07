@@ -1,0 +1,48 @@
+{
+    "titulo": "O caso Twitter/X: algoritmo, espaço público e ultraliberalismo digital",
+    "autores": [
+        "Ettore Schimid Batalha",
+        "Jefferson Ribeiro da Silva",
+        "Bruno Daniel Vendruscolo Espinosa Velásquez"
+    ],
+    "ano_publicacao": 2025,
+    "palavras_chave": [
+        "redes sociais",
+        "espaço público",
+        "algoritmos",
+        "Twitter/X",
+        "desinformação"
+    ],
+    "resumo": "Este artigo investiga a dinâmica das redes sociais na formação do debate público, com ênfase no Twitter (atualmente denominado X) e na influência dos algoritmos na regulação do conteúdo. Por meio de uma abordagem interdisciplinar que integra conceitos da Sociologia Digital e das Ciências da Computação, analisa-se como mecanismos de curadoria e moderação operados por empresas privadas afetam a construção dos discursos e a propagação das informações. O estudo reúne levantamento inicial de dados empíricos, análises acadêmicas e reportagens jornalísticas para demonstrar que alterações nas políticas de moderação, sobretudo após a aquisição do Twitter por Elon Musk, impactaram a qualidade do conteúdo gerado, a confiança dos usuários e a sustentabilidade econômica da plataforma. Os resultados indicam que a flexibilização das diretrizes pode ampliar a visibilidade de vozes diversas, mas também favorece discurso de ódio, proliferação de bots e retirada de anunciantes, dificultando a manutenção de um debate público plural e transparente.",
+    "referencias": [
+        "BARBROOK, Richard. A regulamentação da liberdade: liberdade de expressão, liberdade de comércio e liberdade de dádiva na rede. In: COCCO, Giuseppe; GALVÃO, Alexander Patez; SILVA, Gerardo (org.). Capitalismo cognitivo: trabalho, redes e inovação. Rio de Janeiro: DP&A Editora, 2003. p. 133-150.",
+        "BARRETO, A. A oferta e a demanda da informação: condições técnicas, econômicas e políticas. Revista Ciência da Informação. Brasília: IBICT, vol. 28, n. 2. 1995.",
+        "BERNAL, James Lopez; CUMMINS, Steven; GASPARRINI, Antonio. Interrupted time series regression for the evaluation of public health interventions: a tutorial. International Journal of Epidemiology, v. 46, n. 1, p. 348-355, 2017. DOI: 10.1093/ije/dyw098.",
+        "CARDON, Dominique. À quoi rêvent les algorithmes: Nos vies à l'heure des big data. Paris: Éditions du Seuil, 2015.",
+        "CARDON, Dominique. Culture numérique. Paris: Presses de Science-Po, 2019.",
+        "CASTELLS, Manuel. A sociedade em rede. São Paulo: Paz e Terra, 1999.",
+        "CASTELLS, Manuel. Redes de indignação e esperança. 2. ed. Rio de Janeiro: Zahar, 2013.",
+        "CESARINO, Letícia. O mundo do avesso: verdade política na era digital. São Paulo: Editora Ubu, 2022.",
+        "CHUN, Wendy Hui Kyong. Discriminating data: correlation, neighborhoods, and the new politics of recognition. Cambridge: MIT Press, 2021.",
+        "CLEVELAND, W. S. The Elements of Graphing Data. New Jersey: Hobart Press, 1994.",
+        "FELDMAN, Ronen; SANGER, James. The Text Mining Handbook: Advanced Approaches in Analyzing Unstructured Data. Cambridge: Cambridge University Press, 2007.",
+        "GARFIELD, Eugene. Citation indexes for science: a new dimension in documentation through association of ideas. Science, v. 122, n. 3159, p. 108-111, 1955. DOI: 10.1126/science.122.3159.108.",
+        "GOHN, Maria da Glória. Movimentos Sociais na Contemporaneidade. Revista Brasileira de Educação, v. 16, n. 17, p. 333-361, 2011.",
+        "HABERMAS, Jürgen. Espaço Público: 30 anos depois. In: Mudança estrutural da esfera pública. São Paulo: Editora Unesp, 2014. p. 35-87.",
+        "HABERMAS, Jürgen. Uma nova mudança estrutural da esfera pública e as condições da política deliberativa. Tradução de Denilson Luís Werle. São Paulo: Unesp, 2023.",
+        "HELMOND, Anne. A plataformização da web. In: OMENA, Janna Joceli (org.). Métodos digitais: teoria-prática-crítica. Lisboa: ICNOVA, 2019. p. 49-72.",
+        "JURAFSKY, Daniel; MARTIN, James H. Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition, with Language Models. 3rd ed., draft online, 2025.",
+        "LÉVY, Pierre. Cibercultura. 3. ed. São Paulo: Editora 34, 1999.",
+        "MALINI, Fábio. A informação como arma política: do confinamento ao descontrole. In: COCCO, Giuseppe; GALVÃO, Alexander Patez; SILVA, Gerardo (org.). Capitalismo cognitivo: trabalho, redes e inovação. Rio de Janeiro: DP&A Editora, 2003. p. 151-191.",
+        "MARTINO, Luis Mauro Sá. Teoria das mídias digitais: linguagens, ambientes e redes. Petrópolis: Vozes, 2015.",
+        "MISKOLCI, Richard. Notas sobre o microfascismo nas redes sociais. Cult UOL, São Paulo, 3 mar. 2017.",
+        "O'REILLY, Tim. What is Web 2.0. United States: O'Reilly, 30 set. 2005.",
+        "ROSSI, Andrew. Torre de marfim (Ivory Tower). Noruega: Documentário, 2014.",
+        "TAVARES, Vitor. Moraes determina bloqueio do X no Brasil após Elon Musk descumprir decisão judicial. BBC News Brasil, São Paulo, 30 ago. 2024.",
+        "TUFTE, E. R. The Visual Display of Quantitative Information. Cheshire, CT: Graphics Press, 2001.",
+        "VAN DIJCK, José. La cultura de la conectividad: una historia crítica de las redes sociales. Buenos Aires: Editora Siglo Veintiuno, 2016.",
+        "VAZ, Paulo. Cronologia da internet. Revista Lugar Comum, Rio de Janeiro, n. 13-14, p. 81-89, 2002.",
+        "ZHAO, Dangzhi; STROTMANN, Andreas. Analysis and Visualization of Citation Networks. San Rafael, CA: Morgan & Claypool, 2015.",
+        "ZUBOFF, Shoshana. A era do capitalismo de vigilância: a luta por um futuro humano na nova fronteira do poder. Rio de Janeiro: Intrínseca, 2020."
+    ]
+}
