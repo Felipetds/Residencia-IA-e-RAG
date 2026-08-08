@@ -63,7 +63,13 @@ termos = np.array(linhas_sem_vazias)
 embeddings = gerar_embeddings(termos)
 embedding_ancora = gerar_embedding_ancora("O que é “Autonomia e opacidade algorítmica”?")
 embedding_ancora_170 = np.tile(embedding_ancora, (170, 1))
+
 tabela = gerar_resultados(termos ,embedding_ancora_170, embeddings)
 
 tabela_ordenada = tabela.sort_values(by="Similaridade Cosseno", ascending=False)
 print(tabela_ordenada.head())
+
+tabela_ordenada = tabela.sort_values(by="Similaridade Cosseno", ascending=False)
+tabela_ordenada_top_3 = tabela_ordenada.head(3)
+tabela_md = tabela_ordenada.to_markdown("resultados_busca_semantica_bioetica_e_ia-ordenado.md", index=False)
+tabela_md = tabela_ordenada_top_3.to_markdown("resultados_busca_semantica_bioetica_e_ia-ordenado_top_3.md", index=False)
