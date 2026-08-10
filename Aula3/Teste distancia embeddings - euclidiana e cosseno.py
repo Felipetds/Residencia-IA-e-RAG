@@ -26,7 +26,7 @@ def gerar_(termos):
         embedding = response.data[0].embedding
 
         # guarda apenas os 10 primeiros valores
-        embeddings.append(embedding[:10])
+        embeddings.append(embedding[:100])
     return embeddings
 
 def euclidiana(embed_1, embed_2):
