@@ -2,15 +2,15 @@ Felipe Teixeira da Silva
 
 ## Tecnologias
 
-openai
-python-dotenv
-jupyter
-ipykernel
-docling
-pydantic
-pathlib
-scikit-learn
-math
+- openai
+- python-dotenv
+- jupyter
+- ipykernel
+- docling
+- pydantic
+- pathlib
+- scikit-learn
+- math
 
 ## Aula 1 - LLM + RAG
 
