@@ -48,7 +48,7 @@ def gerar_resultados(termos, embedding_ancora_repetido, embeddings):
         })
     return pd.DataFrame(resultados)
 
-def busca_semantica(pasta_destino, caminhos_arquivos, texto_ancora, embedding_ancora):
+def busca_semantica(pasta_destino, caminhos_arquivos, embedding_ancora):
       
   # Loop passando o arquivo individualmente
   for arquivo in caminhos_arquivos:
@@ -85,4 +85,4 @@ caminhos_arquivos = buscar_arquivos()
 texto_ancora = "O que é Autonomia e opacidade algorítmica?"
 embedding_ancora = gerar_embedding_ancora(texto_ancora)
 
-busca_semantica(pasta_destino, caminhos_arquivos, texto_ancora, embedding_ancora)
+busca_semantica(pasta_destino, caminhos_arquivos, embedding_ancora)
