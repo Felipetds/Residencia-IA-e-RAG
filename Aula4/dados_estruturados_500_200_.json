@@ -1,0 +1,3061 @@
+[
+    {
+        "Texto": "273\n\n<!-- image -->\n\n## Entre o algoritmo e o Juramento de Hipócrates: bioética na era da inteligência artificial\n\nJuracy Barbosa dos Santos 1 , Guilhermina Rego 1 , Rui Nunes 1\n\n1. Faculdade de Medicina da Universidade do Porto, Porto, Portugal.\n\n## Resumo",
+        "Embeddings": [
+            -0.02557373046875,
+            0.6416015625,
+            -0.0160369873046875,
+            0.4375,
+            0.12420654296875,
+            0.0633544921875,
+            0.07611083984375,
+            0.30078125,
+            -0.257568359375,
+            -0.462890625
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 0
+        }
+    },
+    {
+        "Texto": "O avanço da inteligência artificial tem transformado profundamente a prática médica. De sistemas de apoio à decisão clínica a algoritmos de triagem e diagnóstico, a inteligência artificial tem demons -trado potencial para diagnósticos precoces, terapias personalizadas, otimização de recursos, redução de erros e ampliação do acesso a cuidados especializados. Contudo, essa revolução tecnológica impõe desafios éticos significativos aos princípios clássicos da bioética, como beneficência, não",
+        "Embeddings": [
+            0.052032470703125,
+            0.044921875,
+            0.50146484375,
+            0.5146484375,
+            0.351318359375,
+            -0.0012598037719726562,
+            0.1055908203125,
+            0.45361328125,
+            -0.370849609375,
+            0.0298004150390625
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 259
+        }
+    },
+    {
+        "Texto": "redução de erros e ampliação do acesso a cuidados especializados. Contudo, essa revolução tecnológica impõe desafios éticos significativos aos princípios clássicos da bioética, como beneficência, não maleficência, confidencialidade e respeito à autonomia do doente, consagrados desde o Juramento de Hipócrates. A incorporação da inteligência artificial na medicina suscita tensões entre eficiência automatizada e valores humanos. Este artigo revisa a literatura sobre os principais dilemas éticos da",
+        "Embeddings": [
+            0.464599609375,
+            0.216552734375,
+            0.50439453125,
+            0.423095703125,
+            0.2183837890625,
+            0.0257568359375,
+            0.1942138671875,
+            0.4658203125,
+            -0.0311431884765625,
+            0.0237579345703125
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 553
+        }
+    },
+    {
+        "Texto": "A incorporação da inteligência artificial na medicina suscita tensões entre eficiência automatizada e valores humanos. Este artigo revisa a literatura sobre os principais dilemas éticos da aplicação da inteli -gência artificial na prática médica e avalia em que medida os princípios hipocráticos podem ser preser -vados ou adaptados diante das transformações tecnológicas, a fim de contribuir para o debate sobre os rumos éticos da medicina contemporânea em um cenário de crescente automação.",
+        "Embeddings": [
+            0.2724609375,
+            0.1776123046875,
+            0.56298828125,
+            0.0645751953125,
+            0.480712890625,
+            -0.1392822265625,
+            0.1640625,
+            0.53125,
+            -0.053741455078125,
+            -0.09771728515625
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 864
+        }
+    },
+    {
+        "Texto": "Palavras-chave: Bioética. Inteligência artificial. Ética médica. Autonomia pessoal.\n\n## Resumen\n\n## Entre el algoritmo y el Juramento Hipocrático: bioética en la era de la inteligencia artificial",
+        "Embeddings": [
+            0.14697265625,
+            0.55615234375,
+            0.245361328125,
+            0.2430419921875,
+            -0.034088134765625,
+            -0.305908203125,
+            0.04925537109375,
+            0.64501953125,
+            -0.135498046875,
+            -0.1339111328125
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 1358
+        }
+    },
+    {
+        "Texto": "El avance de la inteligencia artificial ha transformado profundamente la práctica médica. Desde sistemas de apoyo a la decisión clínica hasta algoritmos de triaje y diagnóstico, la inteligencia artificial ha demostrado potencial para diagnósticos precoces, terapias personalizadas, optimización de recursos, reducción de errores y ampliación del acceso a cuidados especializados. No obstante, esta revolución tecnológica impone desafíos éticos significativos a los principios clásicos de la",
+        "Embeddings": [
+            -0.050384521484375,
+            -0.08673095703125,
+            0.59130859375,
+            0.2939453125,
+            0.364013671875,
+            -0.0110626220703125,
+            0.2431640625,
+            0.51611328125,
+            -0.2783203125,
+            0.1385498046875
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 1555
+        }
+    },
+    {
+        "Texto": "de recursos, reducción de errores y ampliación del acceso a cuidados especializados. No obstante, esta revolución tecnológica impone desafíos éticos significativos a los principios clásicos de la bioética, tales como la beneficencia, la no maleficencia, la confidencialidad y el respeto a la autonomía del paciente, consagrados desde el Juramento Hipocrático. La incorporación de la inteligencia artificial en la medicina suscita tensiones entre la eficiencia automatizada y los valores humanos.",
+        "Embeddings": [
+            0.433349609375,
+            0.26318359375,
+            0.4912109375,
+            0.384521484375,
+            0.294677734375,
+            -0.1280517578125,
+            0.2476806640625,
+            0.429443359375,
+            0.00559234619140625,
+            -0.06683349609375
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 1850
+        }
+    },
+    {
+        "Texto": "del paciente, consagrados desde el Juramento Hipocrático. La incorporación de la inteligencia artificial en la medicina suscita tensiones entre la eficiencia automatizada y los valores humanos. Este artículo revisa la literatura sobre los principales dilemas éticos de la aplicación de la inteligencia artificial en la práctica médica y evalúa en qué medida los principios hipocráticos pueden preservarse o adaptarse ante las transformaciones tecnológicas, con el fin de contribuir al debate sobre",
+        "Embeddings": [
+            0.2252197265625,
+            0.3193359375,
+            0.444091796875,
+            0.08868408203125,
+            0.5439453125,
+            -0.25390625,
+            0.00846099853515625,
+            0.50146484375,
+            -0.1331787109375,
+            -0.11871337890625
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 2152
+        }
+    },
+    {
+        "Texto": "artificial en la práctica médica y evalúa en qué medida los principios hipocráticos pueden preservarse o adaptarse ante las transformaciones tecnológicas, con el fin de contribuir al debate sobre los rumbos éticos de la medicina contemporánea en un escenario de creciente automatización.",
+        "Embeddings": [
+            0.1358642578125,
+            0.27685546875,
+            0.322021484375,
+            0.203369140625,
+            0.5556640625,
+            -0.241455078125,
+            0.04827880859375,
+            0.60791015625,
+            0.1162109375,
+            -0.08880615234375
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 2454
+        }
+    },
+    {
+        "Texto": "Palabras clave: Bioética. Inteligencia artificial. Ética médica. Autonomía personal.\n\n## Abstract\n\n## Between the algorithm and the Hippocratic Oath: bioethics in the age of artificial intelligence",
+        "Embeddings": [
+            0.367919921875,
+            0.268310546875,
+            0.28857421875,
+            0.268310546875,
+            0.1060791015625,
+            -0.176513671875,
+            0.16455078125,
+            0.6728515625,
+            -0.2291259765625,
+            -0.250732421875
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 2743
+        }
+    },
+    {
+        "Texto": "The advancement of artificial intelligence has profoundly transformed medical practice. From clinical decisionsupport systems to screening and diagnostic algorithms, artificial intelligence has demonstrated potential for early diagnosis, personalized therapies, resource optimization, error reduction, and expanded access to specialized care. However, this technological revolution imposes significant ethical challenges on the classic principles of bioethics, such as beneficence, non-maleficence,",
+        "Embeddings": [
+            0.1285400390625,
+            -0.319091796875,
+            0.450927734375,
+            0.5458984375,
+            0.198486328125,
+            -0.052978515625,
+            0.320068359375,
+            0.43115234375,
+            -0.1385498046875,
+            0.17724609375
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 2942
+        }
+    },
+    {
+        "Texto": "and expanded access to specialized care. However, this technological revolution imposes significant ethical challenges on the classic principles of bioethics, such as beneficence, non-maleficence, confidentiality, and respect for patient autonomy, enshrined since the Hippocratic Oath. The incorporation of artificial intelligence into medicine raises tensions between automated efficiency and human values. This article reviews the literature on the primary ethical dilemmas of applying artificial",
+        "Embeddings": [
+            0.390625,
+            -0.1025390625,
+            0.56103515625,
+            0.457763671875,
+            0.1912841796875,
+            -0.035064697265625,
+            0.263427734375,
+            0.441650390625,
+            -0.052398681640625,
+            0.0869140625
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 3244
+        }
+    },
+    {
+        "Texto": "of artificial intelligence into medicine raises tensions between automated efficiency and human values. This article reviews the literature on the primary ethical dilemmas of applying artificial intelligence in medical practice and evaluates to what extent Hippocratic principles can be preserved or adapted in the face of technological transformations, aiming to contribute to the debate on the ethical directions of contemporary medicine in a scenario of increasing automation.",
+        "Embeddings": [
+            0.00160980224609375,
+            0.02508544921875,
+            0.69287109375,
+            0.10491943359375,
+            0.421875,
+            -0.243896484375,
+            0.2371826171875,
+            0.460205078125,
+            -0.052764892578125,
+            0.02154541015625
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 3548
+        }
+    },
+    {
+        "Texto": "Keywords: Bioethics. Artificial intelligence. Ethics, medical. Personal autonomy.\n\nDeclaram não haver conflito de interesse.",
+        "Embeddings": [
+            0.296875,
+            0.260986328125,
+            -0.0430908203125,
+            0.5634765625,
+            0.0789794921875,
+            0.030548095703125,
+            0.150390625,
+            0.2218017578125,
+            -0.418212890625,
+            -0.5205078125
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 4029
+        }
+    },
+    {
+        "Texto": "A introdução da inteligência artificial (IA) na medicina representa um dos maiores saltos tecno -lógicos da história recente da saúde. De sistemas de apoio à decisão clínica a algoritmos de triagem e diagnóstico, a IA tem demonstrado potencial para diagnósticos  precoces,  terapias  personalizadas, otimização de recursos, redução de erros médicos e ampliação do acesso a cuidados especializados, especialmente em regiões remotas ou com escas -sez de profissionais de saúde qualificados  1,2 . Em",
+        "Embeddings": [
+            0.08697509765625,
+            0.1641845703125,
+            0.59130859375,
+            0.37548828125,
+            0.281494140625,
+            0.0253143310546875,
+            0.1357421875,
+            0.447021484375,
+            -0.2042236328125,
+            0.367919921875
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 4155
+        }
+    },
+    {
+        "Texto": "otimização de recursos, redução de erros médicos e ampliação do acesso a cuidados especializados, especialmente em regiões remotas ou com escas -sez de profissionais de saúde qualificados  1,2 . Em áreas como dermatologia, radiologia e cardiologia, algoritmos baseados em deep learning (apren -dizado  profundo)  já  demonstram  desempenho comparável, ou mesmo superior, ao de especialis -tas humanos em tarefas específicas 3 .",
+        "Embeddings": [
+            0.1510009765625,
+            0.1485595703125,
+            0.7236328125,
+            0.380615234375,
+            0.09649658203125,
+            0.180908203125,
+            -0.08013916015625,
+            0.443359375,
+            -0.1917724609375,
+            -0.07330322265625
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 4455
+        }
+    },
+    {
+        "Texto": "No entanto, a rápida expansão e incorporação da IA à prática clínica não ocorre sem desafios. A  adoção  acelerada  dessas  tecnologias  suscita preocupações éticas significativas, especialmente no que diz respeito aos princípios fundamentais da bioética. Desde seus primórdios, a medicina tem sido regida por princípios éticos que visam à proteção e ao bem-estar do paciente. O Juramento de Hipócrates, datado do século V a.C., consagrou valores  fundamentais  como  beneficência,  não",
+        "Embeddings": [
+            -0.11199951171875,
+            0.319580078125,
+            0.533203125,
+            0.71337890625,
+            0.05474853515625,
+            -0.1458740234375,
+            0.054046630859375,
+            0.07537841796875,
+            -0.19677734375,
+            0.1456298828125
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 4884
+        }
+    },
+    {
+        "Texto": "tem sido regida por princípios éticos que visam à proteção e ao bem-estar do paciente. O Juramento de Hipócrates, datado do século V a.C., consagrou valores  fundamentais  como  beneficência,  não maleficência, confidencialidade e respeito à auto -nomia do doente - pilares da bioética ainda hoje 4 . Tais valores foram reforçados no século XX por documentos como o Código de Nüremberg e  a Declaração de Helsinki , que consolidaram as bases para a ética em pesquisa e prática médica 3 .",
+        "Embeddings": [
+            -0.0447998046875,
+            0.196533203125,
+            0.34912109375,
+            0.8515625,
+            0.1258544921875,
+            0.19873046875,
+            -0.130615234375,
+            -0.11920166015625,
+            -0.1346435546875,
+            -0.08758544921875
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 5174
+        }
+    },
+    {
+        "Texto": "Contudo, o advento da IA na medicina introduz novos e complexos desafios éticos que tensionam esses princípios. Entre os dilemas que emergem estão  a  opacidade  e  a  não  explicabilidade  dos algoritmos - os chamados black boxes -, que difi -cultam a compreensão e a validação das decisões automatizadas por parte de médicos e pacientes, e essa falta de transparência algorítmica compro -mete o princípio da autonomia, pois impede o con -sentimento plenamente informado. Além disso, surgem",
+        "Embeddings": [
+            0.1051025390625,
+            0.0092315673828125,
+            0.61572265625,
+            0.64990234375,
+            0.33056640625,
+            -0.01204681396484375,
+            0.270263671875,
+            0.0262298583984375,
+            -0.063232421875,
+            -0.0173797607421875
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 5663
+        }
+    },
+    {
+        "Texto": "automatizadas por parte de médicos e pacientes, e essa falta de transparência algorítmica compro -mete o princípio da autonomia, pois impede o con -sentimento plenamente informado. Além disso, surgem questões sobre a responsabilização por erros clínicos decorrentes de decisões baseadas em IA, com dúvidas sobre se a culpa recai sobre o médico, o programador, a instituição de saúde ou o próprio algoritmo  2,5,6 .",
+        "Embeddings": [
+            0.138671875,
+            0.28369140625,
+            0.55322265625,
+            0.6376953125,
+            0.322265625,
+            -0.11224365234375,
+            0.142578125,
+            -0.14208984375,
+            -0.1746826171875,
+            -0.0172576904296875
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 5955
+        }
+    },
+    {
+        "Texto": "A privacidade e a proteção de dados sensíveis dos pacientes são outros pontos críticos. Como a IA depende de grandes volumes de dados para treinamento e operação, é essencial garantir que o  tratamento  das  informações  esteja  em  con -formidade com legislações e regulamentações, como  a  Lei  14.510/2022,  que  dispõe  sobre  a prestação de serviços de telessaúde 7 , a Lei Geral de Proteção de Dados (LGPD, Lei 13.709/2018)  8 , e a Resolução do Conselho Federal de Medicina (CFM) 2.314/2022,",
+        "Embeddings": [
+            0.2335205078125,
+            0.347412109375,
+            0.638671875,
+            0.467041015625,
+            0.2288818359375,
+            0.29443359375,
+            -0.06707763671875,
+            0.08648681640625,
+            -0.1416015625,
+            -0.1680908203125
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 6371
+        }
+    },
+    {
+        "Texto": "que  dispõe  sobre  a prestação de serviços de telessaúde 7 , a Lei Geral de Proteção de Dados (LGPD, Lei 13.709/2018)  8 , e a Resolução do Conselho Federal de Medicina (CFM) 2.314/2022, que define e regulamenta a telemedicina como forma de prestação de servi -ços médicos  9 , no Brasil; o General Data Protection Regulation (GDPR)  10  e a Network and Information Systems  (NIS  Directive) 11 ,  na  União  Europeia; o Health Insurance Portability and Accountability Act (HIPAA) 12 e o Health",
+        "Embeddings": [
+            -0.137451171875,
+            0.2431640625,
+            0.50146484375,
+            0.541015625,
+            -0.03192138671875,
+            0.41162109375,
+            -0.288330078125,
+            -0.272705078125,
+            0.0018091201782226562,
+            -0.2227783203125
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 6682
+        }
+    },
+    {
+        "Texto": "Data Protection Regulation (GDPR)  10  e a Network and Information Systems  (NIS  Directive) 11 ,  na  União  Europeia; o Health Insurance Portability and Accountability Act (HIPAA) 12 e o Health Information Technology for Economic and Clinical Health Act (HITECH) 13 , nos  Estados  Unidos.  A  violação  da  privacidade ou o uso indevido de dados médicos podem ter consequências devastadoras para os pacientes, incluindo discriminação, estigmatização e danos morais e financeiros.",
+        "Embeddings": [
+            -0.04315185546875,
+            0.26220703125,
+            0.55126953125,
+            0.483154296875,
+            0.2332763671875,
+            0.2666015625,
+            -0.006893157958984375,
+            -0.150634765625,
+            -0.2490234375,
+            -0.42626953125
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 6982
+        }
+    },
+    {
+        "Texto": "Adicionalmente, há o risco de ampliar desi -gualdades no acesso à saúde. A implantação de soluções baseadas em IA, muitas vezes desen -volvidas em contextos de alta renda, pode não considerar  adequadamente  as  necessidades, idiomas e realidades socioculturais de populações vulneráveis  ou  de  países  em  desenvolvimento. Isso pode acentuar disparidades já existentes no sistema de saúde e comprometer o princípio da justiça distributiva, fundamental para a equidade no cuidado médico 14 .",
+        "Embeddings": [
+            0.11053466796875,
+            0.1541748046875,
+            0.63525390625,
+            0.68359375,
+            -0.024688720703125,
+            -0.07220458984375,
+            0.08709716796875,
+            0.1513671875,
+            -0.2099609375,
+            -0.1151123046875
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 7466
+        }
+    },
+    {
+        "Texto": "Também  merece  preocupação  a  possível desumanização na medicina. A relação médico --paciente,  historicamente  centrada  na  escuta, no cuidado e na empatia, pode ser afetada nega -tivamente  se  a  confiança  for  deslocada  para sistemas  automatizados.  O  excesso  de  depen -dência tecnológica pode tornar o atendimento mais impessoal, comprometendo a integralidade do cuidado e a dimensão subjetiva da experiên -cia do adoecimento  15 . A formação médica, nesse cenário, também deve ser",
+        "Embeddings": [
+            0.194091796875,
+            0.177490234375,
+            0.036956787109375,
+            0.8759765625,
+            0.031036376953125,
+            0.007663726806640625,
+            0.236083984375,
+            0.25341796875,
+            0.0213775634765625,
+            -0.2030029296875
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 7961
+        }
+    },
+    {
+        "Texto": "pode tornar o atendimento mais impessoal, comprometendo a integralidade do cuidado e a dimensão subjetiva da experiên -cia do adoecimento  15 . A formação médica, nesse cenário, também deve ser repensada, uma vez que habilidades como pensamento crítico, julgamento clínico e sensibilidade ética precisam ser preserva -das e fortalecidas, mesmo em ambiente cada vez mais orientado por dados  16 .",
+        "Embeddings": [
+            0.34130859375,
+            0.3662109375,
+            0.34033203125,
+            0.71142578125,
+            0.0692138671875,
+            0.236328125,
+            0.1436767578125,
+            0.0117340087890625,
+            0.149169921875,
+            -0.1522216796875
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 8263
+        }
+    },
+    {
+        "Texto": "O  descompasso  entre  a  velocidade  da  ino -vação tecnológica e a capacidade de regulação ética e jurídica impõe, portanto, a necessidade urgente  de  revisar  os  fundamentos  bioéticos sob nova perspectiva. Tais questões exigem não apenas análise técnica, mas abordagem bioética rigorosa, que considere o impacto da IA nos valo -res  fundamentais que regem a prática médica. A literatura recente reforça que princípios éticos isolados não são suficientes para garantir a inte -gridade moral das",
+        "Embeddings": [
+            0.2418212890625,
+            0.57666015625,
+            -0.0038623809814453125,
+            0.417236328125,
+            0.11456298828125,
+            -0.19580078125,
+            0.2491455078125,
+            0.170654296875,
+            0.319580078125,
+            -0.436279296875
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 8660
+        }
+    },
+    {
+        "Texto": "o impacto da IA nos valo -res  fundamentais que regem a prática médica. A literatura recente reforça que princípios éticos isolados não são suficientes para garantir a inte -gridade moral das aplicações de IA: é necessário um sistema de governança robusto, transparente, participativo e que envolva múltiplos stakeholders, incluindo médicos, engenheiros, pacientes, juristas e representantes da sociedade civil 17,18 .",
+        "Embeddings": [
+            0.250732421875,
+            0.277099609375,
+            0.51904296875,
+            0.62109375,
+            0.268798828125,
+            -0.2169189453125,
+            -0.0870361328125,
+            0.051116943359375,
+            -0.255126953125,
+            -0.1041259765625
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 8968
+        }
+    },
+    {
+        "Texto": "Este artigo tem como objetivo revisar a lite -ratura  existente  sobre  os  principais  dilemas éticos  relacionados  à  aplicação  da  inteligência artificial na prática médica, resgatar os princípios hipocráticos e analisar como eles podem (ou não) ser preservados diante das transformações tec -nológicas em curso. Por meio de análise crítica e multidisciplinar, pretende-se contribuir para o debate sobre os rumos éticos da medicina contem -porânea em um cenário de crescente automação.",
+        "Embeddings": [
+            0.1474609375,
+            0.305419921875,
+            0.43896484375,
+            0.0042877197265625,
+            0.53759765625,
+            -0.381103515625,
+            -0.040985107421875,
+            0.485107421875,
+            -0.07379150390625,
+            -0.1236572265625
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 9388
+        }
+    },
+    {
+        "Texto": "## Método\n\nEste artigo caracteriza-se como pesquisa de natureza  qualitativa,  do  tipo  exploratória,  com abordagem  metodológica  baseada  em  revisão bibliográfica narrativa. O objetivo é reunir, analisar e interpretar criticamente a literatura científica acerca dos dilemas éticos emergentes na aplicação da IA artificial na prática médica, à luz dos princí -pios clássicos da bioética, conforme estabelecidos no Juramento de Hipócrates.",
+        "Embeddings": [
+            0.201904296875,
+            0.7880859375,
+            0.1671142578125,
+            0.293212890625,
+            0.0166473388671875,
+            -0.1331787109375,
+            -0.150634765625,
+            0.41259765625,
+            -0.01032257080078125,
+            -0.11199951171875
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 9880
+        }
+    },
+    {
+        "Texto": "Segundo Gil  19 ,  a  pesquisa  bibliográfica  per -mite o exame de contribuições teóricas já con -solidadas  e  é  especialmente  útil  em  estudos que visam compreender e discutir temas ainda em consolidação no meio acadêmico, como é o caso da interface entre bioética e IA. Abordagem exploratória, por sua vez, é adequada para o apro -fundamento inicial de um problema ainda pouco delimitado, na medida em que permite identifi -car categorias e lacunas relevantes para futuras investigações",
+        "Embeddings": [
+            0.1746826171875,
+            -0.2269287109375,
+            0.2393798828125,
+            0.325927734375,
+            -0.190185546875,
+            -0.42041015625,
+            -0.464111328125,
+            0.5615234375,
+            -0.0902099609375,
+            0.060760498046875
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 10324
+        }
+    },
+    {
+        "Texto": "por sua vez, é adequada para o apro -fundamento inicial de um problema ainda pouco delimitado, na medida em que permite identifi -car categorias e lacunas relevantes para futuras investigações empíricas  20 .",
+        "Embeddings": [
+            0.1446533203125,
+            0.0875244140625,
+            0.369384765625,
+            0.3603515625,
+            0.00603485107421875,
+            -0.302978515625,
+            -0.06072998046875,
+            0.15673828125,
+            0.244873046875,
+            0.724609375
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 10625
+        }
+    },
+    {
+        "Texto": "O percurso metodológico seguiu as seguintes etapas:\n\n- 1) Definição do tema e do problema de pesquisa mediante  delimitação  do  escopo  bioético  da atuação da IA em contextos clínicos e hospitalares.\n- 2)  Levantamento  bibliográfico  sistemático, realizado nas bases de dados PubMed, Scopus,",
+        "Embeddings": [
+            -0.1455078125,
+            0.2034912109375,
+            0.479248046875,
+            0.336181640625,
+            -0.64111328125,
+            0.024261474609375,
+            0.028594970703125,
+            -0.035186767578125,
+            0.421630859375,
+            -0.06134033203125
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 10835
+        }
+    },
+    {
+        "Texto": "SciELO e Web of Science, com os seguintes des -critores  e  combinações:  'bioethics',  'artificial intelligence', 'machine learning', 'medical ethics', 'Hippocratic  Oath',  'clinical  decision  support', 'algorithmics bias', entre outros, com o auxílio do operador booleano 'and'. Foram incluídos artigos publicados entre 2015 e 2024, nos idiomas por -tuguês e inglês, que abordassem diretamente os aspectos éticos da IA em saúde.",
+        "Embeddings": [
+            0.193115234375,
+            -0.0266265869140625,
+            0.5615234375,
+            0.051483154296875,
+            -0.1019287109375,
+            0.462646484375,
+            -0.1866455078125,
+            0.40673828125,
+            -0.3876953125,
+            -0.26123046875
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 11131
+        }
+    },
+    {
+        "Texto": "3) Seleção e triagem das fontes com base na lei -tura dos títulos, resumos e, posteriormente, textos completos. Os critérios de inclusão foram: relevân -cia para o tema, publicação em periódicos revisa -dos por pares e contribuição teórica ou prática para o debate ético. Foram excluídas publicações duplicadas, resumos de conferências sem texto completo e artigos com foco estritamente técnico ou computacional da IA, sem discussão ética.",
+        "Embeddings": [
+            0.249755859375,
+            0.560546875,
+            0.4599609375,
+            -0.46826171875,
+            0.219482421875,
+            -0.326904296875,
+            -0.10406494140625,
+            0.08782958984375,
+            -0.1326904296875,
+            -0.045501708984375
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 11565
+        }
+    },
+    {
+        "Texto": "4) Análise e síntese dos resultados por meio de leitura crítica e categorização temática, com ênfase em tópicos recorrentes, como autonomia médica, responsabilidade  por  decisões  automatizadas, explicabilidade algorítmica e equidade no acesso a tecnologias baseadas em IA.",
+        "Embeddings": [
+            0.136474609375,
+            0.701171875,
+            0.476806640625,
+            0.2447509765625,
+            0.232177734375,
+            -0.06134033203125,
+            -0.054290771484375,
+            -0.143310546875,
+            0.305908203125,
+            -0.163818359375
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 12006
+        }
+    },
+    {
+        "Texto": "A  metodologia  adotada  visa  não  apenas mapear o estado da arte dos dilemas bioéticos da IA médica, mas também contextualizá-los à luz dos princípios hipocráticos clássicos - como beneficência, não maleficência e confidencialidade - e, com isso, identificar pontos de convergência e tensão com nossos paradigmas tecnológicos. Tal abordagem contribui para o amadurecimento crítico do debate e fornece subsídios conceituais para formulação de políticas públicas e diretrizes clínicas e desenvolvi",
+        "Embeddings": [
+            0.2529296875,
+            0.341796875,
+            0.3330078125,
+            0.5830078125,
+            0.263916015625,
+            -0.39501953125,
+            -0.00653076171875,
+            0.323486328125,
+            0.1883544921875,
+            -0.05010986328125
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 12282
+        }
+    },
+    {
+        "Texto": "paradigmas tecnológicos. Tal abordagem contribui para o amadurecimento crítico do debate e fornece subsídios conceituais para formulação de políticas públicas e diretrizes clínicas e desenvolvi -mento de tecnologias mais sensíveis aos princípios éticos da medicina.",
+        "Embeddings": [
+            0.5947265625,
+            -0.15673828125,
+            0.07867431640625,
+            0.489990234375,
+            0.225341796875,
+            0.1895751953125,
+            -0.23388671875,
+            0.11846923828125,
+            0.435302734375,
+            -0.1737060546875
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 12586
+        }
+    },
+    {
+        "Texto": "## Discussão\n\n## A ética médica entre Hipócrates e a era digital",
+        "Embeddings": [
+            0.1260986328125,
+            0.328369140625,
+            -0.056304931640625,
+            0.49365234375,
+            0.6474609375,
+            0.330078125,
+            0.06866455078125,
+            0.165283203125,
+            -0.011444091796875,
+            -0.26318359375
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 12853
+        }
+    },
+    {
+        "Texto": "Desde  a  Antiguidade,  a  medicina  tem  se norteado por princípios éticos que refletem com -promisso moral com o bem-estar do paciente. O Juramento de Hipócrates, datado do século V a.C., sintetiza  esse  legado  e  constitui-se  em  marco simbólico e normativo da ética médica ocidental, na  medida  em  que  enuncia  compromissos fundamentais como promoção do bem, abstenção de causar danos, respeito à confidencialidade e conduta moral do profissional de saúde 3 .  Esses valores, que deram",
+        "Embeddings": [
+            -0.0975341796875,
+            0.36083984375,
+            0.38916015625,
+            0.73876953125,
+            -0.050384521484375,
+            0.221435546875,
+            0.03607177734375,
+            -0.269287109375,
+            -0.193359375,
+            -0.01444244384765625
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 12919
+        }
+    },
+    {
+        "Texto": "em  que  enuncia  compromissos fundamentais como promoção do bem, abstenção de causar danos, respeito à confidencialidade e conduta moral do profissional de saúde 3 .  Esses valores, que deram origem aos pilares bioéticos da  beneficência,  não  maleficência,  autonomia e  justiça,  permaneceram  como  bússola  moral ao  longo  de  séculos,  mesmo  diante  das  trans -formações científicas e socioculturais. Contudo, a  ascensão  da  inteligência  artificial  representa novo ponto de inflexão,",
+        "Embeddings": [
+            0.4453125,
+            0.2005615234375,
+            0.615234375,
+            0.56396484375,
+            0.16845703125,
+            0.044097900390625,
+            -0.043670654296875,
+            0.048797607421875,
+            -0.17333984375,
+            -0.019775390625
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 13222
+        }
+    },
+    {
+        "Texto": "como  bússola  moral ao  longo  de  séculos,  mesmo  diante  das  trans -formações científicas e socioculturais. Contudo, a  ascensão  da  inteligência  artificial  representa novo ponto de inflexão, pois desafia a aplicabili -dade e a suficiência dessas diretrizes tradicionais para orientar práticas médicas mediadas por tec -nologias que tomam decisões, aprendem autono -mamente e operam em escala 2 .",
+        "Embeddings": [
+            0.1622314453125,
+            0.31884765625,
+            0.7158203125,
+            0.31982421875,
+            0.39794921875,
+            0.0209197998046875,
+            0.09375,
+            -0.04058837890625,
+            -0.27490234375,
+            -0.110107421875
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 13520
+        }
+    },
+    {
+        "Texto": "Tal  transformação  cria  desafios  éticos,  pois a lógica algorítmica que rege os sistemas de IA nem sempre é transparente ou compatível com os valores humanísticos da medicina tradicional 4 . A medicina digital, ao incorporar algoritmos de machine learning ,  sistemas  de  apoio  a  decisão clínica e tecnologias preditivas baseadas em big data ,  expande  as  possibilidades  diagnósticas  e terapêuticas, mas também desloca a centralidade do juízo clínico humano. Ou seja, a IA pode ampliar",
+        "Embeddings": [
+            0.2333984375,
+            0.11846923828125,
+            0.456298828125,
+            0.544921875,
+            0.08575439453125,
+            -0.07037353515625,
+            0.302001953125,
+            0.398681640625,
+            -0.40380859375,
+            0.04083251953125
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 13926
+        }
+    },
+    {
+        "Texto": "e tecnologias preditivas baseadas em big data ,  expande  as  possibilidades  diagnósticas  e terapêuticas, mas também desloca a centralidade do juízo clínico humano. Ou seja, a IA pode ampliar exponencialmente a capacidade diagnóstica e pre -ditiva da prática médica, mas também deslocar a autoridade decisória do profissional para modelos estatísticos complexos, frequentemente opacos. Nesse contexto, surge a tensão entre a tradição ética  -  ancorada  na  relação  interpessoal  e  no julgamento",
+        "Embeddings": [
+            -0.00939178466796875,
+            -0.04925537109375,
+            0.68994140625,
+            0.61083984375,
+            0.077880859375,
+            0.12225341796875,
+            -0.08929443359375,
+            0.285400390625,
+            -0.1861572265625,
+            -0.052276611328125
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 14228
+        }
+    },
+    {
+        "Texto": "decisória do profissional para modelos estatísticos complexos, frequentemente opacos. Nesse contexto, surge a tensão entre a tradição ética  -  ancorada  na  relação  interpessoal  e  no julgamento prudente - e a nova racionalidade algorítmica, cuja lógica frequentemente se torna incompreensível, não auditável ou incontrolável 2 .",
+        "Embeddings": [
+            0.4736328125,
+            0.478271484375,
+            0.148681640625,
+            -0.11773681640625,
+            0.495361328125,
+            0.443603515625,
+            -0.156982421875,
+            -0.030242919921875,
+            -0.050323486328125,
+            0.2032470703125
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 14530
+        }
+    },
+    {
+        "Texto": "Essa  transição  tecnológica  impõe  à  bioética tradicional o desafio de reconfigurar seus funda -mentos para que esta seja capaz de orientar prá -ticas em ambientes tecnologizados, ou seja, nos quais as decisões não são mais tomadas exclusi -vamente por sujeitos humanos, mas por sistemas híbridos em que o médico delega ou compartilha responsabilidades com máquinas  5,21 . A medicina do futuro será, assim, além de prática humana apoiada pela técnica, uma coprodução entre humanos e algoritmos",
+        "Embeddings": [
+            0.255615234375,
+            0.126220703125,
+            0.1907958984375,
+            0.384033203125,
+            -0.044921875,
+            -0.01107025146484375,
+            0.35546875,
+            0.66064453125,
+            -0.0080413818359375,
+            -0.41162109375
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 14864
+        }
+    },
+    {
+        "Texto": "em que o médico delega ou compartilha responsabilidades com máquinas  5,21 . A medicina do futuro será, assim, além de prática humana apoiada pela técnica, uma coprodução entre humanos e algoritmos  6 .  Tal  cenário  exige  profunda  recon -figuração ética,  capaz  de  lidar  com  questões  de responsabilidade compartilhada, justiça algorítmica, transparência e governança de dados. Ao mesmo tempo, a ética hipocrática continua a oferecer refe -rencial fundamental, desde que reinterpretada à luz",
+        "Embeddings": [
+            0.438720703125,
+            0.248046875,
+            0.35205078125,
+            0.38134765625,
+            0.3955078125,
+            0.102294921875,
+            0.1900634765625,
+            0.388671875,
+            -0.2115478515625,
+            -0.280517578125
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 15164
+        }
+    },
+    {
+        "Texto": "compartilhada, justiça algorítmica, transparência e governança de dados. Ao mesmo tempo, a ética hipocrática continua a oferecer refe -rencial fundamental, desde que reinterpretada à luz das novas mediações tecnológicas. Como destacam Floridi e colaboradores 17 , o desenvolvimento ético da IA deve integrar princípios humanísticos desde sua concepção, visando à construção de uma socie -dade digital justa, transparente e digna.",
+        "Embeddings": [
+            0.28515625,
+            0.1307373046875,
+            0.1795654296875,
+            0.291015625,
+            0.79931640625,
+            -0.2354736328125,
+            0.1265869140625,
+            0.254150390625,
+            0.07366943359375,
+            0.059112548828125
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 15477
+        }
+    },
+    {
+        "Texto": "## Autonomia e opacidade algorítmica",
+        "Embeddings": [
+            -0.041229248046875,
+            0.202880859375,
+            0.56201171875,
+            0.1763916015625,
+            0.51025390625,
+            -0.183837890625,
+            -0.335693359375,
+            -0.1859130859375,
+            -0.21240234375,
+            -0.3505859375
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 15908
+        }
+    },
+    {
+        "Texto": "O princípio da autonomia é central na ética médica  moderna  e  representa  o  direito  do paciente  de  tomar  decisões  informadas  sobre seu  próprio  cuidado.  A  realização  plena  desse princípio, fundamentado na transparência da rela -ção médico-paciente, depende de comunicação clara, compreensão dos riscos e participação ativa do paciente no processo terapêutico. Contudo, a ascensão da IA, especialmente em formas de deep learning , ameaça minar essa transparência essencial. Algoritmos",
+        "Embeddings": [
+            0.320556640625,
+            0.25927734375,
+            0.47509765625,
+            0.65185546875,
+            0.27392578125,
+            -0.1624755859375,
+            -0.091552734375,
+            0.1392822265625,
+            -0.220703125,
+            -0.032562255859375
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 15946
+        }
+    },
+    {
+        "Texto": "dos riscos e participação ativa do paciente no processo terapêutico. Contudo, a ascensão da IA, especialmente em formas de deep learning , ameaça minar essa transparência essencial. Algoritmos complexos, treinados com grandes  volumes  de  dados,  frequentemente operam como 'caixas-pretas', ou seja, são inca -pazes de explicar, de forma compreensível, como chegaram a determinada recomendação  1,2,4,22 .",
+        "Embeddings": [
+            -0.2061767578125,
+            0.26318359375,
+            0.219482421875,
+            0.406494140625,
+            0.59375,
+            -0.08111572265625,
+            0.0010976791381835938,
+            0.4833984375,
+            -0.2763671875,
+            0.07818603515625
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 16251
+        }
+    },
+    {
+        "Texto": "Tal opacidade compromete a base do consenti -mento informado, já que nem mesmo profissionais de saúde compreendem integralmente os crité -rios utilizados pelos algoritmos. Como destacam Morley e colaboradores 21 , quando o médico não consegue explicar ao paciente como uma decisão foi tomada - seja um diagnóstico, classificação de risco ou proposta terapêutica -, o próprio pacto ético que fundamenta a autonomia acaba sendo abalado. O paciente, em vez de decidir livremente, torna-se dependente de",
+        "Embeddings": [
+            0.2529296875,
+            0.192138671875,
+            -0.0416259765625,
+            0.84619140625,
+            0.3408203125,
+            0.09136962890625,
+            -0.099365234375,
+            -0.1619873046875,
+            0.0194549560546875,
+            -0.1407470703125
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 16659
+        }
+    },
+    {
+        "Texto": "diagnóstico, classificação de risco ou proposta terapêutica -, o próprio pacto ético que fundamenta a autonomia acaba sendo abalado. O paciente, em vez de decidir livremente, torna-se dependente de um sistema cuja lógica lhe é inacessível.",
+        "Embeddings": [
+            -0.09503173828125,
+            0.21728515625,
+            -0.06842041015625,
+            0.73388671875,
+            0.26708984375,
+            0.29541015625,
+            -0.062347412109375,
+            -0.09539794921875,
+            0.224853515625,
+            -0.421875
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 16961
+        }
+    },
+    {
+        "Texto": "Além  disso,  a  opacidade  algorítmica  intro -duz novas camadas de assimetria informacional. Pacientes com menor escolaridade, acesso digital limitado ou baixo letramento em saúde são ainda mais vulneráveis a perda de autonomia, uma vez que enfrentam barreiras adicionais à compreen -são dos processos decisórios. Como defendido por Gerke, Minssen e Cohen, a autonomia não é ape -nas direito individual, mas fenômeno relacional que exige contextos adequados para ser exercida - entre eles, o",
+        "Embeddings": [
+            0.17578125,
+            0.54345703125,
+            0.31396484375,
+            0.488037109375,
+            0.45703125,
+            0.0528564453125,
+            0.262939453125,
+            0.0643310546875,
+            -0.1796875,
+            -0.136474609375
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 17202
+        }
+    },
+    {
+        "Texto": "processos decisórios. Como defendido por Gerke, Minssen e Cohen, a autonomia não é ape -nas direito individual, mas fenômeno relacional que exige contextos adequados para ser exercida - entre eles, o acesso a informação clara e inteligível 6 .",
+        "Embeddings": [
+            0.2222900390625,
+            0.72509765625,
+            0.2127685546875,
+            0.410888671875,
+            0.26611328125,
+            -0.04083251953125,
+            0.07879638671875,
+            0.1712646484375,
+            -0.320068359375,
+            0.0216217041015625
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 17496
+        }
+    },
+    {
+        "Texto": "A questão se agrava quando consideramos a ambiguidade em torno da responsabilidade ética e jurídica das decisões tomadas com auxílio de IA. Quando uma decisão clínica é tomada com base em recomendação algorítmica, quem deve ser responsabilizado por seus resultados? O médico? O desenvolvedor do algoritmo? A instituição  5 ? A ausência de clareza quanto à responsabilização moral - o que é chamado por alguns autores de 'vácuo ético' 23 - compromete não apenas a auto -nomia, mas a própria",
+        "Embeddings": [
+            0.2347412109375,
+            0.1278076171875,
+            0.453857421875,
+            0.59228515625,
+            0.48291015625,
+            -0.13330078125,
+            0.05322265625,
+            0.069091796875,
+            -0.166259765625,
+            -0.29296875
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 17741
+        }
+    },
+    {
+        "Texto": "do algoritmo? A instituição  5 ? A ausência de clareza quanto à responsabilização moral - o que é chamado por alguns autores de 'vácuo ético' 23 - compromete não apenas a auto -nomia, mas a própria legitimidade do cuidado.",
+        "Embeddings": [
+            0.29638671875,
+            0.5078125,
+            0.14599609375,
+            0.4150390625,
+            0.5703125,
+            0.124755859375,
+            0.032684326171875,
+            0.1026611328125,
+            0.1373291015625,
+            -0.300048828125
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 18033
+        }
+    },
+    {
+        "Texto": "Nesse cenário, torna-se urgente avançar na direção de sistemas mais explicáveis e auditáveis 24 . A transparência algorítmica, aliada ao desenvolvi -mento de mecanismos participativos de consen -timento e mediação, é condição essencial para preservar a autonomia do paciente em uma era dominada por decisões automatizadas.\n\n## Beneficência e risco de viés algorítmico",
+        "Embeddings": [
+            0.0703125,
+            0.38916015625,
+            0.379150390625,
+            0.7265625,
+            0.1539306640625,
+            0.100341796875,
+            -0.098876953125,
+            0.182861328125,
+            -0.220703125,
+            -0.21337890625
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 18257
+        }
+    },
+    {
+        "Texto": "A  beneficência,  enquanto  obrigação  moral de agir no melhor interesse do paciente, adquire novos  contornos  em  uma  medicina  mediada por  inteligência  artificial.  Ferramentas  de  IA têm demonstrado, em diversos estudos, acurá -cia comparável ou superior à humana em tare -fas como interpretação de imagens radiológicas para  classificação  de  câncer  de  pele 1 e  predi -ção de eventos cardiovasculares 22 .  No  entanto, essa superioridade técnica não implica neutra -lidade  ética.",
+        "Embeddings": [
+            0.2310791015625,
+            -0.0298614501953125,
+            0.168701171875,
+            0.712890625,
+            0.404052734375,
+            -0.1414794921875,
+            -0.1680908203125,
+            0.349609375,
+            -0.031585693359375,
+            -0.27197265625
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 18626
+        }
+    },
+    {
+        "Texto": "de imagens radiológicas para  classificação  de  câncer  de  pele 1 e  predi -ção de eventos cardiovasculares 22 .  No  entanto, essa superioridade técnica não implica neutra -lidade  ética.  Como  advertem  alguns  autores, o  desempenho  dos  algoritmos  depende  forte -mente da qualidade, diversidade e representativi -dade dos dados utilizados em seu treinamento 21 .",
+        "Embeddings": [
+            0.40478515625,
+            0.07513427734375,
+            0.30224609375,
+            0.30322265625,
+            0.56640625,
+            0.09033203125,
+            -0.348388671875,
+            -0.154541015625,
+            -0.285888671875,
+            -0.302490234375
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 18930
+        }
+    },
+    {
+        "Texto": "Diversos estudos apontam que sistemas trei -nados  com  dados  historicamente  enviesados tendem a replicar e até amplificar desigualdades preexistentes.  Um  exemplo  emblemático  é  o algoritmo  de  gerenciamento  populacional  de saúde que subestimava a gravidade da condição de pacientes negros, pois utilizava como proxy o custo com cuidados de saúde 14 -  um indica -dor  influenciado  por  desigualdade  estrutural. A  aplicação  acrítica  desses  sistemas  pode, portanto, violar o princípio",
+        "Embeddings": [
+            0.150634765625,
+            0.262451171875,
+            0.4111328125,
+            0.39892578125,
+            0.205810546875,
+            0.1392822265625,
+            0.1851806640625,
+            0.061248779296875,
+            -0.63037109375,
+            -0.2900390625
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 19304
+        }
+    },
+    {
+        "Texto": "pois utilizava como proxy o custo com cuidados de saúde 14 -  um indica -dor  influenciado  por  desigualdade  estrutural. A  aplicação  acrítica  desses  sistemas  pode, portanto, violar o princípio da beneficência por produzir resultados discriminatórios e ineficazes para determinados grupos.",
+        "Embeddings": [
+            0.259521484375,
+            0.140625,
+            0.495361328125,
+            0.59326171875,
+            0.28173828125,
+            0.2626953125,
+            -0.00106048583984375,
+            0.20068359375,
+            -0.2130126953125,
+            -0.2861328125
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 19604
+        }
+    },
+    {
+        "Texto": "Além disso,  o  risco  de  viés  algorítmico  não se limita a questões raciais ou socioeconômicas. Até mesmo sistemas desenvolvidos para recru -tamento  automatizado  apresentaram  viés  de gênero,  penalizando  candidatas  mulheres  25 ,  e, ainda,  demonstraram desempenho inferior em populações  negras,  idosos  ou  pacientes  com comorbidades múltiplas, refletindo vieses de repre -sentatividade dos dados de treinamento. Quando esse tipo de lógica é transferido para o campo da saúde, o",
+        "Embeddings": [
+            0.30712890625,
+            0.356201171875,
+            0.46337890625,
+            0.3251953125,
+            0.2298583984375,
+            -0.090087890625,
+            0.428466796875,
+            0.0151214599609375,
+            -0.439697265625,
+            -0.1387939453125
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 19901
+        }
+    },
+    {
+        "Texto": "negras,  idosos  ou  pacientes  com comorbidades múltiplas, refletindo vieses de repre -sentatividade dos dados de treinamento. Quando esse tipo de lógica é transferido para o campo da saúde, o potencial de dano ético aumenta, pois decisões clínicas podem determinar desfechos de vida ou morte. Em vez de promover o bem, a IA pode, inadvertidamente, reforçar padrões discri -minatórios e dificultar o acesso equitativo a cuida -dos de qualidade - o que infringe o princípio da beneficência e fere o",
+        "Embeddings": [
+            0.411376953125,
+            0.419189453125,
+            0.369873046875,
+            0.469482421875,
+            0.255615234375,
+            -0.0008068084716796875,
+            0.10614013671875,
+            0.210205078125,
+            -0.420654296875,
+            -0.0086517333984375
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 20200
+        }
+    },
+    {
+        "Texto": "de promover o bem, a IA pode, inadvertidamente, reforçar padrões discri -minatórios e dificultar o acesso equitativo a cuida -dos de qualidade - o que infringe o princípio da beneficência e fere o ideal hipocrático de tratar igualmente todos os pacientes.",
+        "Embeddings": [
+            0.221923828125,
+            0.15087890625,
+            0.364501953125,
+            0.7060546875,
+            0.339111328125,
+            -0.2369384765625,
+            -0.09503173828125,
+            0.293212890625,
+            -0.17236328125,
+            0.01381683349609375
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 20502
+        }
+    },
+    {
+        "Texto": "Nesse  contexto,  a  beneficência  exige  não apenas eficácia técnica, mas também vigilância constante sobre a equidade dos sistemas de IA. É necessário desenvolver metodologias de audi -toria algorítmica capazes de identificar padrões discriminatórios,  corrigir  vieses  e  garantir  que os benefícios da IA sejam distribuídos de forma justa 6 . A avaliação ética deve fazer parte do pró -prio ciclo de vida do sistema, desde o design até a implementação clínica  25 .",
+        "Embeddings": [
+            0.229736328125,
+            0.41552734375,
+            0.5078125,
+            0.444580078125,
+            0.378173828125,
+            0.0146942138671875,
+            0.088623046875,
+            0.407470703125,
+            0.035064697265625,
+            0.0254058837890625
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 20759
+        }
+    },
+    {
+        "Texto": "## Não maleficência e danos invisíveis",
+        "Embeddings": [
+            0.14599609375,
+            0.6201171875,
+            0.1114501953125,
+            0.50732421875,
+            -0.2354736328125,
+            -0.022125244140625,
+            -0.450927734375,
+            -0.12890625,
+            -0.2022705078125,
+            0.08782958984375
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 21231
+        }
+    },
+    {
+        "Texto": "A não maleficência, princípio ético expresso pela  máxima  ' primum  non  nocere '  -  ou  seja, 'primeiro, não causar dano' -, exige do profis -sional  o  compromisso  de  evitar  ou  minimizar quaisquer prejuízos à saúde e ao bem-estar do paciente durante o cuidado médico. No contexto da IA, no entanto, esse entendimento deve ser ampliado para englobar riscos não intencionais, já que os danos nem sempre são visíveis, imediatos ou diretos, o que não minimiza o potencial de prejuízos",
+        "Embeddings": [
+            0.08721923828125,
+            0.36279296875,
+            0.33544921875,
+            0.76953125,
+            0.1654052734375,
+            -0.1650390625,
+            -0.079833984375,
+            -0.05645751953125,
+            -0.287353515625,
+            0.09820556640625
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 21271
+        }
+    },
+    {
+        "Texto": "IA, no entanto, esse entendimento deve ser ampliado para englobar riscos não intencionais, já que os danos nem sempre são visíveis, imediatos ou diretos, o que não minimiza o potencial de prejuízos significativos à saúde, à integridade ou à dignidade dos pacientes. O uso de sistemas auto -matizados pode acarretar consequências clínicas, psicológicas  e  sociais  não  intencionais,  muitas vezes imperceptíveis no início, mas com efeitos profundos em médio e longo prazos  21,23 .",
+        "Embeddings": [
+            0.07110595703125,
+            0.2978515625,
+            0.24267578125,
+            0.775390625,
+            -0.29150390625,
+            -0.179931640625,
+            -0.006816864013671875,
+            -0.2802734375,
+            -0.2230224609375,
+            -0.00553131103515625
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 21562
+        }
+    },
+    {
+        "Texto": "Entre os riscos mais discutidos estão os erros diagnósticos causados por mau funcionamento do  sistema,  interpretação  inadequada  ou  uso fora de escopo. Mesmo que a IA possa oferecer precisão  superior  em  determinados  contextos, ela é tão falível quanto seus dados e parâmetros. Decisões clínicas automatizadas podem ignorar singularidades do paciente e levar a condutas ina -dequadas em situações complexas ou atípicas  26 . Isso pode ser ainda mais problemático quando há",
+        "Embeddings": [
+            -0.1287841796875,
+            0.284912109375,
+            0.5400390625,
+            0.5576171875,
+            -0.20263671875,
+            -0.278076171875,
+            0.2196044921875,
+            -0.04119873046875,
+            -0.007404327392578125,
+            0.36181640625
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 22046
+        }
+    },
+    {
+        "Texto": "excesso de confiança dos profissionais na reco -mendação algorítmica, fenômeno conhecido como automation bias (viés de automação).",
+        "Embeddings": [
+            0.50048828125,
+            0.060272216796875,
+            0.18994140625,
+            0.407470703125,
+            0.39013671875,
+            0.2431640625,
+            -0.233154296875,
+            0.1334228515625,
+            -0.482177734375,
+            -0.1668701171875
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 22527
+        }
+    },
+    {
+        "Texto": "Outro risco ético relevante é a desumanização do cuidado, uma vez que, com o avanço da tec -nologia, tende-se a valorizar o que é quantificável e  previsível  em  detrimento  da  subjetividade 27 . A substituição da escuta clínica pela interação com interfaces digitais pode reduzir o espaço para a expressão do sofrimento, do medo e da vulnera -bilidade do paciente e resultar em desumanização do cuidado e negligência de aspectos subjetivos e afetivos essenciais à experiência do adoecer 27 . Esse",
+        "Embeddings": [
+            0.298095703125,
+            0.09698486328125,
+            -0.0157928466796875,
+            0.7275390625,
+            -0.09881591796875,
+            0.035400390625,
+            0.325439453125,
+            0.210693359375,
+            0.4404296875,
+            -0.12939453125
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 22659
+        }
+    },
+    {
+        "Texto": "do sofrimento, do medo e da vulnera -bilidade do paciente e resultar em desumanização do cuidado e negligência de aspectos subjetivos e afetivos essenciais à experiência do adoecer 27 . Esse esvaziamento afetivo, embora difícil de medir, constitui um tipo de dano invisível - emocional e existencial - que contraria a integralidade do cuidado hipocrático.",
+        "Embeddings": [
+            0.232177734375,
+            0.37646484375,
+            0.08172607421875,
+            0.80712890625,
+            -0.08489990234375,
+            -0.203125,
+            0.10980224609375,
+            -0.1466064453125,
+            0.175048828125,
+            -0.1842041015625
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 22968
+        }
+    },
+    {
+        "Texto": "Além disso, o uso de IA em saúde pode gerar efeitos coletivos adversos. Falhas de segurança, vazamento  de  dados  ou  decisões  sistêmicas enviesadas  minam  a  confiança  da  sociedade nos  sistemas  de  saúde.  A  não  maleficência, aqui,  deve  ir  além  da  dimensão  individual e  considerar  os  impactos  éticos  sistêmicos  e institucionais da automação.",
+        "Embeddings": [
+            0.20751953125,
+            0.1474609375,
+            0.68701171875,
+            0.52392578125,
+            0.056488037109375,
+            -0.1787109375,
+            0.182373046875,
+            -0.09039306640625,
+            -0.333251953125,
+            0.036895751953125
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 23325
+        }
+    },
+    {
+        "Texto": "A fim de mitigar esses riscos, é essencial incorpo -rar medidas de robustez, rastreabilidade e auditoria contínua 23 . Transparência, capacidade de revisão e a possibilidade de ' override humano' (capacidade de  intervir  ou  substituir  a  decisão  tomada  pela IA por um ser humano) são componentes éticos indispensáveis  para  que  a  IA  médica  opere  sob o princípio da não maleficência 24 . A tecnologia deve ser  testada não apenas quanto a sua eficiência, mas também quanto a sua",
+        "Embeddings": [
+            0.1458740234375,
+            0.5693359375,
+            0.321044921875,
+            0.65869140625,
+            0.25634765625,
+            -0.1085205078125,
+            0.01404571533203125,
+            0.09857177734375,
+            0.1722412109375,
+            -0.0035533905029296875
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 23690
+        }
+    },
+    {
+        "Texto": "componentes éticos indispensáveis  para  que  a  IA  médica  opere  sob o princípio da não maleficência 24 . A tecnologia deve ser  testada não apenas quanto a sua eficiência, mas também quanto a sua resiliência ética.",
+        "Embeddings": [
+            0.2052001953125,
+            0.468017578125,
+            0.2030029296875,
+            0.60498046875,
+            0.54345703125,
+            -0.0312042236328125,
+            -0.08953857421875,
+            0.114990234375,
+            0.0670166015625,
+            -0.0975341796875
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 23979
+        }
+    },
+    {
+        "Texto": "## Justiça, equidade e o acesso digital à IA em saúde",
+        "Embeddings": [
+            0.185791015625,
+            0.30908203125,
+            0.2529296875,
+            0.61376953125,
+            0.25634765625,
+            -0.2413330078125,
+            -0.1649169921875,
+            0.246826171875,
+            -0.1185302734375,
+            -0.450439453125
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 24199
+        }
+    },
+    {
+        "Texto": "O princípio  da  justiça,  entendido  como  a obrigação de tratar todos com equidade e de promover acesso justo aos recursos em saúde, adquire novas camadas de complexidade na era da inteligência artificial. Se, por um lado, a IA promete ampliar o alcance do cuidado médico por meio de telemedicina, triagem remota e diagnósticos automatizados, por outro, esses avanços tecnológicos frequentemente esbarram em barreiras estruturais que aprofundam desi -gualdades já existentes  21,28,29 .",
+        "Embeddings": [
+            0.2410888671875,
+            0.1585693359375,
+            0.6220703125,
+            0.48779296875,
+            0.423583984375,
+            -0.01708984375,
+            0.0635986328125,
+            0.2037353515625,
+            -0.25146484375,
+            -0.05364990234375
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 24254
+        }
+    },
+    {
+        "Texto": "A  literatura  evidencia  que  países  de  baixa e  média renda, assim como regiões periféricas e comunidades vulneráveis, frequentemente care -cem da  infraestrutura  mínima  necessária  para implementar soluções baseadas em IA: conectivi -dade, interoperabilidade de sistemas, qualificação profissional,  equipamentos  e  políticas  públicas orientadas para inclusão digital  29,30 .  A  ausência dessas condições compromete não apenas a efi -cácia das tecnologias, mas também a equidade na",
+        "Embeddings": [
+            0.06390380859375,
+            0.338623046875,
+            0.5830078125,
+            0.2200927734375,
+            0.426025390625,
+            -0.08575439453125,
+            0.134521484375,
+            0.51318359375,
+            -0.037322998046875,
+            -0.1455078125
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 24744
+        }
+    },
+    {
+        "Texto": "equipamentos  e  políticas  públicas orientadas para inclusão digital  29,30 .  A  ausência dessas condições compromete não apenas a efi -cácia das tecnologias, mas também a equidade na distribuição de seus benefícios.",
+        "Embeddings": [
+            0.432373046875,
+            0.178955078125,
+            0.42431640625,
+            0.171142578125,
+            0.55615234375,
+            0.3740234375,
+            -0.136474609375,
+            0.272216796875,
+            0.050537109375,
+            -0.164306640625
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 25051
+        }
+    },
+    {
+        "Texto": "A justiça social deve ser princípio norteador no  desenvolvimento  de  tecnologias  de  IA,  de modo a evitar a criação de uma medicina 'em duas velocidades': uma de alta performance e precisão, para quem pode pagar; outra, limitada e convencional, para quem depende do sistema público 17 . A mercantilização da IA na saúde pode ampliar o abismo entre pacientes de diferentes classes  sociais  e  consolidar  o  que  foi  chamado de 'injustiça automatizada' 31 .",
+        "Embeddings": [
+            0.1485595703125,
+            0.1724853515625,
+            0.224609375,
+            0.434326171875,
+            0.473388671875,
+            0.06195068359375,
+            -0.408935546875,
+            0.464111328125,
+            -0.2152099609375,
+            -0.22802734375
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 25271
+        }
+    },
+    {
+        "Texto": "Esse risco exige abordagem regulatória cen -trada em justiça distributiva. As diretrizes éticas globais sobre IA convergem para a necessidade de políticas que promovam acesso inclusivo, dados representativos  e  participação  de  populações sub-representadas no design e na validação dos sistemas  5 .  No Brasil, por exemplo, a implemen -tação ética da IA depende de investimentos em saúde digital pública, incentivo à interoperabili -dade e capacitação profissional  28 .",
+        "Embeddings": [
+            0.5615234375,
+            0.470947265625,
+            0.35205078125,
+            0.482177734375,
+            0.2247314453125,
+            -0.046905517578125,
+            0.036376953125,
+            0.2052001953125,
+            -0.058868408203125,
+            0.08038330078125
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 25735
+        }
+    },
+    {
+        "Texto": "Portanto, a justiça na era da IA não é apenas questão de distribuição de recursos, mas também de  inclusão  epistemológica.  Grupos  historica -mente marginalizados devem ser incorporados ao processo de desenvolvimento tecnológico, desde a produção de dados até a formulação de crité -rios de validação. Só assim será possível construir uma inteligência artificial verdadeiramente plural e comprometida com os valores hipocráticos da medicina universal.",
+        "Embeddings": [
+            0.34716796875,
+            0.08135986328125,
+            0.375,
+            0.29931640625,
+            0.68212890625,
+            -0.24609375,
+            0.00388336181640625,
+            0.251953125,
+            -0.1754150390625,
+            -0.148681640625
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 26210
+        }
+    },
+    {
+        "Texto": "## Confidencialidade, LGPD e a nova ética da privacidade\n\nSigilo médio é um dos pilares mais antigos da ética profissional em saúde. Desde o Juramento de Hipócrates, preservar o segredo das informações obtidas durante o cuidado é considerado dever moral e jurídico. No entanto, a IA, por operar com grandes volumes de dados sensíveis, impõe desa -fios inéditos a esse princípio 6,21 .",
+        "Embeddings": [
+            0.37939453125,
+            0.2548828125,
+            0.404052734375,
+            0.33447265625,
+            0.37744140625,
+            0.2288818359375,
+            0.01206207275390625,
+            0.07330322265625,
+            -0.3486328125,
+            -0.44091796875
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 26665
+        }
+    },
+    {
+        "Texto": "Sistemas de IA dependem de dados clínicos extensivos para treinamento, validação e opera -ção em tempo real. Muitas vezes, há informações altamente identificáveis, como imagens médicas, genomas,  prontuários  e  metadados  pessoais. Mesmo  técnicas  de  anonimização  podem  ser ineficazes, já que algoritmos conseguem reiden -tificar  indivíduos por cruzamento de dados  15,30 . A coleta massiva desses dados, muitas vezes em segundo plano (via aplicativos, wearables , portais on-line), desafia a",
+        "Embeddings": [
+            0.061248779296875,
+            0.3359375,
+            0.5966796875,
+            0.480224609375,
+            -0.042510986328125,
+            -0.01305389404296875,
+            0.1597900390625,
+            0.038787841796875,
+            -0.35498046875,
+            0.375732421875
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 27051
+        }
+    },
+    {
+        "Texto": "conseguem reiden -tificar  indivíduos por cruzamento de dados  15,30 . A coleta massiva desses dados, muitas vezes em segundo plano (via aplicativos, wearables , portais on-line), desafia a capacidade de obtenção de con -sentimento informado e a governança ética desses bancos de informação.",
+        "Embeddings": [
+            0.5234375,
+            0.1531982421875,
+            0.5966796875,
+            0.43896484375,
+            -0.04278564453125,
+            -0.11590576171875,
+            -0.13671875,
+            0.2142333984375,
+            -0.1805419921875,
+            -0.202392578125
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 27360
+        }
+    },
+    {
+        "Texto": "No Brasil, a LGPD  8 ,  que estabelece diretrizes para o tratamento de dados pessoais, exige base legal clara, minimização de dados, mecanismos de revogação, direito a portabilidade, eliminação e  consentimento  informado,  especialmente em  relação  aos  chamados  'dados  sensíveis', como os de saúde.",
+        "Embeddings": [
+            0.031524658203125,
+            0.6533203125,
+            0.262451171875,
+            0.44677734375,
+            0.1798095703125,
+            0.0439453125,
+            -0.420654296875,
+            -0.2215576171875,
+            -0.1904296875,
+            0.08343505859375
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 27653
+        }
+    },
+    {
+        "Texto": "A regulamentação da telessaúde no Brasil, por meio da Lei 14.510/2022 7 ,  reforça a obrigatorie -dade de preservar a integridade, confidencialidade e disponibilidade das informações digitais em aten -dimentos remotos. Já a Resolução CFM 2.314/2022  9 estabelece que o médico deve garantir, por meios tecnológicos adequados, a proteção dos dados do paciente e informá-lo sobre os riscos do atendi -mento virtual. Assim, essas normativas convergem para construir um ecossistema digital seguro, ético",
+        "Embeddings": [
+            0.392578125,
+            0.2265625,
+            0.30615234375,
+            0.46435546875,
+            0.0711669921875,
+            0.67236328125,
+            -0.07763671875,
+            -0.1474609375,
+            -0.01000213623046875,
+            -0.01396942138671875
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 27958
+        }
+    },
+    {
+        "Texto": "tecnológicos adequados, a proteção dos dados do paciente e informá-lo sobre os riscos do atendi -mento virtual. Assim, essas normativas convergem para construir um ecossistema digital seguro, ético e centrado no paciente quando o serviço médico é prestado em território brasileiro.",
+        "Embeddings": [
+            0.1632080078125,
+            0.253173828125,
+            0.42431640625,
+            0.68701171875,
+            0.2296142578125,
+            0.217041015625,
+            -0.044219970703125,
+            0.1285400390625,
+            -0.33984375,
+            0.1539306640625
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 28259
+        }
+    },
+    {
+        "Texto": "No  contexto  internacional,  destacam-se  o HIPAA 12 e  o  HITECH 13 ,  nos Estados Unidos, que definem  padrões  de  segurança,  integridade  e auditoria de dados clínicos digitais; e o GDPR  10 e a NIS Directive 11 , na Europa, que estabelecem o  princípio  de privacy  by  design (princípio  de proteção de dados segundo o qual privacidade deve ser incorporada desde as fases iniciais do desenvolvimento de sistemas, produtos, serviços ou  processos)  e  exigem accountability (dever de",
+        "Embeddings": [
+            -0.1561279296875,
+            0.33984375,
+            0.59765625,
+            0.47998046875,
+            0.1478271484375,
+            0.3671875,
+            0.06890869140625,
+            -0.2242431640625,
+            -0.08929443359375,
+            -0.2322998046875
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 28542
+        }
+    },
+    {
+        "Texto": "de proteção de dados segundo o qual privacidade deve ser incorporada desde as fases iniciais do desenvolvimento de sistemas, produtos, serviços ou  processos)  e  exigem accountability (dever de responsabilização e prestação de contas) dos controladores de dados e segurança cibernética em setores críticos, como a saúde.",
+        "Embeddings": [
+            0.29833984375,
+            0.266357421875,
+            0.57861328125,
+            0.38916015625,
+            0.346435546875,
+            0.0675048828125,
+            0.1448974609375,
+            0.15771484375,
+            -0.383056640625,
+            -0.1923828125
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 28838
+        }
+    },
+    {
+        "Texto": "Essas legislações indicam que a ética médica contemporânea deve incorporar uma bioética dos dados: um conjunto de responsabilidades éticas e técnicas voltadas à proteção da privacidade e da autodeterminação informacional dos pacientes. Vivemos em uma era de 'capitalismo de vigilân -cia', na qual dados pessoais são continuamente coletados e comercializados, de modo que a pro -teção da confidencialidade não é apenas questão técnica, mas também política e cultural 32 .",
+        "Embeddings": [
+            0.45263671875,
+            0.16650390625,
+            0.381103515625,
+            0.400634765625,
+            0.302490234375,
+            0.262451171875,
+            0.229736328125,
+            0.074951171875,
+            -0.2509765625,
+            -0.423583984375
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 29161
+        }
+    },
+    {
+        "Texto": "## Responsabilidade moral e accountability em sistemas híbridos\n\nCom a introdução da inteligência artificial na prática clínica, a noção tradicional de responsa -bilidade moral - centrada na figura do médico como decisor autônomo - passa por profunda transformação. Em ambientes onde decisões clíni -cas são compartilhadas entre humanos e algorit -mos, a linha entre causalidade, responsabilidade e culpa torna-se nebulosa  4,6 .",
+        "Embeddings": [
+            0.138916015625,
+            0.57373046875,
+            0.287353515625,
+            0.495849609375,
+            0.3330078125,
+            -0.033172607421875,
+            0.1949462890625,
+            0.35009765625,
+            -0.166259765625,
+            -0.1488037109375
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 29633
+        }
+    },
+    {
+        "Texto": "Essa ambiguidade é conhecida na literatura como 'vácuo de responsabilidade' 23 e caracteriza-se pela dificuldade de atribuir responsabilidade em casos de erro médico assistido por IA. Por exemplo, se um algoritmo recomenda uma conduta baseada em evi -dência estatística e o médico, ao segui-la, causa dano ao paciente, quem responde?",
+        "Embeddings": [
+            0.259033203125,
+            0.379638671875,
+            0.253662109375,
+            0.75537109375,
+            0.197998046875,
+            -0.228759765625,
+            -0.09967041015625,
+            0.150390625,
+            -0.01654052734375,
+            -0.171142578125
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 30064
+        }
+    },
+    {
+        "Texto": "A  literatura  propõe  o  conceito  de  'respon -sabilidade  dividida',  que  reconhece  a  mul -tiplicidade  de  agentes  envolvidos,  desde  os programadores e cientistas de dados até os fato -res hospitalares e médicos 17 . Entretanto, o simples reconhecimento dessa complexidade não resolve o dilema ético, pois pode gerar efeito de dilui -ção  de  culpa,  enfraquecendo  os  mecanismos de accountability institucional 33 .",
+        "Embeddings": [
+            0.356689453125,
+            0.12103271484375,
+            0.33447265625,
+            0.49462890625,
+            0.424560546875,
+            0.012054443359375,
+            0.244384765625,
+            0.0511474609375,
+            -0.266845703125,
+            -0.43310546875
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 30399
+        }
+    },
+    {
+        "Texto": "Como resposta a esse desafio, autores defen -dem o desenvolvimento de normas éticas e legais que responsabilizem todas as partes envolvidas, com ênfase na auditabilidade dos sistemas e na rastreabilidade  das  decisões.  Isso  implica,  por exemplo,  que  todo  sistema  de  IA  utilizado  em saúde deve manter registros acessíveis dos dados que foram utilizados, dos modelos que foram apli -cados e das recomendações que foram emitidas, dos contextos em que o foram e por quem  5 .",
+        "Embeddings": [
+            0.196533203125,
+            0.58203125,
+            0.5,
+            0.422119140625,
+            0.259033203125,
+            -0.17822265625,
+            -0.2203369140625,
+            -0.1458740234375,
+            -0.1590576171875,
+            -0.032012939453125
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 30828
+        }
+    },
+    {
+        "Texto": "Na prática clínica, é essencial que o médico man -tenha autonomia crítica diante dos sistemas auto -matizados e os utilize como ferramentas de apoio, e  não  como  substitutos  do  julgamento  clínico.",
+        "Embeddings": [
+            0.017120361328125,
+            0.83837890625,
+            0.049774169921875,
+            0.41015625,
+            0.10498046875,
+            0.036224365234375,
+            0.0311126708984375,
+            -0.244140625,
+            0.181396484375,
+            -0.13916015625
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 31312
+        }
+    },
+    {
+        "Texto": "A  IA  deve  ser  uma  'inteligência  aumentada' 2 , e  não  autoridade  autônoma.  Retomar  a  cen -tralidade  do  médico  como  guardião  do  julga -mento clínico, mesmo em contextos tecnológicos avançados, pode ser um caminho para reequili -brar o princípio hipocrático da prudência com a inovação. Nesse sentido, preservar a centralidade ética do médico no processo decisório é medida de proteção tanto à segurança do paciente quanto à integridade da profissão médica.",
+        "Embeddings": [
+            0.07769775390625,
+            0.039825439453125,
+            0.475341796875,
+            0.441162109375,
+            0.447509765625,
+            0.1771240234375,
+            0.143798828125,
+            0.46484375,
+            -0.297607421875,
+            0.12255859375
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 31515
+        }
+    },
+    {
+        "Texto": "## Crise da relação médico-paciente na era algorítmica",
+        "Embeddings": [
+            -0.35546875,
+            0.348876953125,
+            0.297607421875,
+            0.61181640625,
+            -0.01324462890625,
+            0.30078125,
+            -0.1497802734375,
+            0.130126953125,
+            -0.36328125,
+            -0.164794921875
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 31989
+        }
+    },
+    {
+        "Texto": "A  medicina  tradicional  sempre  foi  cons -truída sobre uma relação interpessoal complexa, marcada  por  escuta  ativa,  empatia,  confiança e  julgamento  clínico  humanizado.  No  entanto, a crescente mediação da prática médica por sis -temas  digitais  -  desde  triagens  automatizadas por chatbots (programas  desenvolvidos  para simular conversa com seres humanos, por meio de linguagem natural) até algoritmos de decisão clínica  -  ameaça  reduzir  a  dimensão  subjetiva e ética da",
+        "Embeddings": [
+            0.06353759765625,
+            0.22216796875,
+            0.40087890625,
+            0.83544921875,
+            -0.000652313232421875,
+            0.084228515625,
+            0.1888427734375,
+            0.201904296875,
+            -0.06365966796875,
+            -0.025909423828125
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 32045
+        }
+    },
+    {
+        "Texto": "chatbots (programas  desenvolvidos  para simular conversa com seres humanos, por meio de linguagem natural) até algoritmos de decisão clínica  -  ameaça  reduzir  a  dimensão  subjetiva e ética da interação entre médico e paciente  15,21 .",
+        "Embeddings": [
+            -0.340087890625,
+            0.302490234375,
+            0.36669921875,
+            0.56787109375,
+            0.0892333984375,
+            0.167236328125,
+            -0.1580810546875,
+            0.427978515625,
+            -0.302001953125,
+            0.0225830078125
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 32341
+        }
+    },
+    {
+        "Texto": "Alguns  autores  apontam  que,  ao  priorizar eficiência, padronização e objetividade, sistemas baseados em IA tendem a marginalizar aspectos humanísticos  do  cuidado,  como  compreensão do  sofrimento,  da  dor  ou  das  expectativas  do paciente 27 . O modelo hipocrático pressupõe um médico que conhece o paciente em sua integra -lidade - biológica, emocional e social - e que, portanto, é capaz de adaptar condutas de maneira ética e prudente. Todavia, o uso excessivo de tec -nologias pode",
+        "Embeddings": [
+            -0.044189453125,
+            0.326904296875,
+            0.22607421875,
+            0.63525390625,
+            0.18505859375,
+            -0.55859375,
+            -0.031524658203125,
+            0.271484375,
+            0.113037109375,
+            -0.048614501953125
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 32582
+        }
+    },
+    {
+        "Texto": "conhece o paciente em sua integra -lidade - biológica, emocional e social - e que, portanto, é capaz de adaptar condutas de maneira ética e prudente. Todavia, o uso excessivo de tec -nologias pode levar à chamada 'despersonalização algorítmica' do cuidado, na qual a subjetividade do paciente é reduzida a variáveis numéricas ou pro -babilísticas, sem espaço para narrativas pessoais ou singularidades  28 . Além disso, a confiança, que é componente essencial da aliança terapêutica, pode ser",
+        "Embeddings": [
+            0.2198486328125,
+            -0.1417236328125,
+            0.06182861328125,
+            0.89599609375,
+            0.156494140625,
+            -0.019256591796875,
+            -0.0762939453125,
+            0.2430419921875,
+            0.1728515625,
+            -0.06787109375
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 32881
+        }
+    },
+    {
+        "Texto": "é reduzida a variáveis numéricas ou pro -babilísticas, sem espaço para narrativas pessoais ou singularidades  28 . Além disso, a confiança, que é componente essencial da aliança terapêutica, pode ser transferida para a tecnologia - fenômeno conhecido como trust displacement -, o que fragi -liza o vínculo com o profissional, prejudica a ade -são ao tratamento e cria expectativas infundadas de infalibilidade técnica 34 .",
+        "Embeddings": [
+            0.055633544921875,
+            0.427001953125,
+            0.0902099609375,
+            0.88330078125,
+            -0.07904052734375,
+            0.1092529296875,
+            -0.037017822265625,
+            -0.06170654296875,
+            -0.0257415771484375,
+            0.03448486328125
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 33174
+        }
+    },
+    {
+        "Texto": "Adicionalmente, o uso de IA em etapas ini -ciais  do  cuidado,  como  triagem  automatizada por chatbots , pode reduzir o contato humano em momentos decisivos para o paciente, o que gera insegurança, solidão ou sensação de abandono. A  tecnologia  tende  a  desvalorizar  a  escuta  e  a intuição clínica - capacidades que, embora não quantificáveis,  são  essenciais  para  reconhecer o sofrimento humano em sua complexidade 27 .",
+        "Embeddings": [
+            -0.0182647705078125,
+            0.11822509765625,
+            0.27978515625,
+            0.7421875,
+            -0.11358642578125,
+            -0.2822265625,
+            -0.03570556640625,
+            0.337890625,
+            0.348876953125,
+            0.1656494140625
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 33598
+        }
+    },
+    {
+        "Texto": "Esse cenário desafia a própria identidade do médico. Se antes ele era visto como cuidador e conselheiro, hoje corre o risco de ser reduzido a operador técnico de sistemas, perdendo espaço para o raciocínio clínico e para a aética do encon -tro. É importante resgatar a noção de que a medi -cina deve ser, antes de tudo, compromisso com o bem do outro 3 - algo que não pode ser delegado a máquinas, por mais eficientes que sejam.",
+        "Embeddings": [
+            0.0701904296875,
+            0.443603515625,
+            0.126708984375,
+            0.4912109375,
+            0.24169921875,
+            -0.056854248046875,
+            0.045257568359375,
+            0.491943359375,
+            0.10968017578125,
+            -0.47265625
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 34030
+        }
+    },
+    {
+        "Texto": "Para  enfrentar  essa  crise,  torna-se  urgente promover uma formação médica voltada à ética digital,  ao  pensamento  crítico  sobre  IA  e  ao desenvolvimento de competências comunicacio -nais para interações mediadas por tecnologia  16 . Restaurar  a  centralidade  da  relação  humana no  cuidado  é  imperativo  ético  que  nenhuma inovação pode substituir.\n\n## Reinterpretação dos princípios hipocráticos no século XXI",
+        "Embeddings": [
+            0.1619873046875,
+            0.20263671875,
+            0.1378173828125,
+            0.513671875,
+            0.29052734375,
+            -0.37841796875,
+            0.022064208984375,
+            0.541015625,
+            -0.1390380859375,
+            -0.332275390625
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 34460
+        }
+    },
+    {
+        "Texto": "## Reinterpretação dos princípios hipocráticos no século XXI\n\nA  análise  dos  estudos  revisados  revela  que os  princípios  éticos  enunciados  por  Hipócrates continuam sendo uma base moral valiosa para a medicina contemporânea, mas necessitam de reinterpretação diante dos desafios da inteligência artificial. Essa reinterpretação pode ser sintetizada em quatro movimentos:",
+        "Embeddings": [
+            0.00127410888671875,
+            0.45703125,
+            0.168212890625,
+            0.489990234375,
+            0.5615234375,
+            -0.1353759765625,
+            -0.12548828125,
+            0.41552734375,
+            -0.03656005859375,
+            0.0213775634765625
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 34825
+        }
+    },
+    {
+        "Texto": "1) Autonomia 2.0: a autonomia do paciente, no contexto da IA, não se limita à escolha de trata -mentos e inclui o direito a explicação, não discrimi -nação algorítmica e proteção de dados sensíveis. Surge a necessidade de consentimento informado ampliado, capaz de abordar riscos tecnológicos e o funcionamento de sistemas automatizados 24 .",
+        "Embeddings": [
+            0.044219970703125,
+            0.25537109375,
+            0.496826171875,
+            0.71728515625,
+            0.022064208984375,
+            -0.3544921875,
+            -0.0015859603881835938,
+            0.07342529296875,
+            0.1544189453125,
+            0.12744140625
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 35205
+        }
+    },
+    {
+        "Texto": "2) Beneficência inclusiva: fazer o bem requer assegurar que os benefícios das tecnologias sejam distribuídos  de  forma  equitativa.  Isso  implica monitorar vieses de dados, priorizar desenvolvi -mento ético de algoritmos e evitar que inovações aumentem desigualdades sociais 14 .",
+        "Embeddings": [
+            0.38671875,
+            -0.11346435546875,
+            0.50927734375,
+            0.438232421875,
+            0.47412109375,
+            0.00023186206817626953,
+            -0.166015625,
+            0.27685546875,
+            -0.1807861328125,
+            -0.1583251953125
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 35548
+        }
+    },
+    {
+        "Texto": "3) Não maleficência sistêmica: prevenir danos não  significa  apenas  evitar  erros  clínicos,  mas também  antecipar  consequências  sistêmicas da automação, como exclusão digital, perda de competências  médicas  e  descaracterização  do cuidado baseado nos princípios hipocráticos 23 .",
+        "Embeddings": [
+            0.090087890625,
+            0.478271484375,
+            0.50927734375,
+            0.630859375,
+            0.11676025390625,
+            -0.10137939453125,
+            0.142578125,
+            -0.06622314453125,
+            -0.200927734375,
+            -0.1309814453125
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 35831
+        }
+    },
+    {
+        "Texto": "4) Justiça digital: a justiça na era da IA exige que todos os envolvidos tenham acesso a tecnologias seguras, eficazes e eticamente projetadas. A gover -nança algorítmica deve considerar o pluralismo cultural, a diversidade de contextos e o respeito aos direitos fundamentais dos pacientes 17 .\n\nAssim,  o  legado  hipocrático  não  é  descar -tado, mas atualizado, funcionando como matriz ética viva que pode orientar decisões morais em ambientes tecnocientíficos complexos.",
+        "Embeddings": [
+            0.208984375,
+            0.1708984375,
+            0.1295166015625,
+            0.48828125,
+            0.6884765625,
+            -0.316162109375,
+            -0.090576171875,
+            0.2257080078125,
+            -0.09051513671875,
+            -0.1732177734375
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 36120
+        }
+    },
+    {
+        "Texto": "Assim,  o  legado  hipocrático  não  é  descar -tado, mas atualizado, funcionando como matriz ética viva que pode orientar decisões morais em ambientes tecnocientíficos complexos.\n\n## Propostas bioéticas para uma IA centrada no paciente\n\nCom base na literatura revisada, é possível deli -near algumas diretrizes bioéticas para o desenvol -vimento e a aplicação da IA na medicina:",
+        "Embeddings": [
+            0.0931396484375,
+            0.44482421875,
+            -0.078125,
+            0.625,
+            0.3095703125,
+            -0.40478515625,
+            -0.1785888671875,
+            0.1905517578125,
+            -0.08477783203125,
+            -0.2476806640625
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 36416
+        }
+    },
+    {
+        "Texto": "## Propostas bioéticas para uma IA centrada no paciente\n\nCom base na literatura revisada, é possível deli -near algumas diretrizes bioéticas para o desenvol -vimento e a aplicação da IA na medicina:\n\n1) Transparência e explicabilidade algorítmica: os sistemas devem ser auditáveis e compreensí -veis, para permitir ao médico e ao paciente enten -derem os critérios das decisões sugeridas  4,24 .",
+        "Embeddings": [
+            0.09368896484375,
+            0.449462890625,
+            0.1654052734375,
+            0.658203125,
+            -0.10113525390625,
+            -0.360595703125,
+            -0.34130859375,
+            0.25244140625,
+            -0.0207672119140625,
+            -0.08209228515625
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 36597
+        }
+    },
+    {
+        "Texto": "1) Transparência e explicabilidade algorítmica: os sistemas devem ser auditáveis e compreensí -veis, para permitir ao médico e ao paciente enten -derem os critérios das decisões sugeridas  4,24 .\n\n2) Consentimento informado dinâmico: mecanis -mos de consentimento contínuo e contextualizado devem ser desenvolvidos de modo que se adaptem à natureza interativa das tecnologias digitais 35 .",
+        "Embeddings": [
+            0.1337890625,
+            0.640625,
+            -0.0313720703125,
+            0.6455078125,
+            0.241455078125,
+            0.061492919921875,
+            -0.025909423828125,
+            -0.2266845703125,
+            -0.0215301513671875,
+            -0.1983642578125
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 36797
+        }
+    },
+    {
+        "Texto": "2) Consentimento informado dinâmico: mecanis -mos de consentimento contínuo e contextualizado devem ser desenvolvidos de modo que se adaptem à natureza interativa das tecnologias digitais 35 .\n\n3) Participação inclusiva: o desenvolvimento de IA deve incluir múltiplos atores, com especial atenção às vozes dos usuários finais - médicos e pacientes -, para assegurar alinhamento com valores clínicos 25,35 .",
+        "Embeddings": [
+            0.27099609375,
+            0.603515625,
+            0.156494140625,
+            0.66357421875,
+            0.2294921875,
+            0.043670654296875,
+            0.1492919921875,
+            0.1005859375,
+            0.01113128662109375,
+            0.1016845703125
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 36994
+        }
+    },
+    {
+        "Texto": "4) Governança ética: a implementação da IA deve ser acompanhada por comitês éticos multidisciplina -res que revisem seus impactos em tempo real, a fim de promover ajustes de responsabilização 18,36 .\n\n5) Educação médica para a era digital: os currí -culos de medicina devem incluir formação em ética da tecnologia, literacia de dados e pensamento crí -tico sobre IA, para evitar dependência acrítica ou delegação irresponsável  16 .",
+        "Embeddings": [
+            0.1878662109375,
+            0.54638671875,
+            0.57421875,
+            0.376220703125,
+            0.279296875,
+            0.1688232421875,
+            0.1683349609375,
+            0.213623046875,
+            -0.093017578125,
+            0.075439453125
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 37402
+        }
+    },
+    {
+        "Texto": "Essas  propostas,  embora  ainda  em  construção, apontam caminhos para uma medicina algorítmica mais ética, transparente e centrada na dignidade humana.\n\n## Limitações da literatura atual e lacunas para pesquisa futura",
+        "Embeddings": [
+            0.39306640625,
+            -0.002552032470703125,
+            0.419921875,
+            0.6572265625,
+            -0.2056884765625,
+            -0.05780029296875,
+            -0.06646728515625,
+            0.349365234375,
+            -0.136962890625,
+            -0.212890625
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 37836
+        }
+    },
+    {
+        "Texto": "## Limitações da literatura atual e lacunas para pesquisa futura\n\nApesar da crescente produção científica sobre ética  da  IA  na  medicina,  a  literatura  apresenta lacunas importantes. Em primeiro lugar, há pre -domínio de estudos teóricos e normativos, com escassez de dados empíricos sobre a experiência de médicos e pacientes em contextos reais de uso de IA. A ausência de estudos qualitativos limita a compreensão de como os dilemas éticos se mani -festam na prática cotidiana 21 .",
+        "Embeddings": [
+            0.316162109375,
+            0.5107421875,
+            0.09808349609375,
+            0.166015625,
+            0.46630859375,
+            -0.2489013671875,
+            0.2418212890625,
+            0.49462890625,
+            0.022552490234375,
+            -0.136474609375
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 37991
+        }
+    },
+    {
+        "Texto": "Em segundo lugar, muitas pesquisas têm enfo -que euro-americano e, portanto, desconsideram desigualdades digitais e especificidades culturais, legais e sociais de outros contextos, como de países da América Latina e da África. Estudos sobre justiça algorítmica precisam incorporar perspectivas pós --coloniais e de saúde global, sob risco de repetir padrões tecnocêntricos e excludentes 37 e reprodu -zir exclusões históricas com roupagem tecnológica.",
+        "Embeddings": [
+            0.51318359375,
+            0.199462890625,
+            0.50341796875,
+            0.35693359375,
+            0.3203125,
+            0.21337890625,
+            0.2186279296875,
+            0.279296875,
+            0.005802154541015625,
+            -0.20654296875
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 38481
+        }
+    },
+    {
+        "Texto": "Além disso, observa-se falta de integração entre marcos legais, clínicos e éticos. Poucos modelos oferecem orientações práticas que articulem em um só framework as exigências da LGPD, da ética médica e da eficiência clínica. Nesse sentido, há demanda urgente por pesquisas interdisciplinares que dialoguem com direito, sociologia, ciência da computação e fisiologia moral, e o engajamento com pacientes e a ampliação dos fóruns de deli -beração ética podem ser caminhos promissores, sem perder a",
+        "Embeddings": [
+            0.052734375,
+            0.368896484375,
+            0.3642578125,
+            0.69873046875,
+            0.197265625,
+            0.287109375,
+            0.1285400390625,
+            -0.171875,
+            0.2469482421875,
+            0.10516357421875
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 38934
+        }
+    },
+    {
+        "Texto": "dialoguem com direito, sociologia, ciência da computação e fisiologia moral, e o engajamento com pacientes e a ampliação dos fóruns de deli -beração ética podem ser caminhos promissores, sem perder a inovação.",
+        "Embeddings": [
+            0.525390625,
+            0.240478515625,
+            0.0775146484375,
+            0.63232421875,
+            0.0970458984375,
+            0.1500244140625,
+            -0.06488037109375,
+            0.45166015625,
+            -0.139404296875,
+            -0.0292510986328125
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 39230
+        }
+    },
+    {
+        "Texto": "O avanço ético da IA na medicina exige não apenas inovação técnica, mas também compro -metimento  público  e  institucional  com  digni -dade humana. Preservar o espírito do Juramento de Hipócrates ao adaptá-lo aos tempos digitais é  o  maior  desafio  -  e  a  maior  oportunidade  da bioética contemporânea.\n\n## Considerações finais",
+        "Embeddings": [
+            0.47412109375,
+            0.39501953125,
+            0.266357421875,
+            0.58984375,
+            0.2286376953125,
+            -0.07647705078125,
+            0.2381591796875,
+            0.253173828125,
+            0.057830810546875,
+            -0.1339111328125
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 39441
+        }
+    },
+    {
+        "Texto": "A inteligência artificial representa uma das transformações mais significativas da prática médica no século XXI. Ao mesmo tempo que oferece recursos poderosos para diagnósticos, prognósticos  e  terapias  personalizadas,  sua adoção  em  larga  escala  impõe  desafios  éti -cos profundos que reconfiguram os alicerces tradicionais da medicina. Tais transformações demandam não apenas atualização técnica dos profissionais de saúde, mas também reflexão crítica sobre os valores que devem nortear o",
+        "Embeddings": [
+            0.11260986328125,
+            -0.07989501953125,
+            0.56689453125,
+            0.467041015625,
+            0.43603515625,
+            -0.048431396484375,
+            0.05096435546875,
+            0.438232421875,
+            -0.0975341796875,
+            0.2127685546875
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 39777
+        }
+    },
+    {
+        "Texto": "os alicerces tradicionais da medicina. Tais transformações demandam não apenas atualização técnica dos profissionais de saúde, mas também reflexão crítica sobre os valores que devem nortear o uso dessas tecnologias.",
+        "Embeddings": [
+            0.42138671875,
+            0.4501953125,
+            0.5400390625,
+            0.2822265625,
+            0.2066650390625,
+            0.404541015625,
+            0.056396484375,
+            -0.049285888671875,
+            0.18603515625,
+            -0.033233642578125
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 40083
+        }
+    },
+    {
+        "Texto": "A  análise  crítica  da  literatura  revela  que  os princípios hipocráticos da beneficência, não male -ficência,  autonomia  e  justiça  continuam  sendo fundamentais, mas precisam ser reinterpretados à luz dos riscos e potencialidades da era digital. Autonomia, por exemplo, já não pode ser garan -tida  apenas  pelo  consentimento  informado tradicional:  ela  requer  explicabilidade  algorít -mica e transparência das decisões automatizadas. Beneficência demanda vigilância constante con -tra",
+        "Embeddings": [
+            0.271240234375,
+            0.410400390625,
+            0.38330078125,
+            0.2880859375,
+            0.55419921875,
+            -0.260986328125,
+            -0.12445068359375,
+            0.35498046875,
+            0.10797119140625,
+            0.01263427734375
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 40300
+        }
+    },
+    {
+        "Texto": "-tida  apenas  pelo  consentimento  informado tradicional:  ela  requer  explicabilidade  algorít -mica e transparência das decisões automatizadas. Beneficência demanda vigilância constante con -tra vieses nos dados e nos sistemas de aprendi -zagem da máquina, que podem comprometer a qualidade e a equidade do cuidado. Não malefi -cência exige abordagem sistêmica e interdiscipli -nar, que leve em conta os efeitos não intencionais dos algoritmos na prática clínica. E justiça implica compromisso",
+        "Embeddings": [
+            0.2225341796875,
+            0.14599609375,
+            0.6494140625,
+            0.47509765625,
+            0.442138671875,
+            0.0540771484375,
+            0.06939697265625,
+            0.250732421875,
+            -0.11138916015625,
+            0.05657958984375
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 40599
+        }
+    },
+    {
+        "Texto": "equidade do cuidado. Não malefi -cência exige abordagem sistêmica e interdiscipli -nar, que leve em conta os efeitos não intencionais dos algoritmos na prática clínica. E justiça implica compromisso com a democratização do acesso a tecnologias, a fim de evitar a concentração de recursos em contextos privilegiados.",
+        "Embeddings": [
+            0.3896484375,
+            0.027587890625,
+            0.457275390625,
+            0.62158203125,
+            0.36279296875,
+            -0.013336181640625,
+            0.0200042724609375,
+            0.268310546875,
+            -0.161865234375,
+            -0.1468505859375
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 40898
+        }
+    },
+    {
+        "Texto": "Adicionalmente,  os  marcos  legais  nacio -nais e internacionais oferecem importante base normativa, mas ainda insuficiente para dar conta da complexidade ética que os sistemas de IA em saúde introduzem. Embora forneçam diretrizes relevantes para proteção de dados e segurança da informação, muitos desses regulamentos ainda não abrangem integralmente os dilemas ligados à autonomia algorítmica, à responsabilidade em\n\n## Referências",
+        "Embeddings": [
+            0.1981201171875,
+            0.53369140625,
+            0.497314453125,
+            0.408447265625,
+            0.288818359375,
+            0.2196044921875,
+            0.2489013671875,
+            -0.09173583984375,
+            -0.2415771484375,
+            0.037628173828125
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 41215
+        }
+    },
+    {
+        "Texto": "1. Esteva A, Kuprel B, Novoa RA, Ko J, Swetter SM, Blau HM et al .  Dermatologist-level classification of skin cancer with deep neural networks. Nature [Internet]. 2017 [acesso 5 jun 2025];542(7639):115-8. DOI: 10.1038/nature21056\n2. Topol EJ. High-performance medicine: the convergence of human and artificial intelligence. Nat Med [Internet]. 2019 [acesso 5 jun 2025];25(1):44-56. DOI: 10.1038/s41591-018-0300-7",
+        "Embeddings": [
+            -0.220947265625,
+            -0.12548828125,
+            0.29736328125,
+            0.470703125,
+            0.31689453125,
+            -0.183349609375,
+            -0.35107421875,
+            0.40283203125,
+            -0.439697265625,
+            0.11114501953125
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 41651
+        }
+    },
+    {
+        "Texto": "2. Topol EJ. High-performance medicine: the convergence of human and artificial intelligence. Nat Med [Internet]. 2019 [acesso 5 jun 2025];25(1):44-56. DOI: 10.1038/s41591-018-0300-7\n3. Pellegrino  ED,  Thomasma  DC.  For  the  patient's  good:  the  restoration  in  health  care.  New  York: Oxford University Press; 1998.",
+        "Embeddings": [
+            0.031341552734375,
+            0.047607421875,
+            0.356689453125,
+            0.287353515625,
+            0.309326171875,
+            -0.12042236328125,
+            -0.1031494140625,
+            0.74951171875,
+            0.06597900390625,
+            -0.3154296875
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 41882
+        }
+    },
+    {
+        "Texto": "3. Pellegrino  ED,  Thomasma  DC.  For  the  patient's  good:  the  restoration  in  health  care.  New  York: Oxford University Press; 1998.\n4. London  AJ.  Artificial  intelligence  and  black-box  medical  decisions:  accuracy  versus  explainability. Hastings Cent Rep [Internet]. 2019 [acesso 5 jun 2025];49(1):15-21. DOI: 10.1002/hast.973",
+        "Embeddings": [
+            -0.2294921875,
+            0.0195159912109375,
+            0.51123046875,
+            0.326416015625,
+            0.274658203125,
+            -0.172607421875,
+            0.00026679039001464844,
+            0.491455078125,
+            -0.0380859375,
+            -0.480224609375
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 42065
+        }
+    },
+    {
+        "Texto": "5. Jobin A, lenca M, Vayena E. The global landscape of AI ethics guidelines. Nat Mach Intell [Internet]. 2019 [acesso 5 jun 2025];1(9):389-99. DOI: 10.1038/s42256-019-0088-2\n6. Gerke S, Minssen T, Cohen G. Ethical and legal challenges of artificial intelligence-driven healthcare. Artificial Intelligence in Healthcare. 2020:295-336. DOI: 10.1016/B978-0-12-818438-7.00012-5",
+        "Embeddings": [
+            -0.032196044921875,
+            0.491943359375,
+            0.3583984375,
+            0.186279296875,
+            0.23291015625,
+            -0.060821533203125,
+            0.45556640625,
+            0.298583984375,
+            -0.234375,
+            -0.42919921875
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 42410
+        }
+    },
+    {
+        "Texto": "6. Gerke S, Minssen T, Cohen G. Ethical and legal challenges of artificial intelligence-driven healthcare. Artificial Intelligence in Healthcare. 2020:295-336. DOI: 10.1016/B978-0-12-818438-7.00012-5\n7. Brasil. Lei nº 14.510, de 27 de dezembro de 2022. Dispõe sobre a prestação de serviços de telessaúde. Diário Oficial da União [Internet]. Brasília, 28 dez 2022 [acesso 6 jun 2025]. Disponível: https://tinyurl.com/ mr39srpb",
+        "Embeddings": [
+            0.1923828125,
+            0.42529296875,
+            0.389892578125,
+            0.321533203125,
+            -0.08770751953125,
+            0.3427734375,
+            0.37109375,
+            0.34814453125,
+            -0.220458984375,
+            -0.30712890625
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 42584
+        }
+    },
+    {
+        "Texto": "sistemas híbridos (homem-máquina) e à trans -parência em modelos de aprendizado profundo, muitas vezes considerados 'caixas-pretas'.",
+        "Embeddings": [
+            -0.337890625,
+            0.455322265625,
+            0.1287841796875,
+            0.01538848876953125,
+            0.5439453125,
+            0.08905029296875,
+            0.1697998046875,
+            0.5361328125,
+            -0.179931640625,
+            -0.09588623046875
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 43011
+        }
+    },
+    {
+        "Texto": "Nesse contexto, a bioética contemporânea pre -cisa evoluir para incorporar, de forma verdadeira -mente interdisciplinar, os conceitos de governança algorítmica, proteção de dados sensíveis, justiça distributiva e responsabilização moral. Isso envolve a  participação  ativa  de  profissionais  da  saúde, juristas, engenheiros, filósofos e representantes da sociedade civil na formulação de políticas públicas e diretrizes clínicas. O desenvolvimento ético da IA em saúde não pode ser",
+        "Embeddings": [
+            0.5830078125,
+            0.020965576171875,
+            0.385498046875,
+            0.5625,
+            0.184814453125,
+            -0.02294921875,
+            0.168212890625,
+            0.35400390625,
+            -0.045562744140625,
+            -0.06060791015625
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 43145
+        }
+    },
+    {
+        "Texto": "da  saúde, juristas, engenheiros, filósofos e representantes da sociedade civil na formulação de políticas públicas e diretrizes clínicas. O desenvolvimento ético da IA em saúde não pode ser responsabilidade exclusiva dos programadores ou das empresas de tecno -logia:  deve ser um esforço conjunto, orientado pelo bem-estar humano.",
+        "Embeddings": [
+            0.64599609375,
+            -0.061431884765625,
+            0.384765625,
+            0.33203125,
+            0.403076171875,
+            -0.2252197265625,
+            0.24267578125,
+            0.1815185546875,
+            -0.012664794921875,
+            -0.1251220703125
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 43439
+        }
+    },
+    {
+        "Texto": "A  preservação do espírito  do  Juramento  de Hipócrates  não  significa  resistir  ao  progresso tecnológico, mas assegurar que a inovação seja colocada a serviço da dignidade humana, da equi -dade e do cuidado compassivo. Cabe à medicina, à ética e ao direito construírem juntos um modelo de inteligência artificial que, mais do que aprender com dados, respeite valores fundamentais da vida e do cuidado. Afinal, o verdadeiro avanço da medi -cina digital dependerá da capacidade não apenas de",
+        "Embeddings": [
+            0.4462890625,
+            0.260986328125,
+            0.19580078125,
+            0.63916015625,
+            0.2496337890625,
+            -0.2626953125,
+            -0.005138397216796875,
+            0.364013671875,
+            0.01021575927734375,
+            -0.1473388671875
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 43773
+        }
+    },
+    {
+        "Texto": "artificial que, mais do que aprender com dados, respeite valores fundamentais da vida e do cuidado. Afinal, o verdadeiro avanço da medi -cina digital dependerá da capacidade não apenas de prever doenças, mas também de promover humanidade em cada decisão automatizada.",
+        "Embeddings": [
+            0.289794921875,
+            0.15185546875,
+            0.1214599609375,
+            0.69091796875,
+            0.171142578125,
+            -0.268310546875,
+            0.06964111328125,
+            0.418701171875,
+            -0.256591796875,
+            0.231201171875
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 44080
+        }
+    },
+    {
+        "Texto": "8. Brasil. Lei nº 13.709, de 14 de agosto de 2018. Lei Geral de Proteção de Dados Pessoais (LGPD). Diário Oficial da União [Internet]. Brasília, 15 ago 2018 [acesso 6 jun 2025]. Disponível: https://bit.ly/4b4cssd",
+        "Embeddings": [
+            0.11151123046875,
+            0.11309814453125,
+            0.28515625,
+            0.471435546875,
+            0.1392822265625,
+            0.541015625,
+            -0.10723876953125,
+            0.09783935546875,
+            -0.56494140625,
+            -0.13720703125
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 44349
+        }
+    },
+    {
+        "Texto": "9. Conselho Federal de Medicina. Resolução nº 2.314, de 20 de abril de 2022. Define e regulamenta a telemedicina como forma de prestação de serviços médicos. Diário Oficial da União [Internet]. Brasília, p. 227, 5 maio 2022 [acesso 6 jun 2025]. Seção 1. Disponível: https://tinyurl.com/hyrzwr3f",
+        "Embeddings": [
+            0.0158843994140625,
+            0.1724853515625,
+            0.30078125,
+            0.452880859375,
+            -0.1995849609375,
+            0.72705078125,
+            -0.2578125,
+            -0.12322998046875,
+            -0.055999755859375,
+            0.1448974609375
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 44562
+        }
+    },
+    {
+        "Texto": "10. European Parliament and Council. Regulation (EU) 2016/679 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation). Official Journal of the European Union [Internet]. Geneva, 2016 [acesso 5 jun 2025]. Disponível: https://bit.ly/409B7qj",
+        "Embeddings": [
+            0.21142578125,
+            0.438720703125,
+            0.482666015625,
+            0.254150390625,
+            0.144775390625,
+            0.3828125,
+            -0.09356689453125,
+            -0.018585205078125,
+            -0.0028228759765625,
+            -0.5380859375
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 44857
+        }
+    },
+    {
+        "Texto": "11. European Commission. Directive (EU) 2016/1148 on Security of Network and INformation Systems (NIS  Directive).  Official  Journal  of  the  European  Union  [Internet].  2016  [acesso  6  jun  2025]. Disponível: https://bit.ly/4aQwtUa\n12. United States. Public Law 104-191. Health Insurance Portability and Accountability Act of 1996 (HIPAA). Federal Register [Internet]. Washington, 20 ago 1996 [acesso 6 jun 2025]. Disponível: https://tinyurl.com/ vvkr9vm8",
+        "Embeddings": [
+            -0.297119140625,
+            0.2266845703125,
+            0.2978515625,
+            0.4208984375,
+            0.386962890625,
+            0.37255859375,
+            -0.04949951171875,
+            -0.1285400390625,
+            -0.27783203125,
+            -0.45849609375
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 45233
+        }
+    },
+    {
+        "Texto": "13. United States. Health Information Technology for Economic and Clinical Health Act (HITECH). Federal Register [Internet]. Washington, nº 209, Rules and Regulations, 30 out 2009 [acesso 10 set 2024]. Disponível: https://bit.ly/4d4yRYR\n14. Obermeyer Z,  Powers  B,  Vogeli  C,  Mullainathan  S.  Dissecting  racial  bias  in  an  algorithm  used  to manage the health of populations. Science [Internet]. 2019 [acesso 6 jun 2025];366(6464):447-53. DOI: 10.1126/science.aax2342",
+        "Embeddings": [
+            -0.122802734375,
+            -0.194580078125,
+            0.33251953125,
+            0.5498046875,
+            0.367431640625,
+            0.1651611328125,
+            -0.0201263427734375,
+            0.28564453125,
+            -0.36767578125,
+            -0.39453125
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 45696
+        }
+    },
+    {
+        "Texto": "15. Lupton D. The digitally engaged patient: self-monitoring and self-care in the digital health era. Soc Theory Health [Internet]. 2013 [acesso 8 jun 2025];11(3):256-70. DOI: 10.1057/sth.2013.10\n16. Masters  K.  Artificial  intelligence  in  medical  education.  Med  Teach  [Internet].  2019  [acesso  14  jun 2025];41(9):976-80. DOI: 10.1080/0142159X.2019.1595557",
+        "Embeddings": [
+            -0.2449951171875,
+            0.31689453125,
+            0.106201171875,
+            0.2344970703125,
+            0.630859375,
+            0.0203094482421875,
+            0.496826171875,
+            0.345703125,
+            0.06671142578125,
+            -0.0601806640625
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 46173
+        }
+    },
+    {
+        "Texto": "16. Masters  K.  Artificial  intelligence  in  medical  education.  Med  Teach  [Internet].  2019  [acesso  14  jun 2025];41(9):976-80. DOI: 10.1080/0142159X.2019.1595557\n17. Floridi L, Cowls J, Beltrametti M, Chatila R, Chazerand P, Dignum V et al . AI4People - an ethical framework for a good AI society: opportunities, risks, principles, and recommendations. Minds Mach [Internet]. 2018 [acesso 6 jun 2025];28(4):689-707. DOI: 10.1007/s11023-018-9482-5",
+        "Embeddings": [
+            0.141845703125,
+            0.23046875,
+            0.4951171875,
+            0.5185546875,
+            0.272216796875,
+            -0.1885986328125,
+            -0.01468658447265625,
+            0.35107421875,
+            -0.267333984375,
+            -0.328125
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 46369
+        }
+    },
+    {
+        "Texto": "18. Mittelstadt BD. Principles alone cannot guarantee ethical AI. Nat Mach Intell [Internet]. 2019 [acesso 6 jun 2025];1(11):501-7. DOI: 10.1038/s42256-019-0114-4\n19. Gil AC. Métodos e técnicas de pesquisa social. 6ª ed. São Paulo: Atlas; 2008.\n20. Severino AJ. Metodologia do trabalho científico. 24ª ed. São Paulo: Cortez; 2016.",
+        "Embeddings": [
+            0.302978515625,
+            0.546875,
+            -0.196044921875,
+            0.1534423828125,
+            0.276123046875,
+            -0.0123291015625,
+            -0.271728515625,
+            0.44189453125,
+            -0.30517578125,
+            -0.33056640625
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 46825
+        }
+    },
+    {
+        "Texto": "19. Gil AC. Métodos e técnicas de pesquisa social. 6ª ed. São Paulo: Atlas; 2008.\n20. Severino AJ. Metodologia do trabalho científico. 24ª ed. São Paulo: Cortez; 2016.\n21. Morley J, Machado C, Burr C, Cowls J, Taddeo M, Floridi L. The ethics od AI in health care: a mapping review. Soc Sci Med [Internet]. 2020 [acesso 5 jun 2025];260:113172. DOI: 10.1016/j.socscimed.2020.113172",
+        "Embeddings": [
+            0.144287109375,
+            0.53466796875,
+            -0.064208984375,
+            0.456298828125,
+            0.044677734375,
+            0.136962890625,
+            -0.076904296875,
+            0.0272216796875,
+            -0.303466796875,
+            -0.6015625
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 46988
+        }
+    },
+    {
+        "Texto": "22. Krittanawong C, Johnson KW, Rosenson RS, Wang Z, Aydar M, Narayan SM. Deep learning for cardiovascular medicine:  a  practical  primer.  Eur  Heart  J  [Internet].  2019  [acesso  6  jun  2025];40(25):2058-73. DOI: 10.1093/eurheartj/ehz056\n23. Mittelstadt BD, Floridi L. The ethics of big data: current and foreseeable issues in biomedical contexts. Sci Eng Ethics [Internet]. 2016 [acesso 6 jun 2025];22(2):303-41. DOI: 10.1007/s11948-015-9652-2",
+        "Embeddings": [
+            0.1134033203125,
+            -0.1968994140625,
+            0.266845703125,
+            0.35400390625,
+            0.2333984375,
+            0.28955078125,
+            -0.019866943359375,
+            0.341064453125,
+            -0.60302734375,
+            -0.365478515625
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 47368
+        }
+    },
+    {
+        "Texto": "24. Wachter S, Mittelstadt B, Floridi L. Transparent, explainable, and accountable AI for robotics. Sci Robot [Internet]. 2017 [acesso 8 jun 2025];2(6):eaan6080. DOI: 10.1126/scirobotics.aan6080\n25. Dastin J. Amazon scraps secret AI recruiting tool that showed bias against women. Reuters [Internet]. 10 out 2018 [acesso 2 jul 2025]; Disponível: https://bit.ly/4rhewTv",
+        "Embeddings": [
+            0.038787841796875,
+            0.29541015625,
+            0.019989013671875,
+            0.2137451171875,
+            0.67578125,
+            -0.3046875,
+            -0.014495849609375,
+            0.0721435546875,
+            -0.398193359375,
+            -0.389892578125
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 47819
+        }
+    },
+    {
+        "Texto": "25. Dastin J. Amazon scraps secret AI recruiting tool that showed bias against women. Reuters [Internet]. 10 out 2018 [acesso 2 jul 2025]; Disponível: https://bit.ly/4rhewTv\n26. Shortliffe EH, Sepúlveda MJ. Clinical decision support in the era of artificial intelligence. JAMA [Internet]. 2018 [acesso 6 jun 2025];320(21):2199-200. DOI: 10.1001/jama.2018.17163\n27. Harari YN. Homo Deus: a brief history of tomorrow. New York: Harper; 2017.",
+        "Embeddings": [
+            0.0097198486328125,
+            0.135009765625,
+            0.2037353515625,
+            0.321533203125,
+            0.384033203125,
+            -0.1304931640625,
+            -0.12353515625,
+            0.54248046875,
+            -0.4365234375,
+            -0.4150390625
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 48014
+        }
+    },
+    {
+        "Texto": "27. Harari YN. Homo Deus: a brief history of tomorrow. New York: Harper; 2017.\n28. Silva AG, Oliveira TC, Lima MADS. Artificial intelligence in Brazilian health care: a viewpoint. JMIR Med Inform [Internet]. 2020 [acesso 7 jun 2025];8(10):e23557. DOI: 10.2196/23557",
+        "Embeddings": [
+            0.04925537109375,
+            0.09234619140625,
+            -0.0919189453125,
+            0.390625,
+            -0.20947265625,
+            -0.155029296875,
+            0.413330078125,
+            0.54443359375,
+            -0.2357177734375,
+            -0.487548828125
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 48375
+        }
+    },
+    {
+        "Texto": "29. Whitelaw  S,  Mamas  MA,  Topol  E,  Van  Spall  HGC.  Applications  of  digital  technology  in  COVID-19 pandemic planning and response. Lancet Digit Health [Internet]. 2020 [acesso 7 jun 2025];2(8):e435-40. DOI: 10.1016/S2589-7500(20)30142-4\n30. Goodman B. The algorithmic governance of health: a case study of the United States. Health Care Anal [Internet]. 2021 [acesso 8 jun 2025];29(1):39-57. DOI: 10.1007/s10728-019-00385-0",
+        "Embeddings": [
+            -0.158203125,
+            -0.0267791748046875,
+            0.5048828125,
+            0.37060546875,
+            -0.0738525390625,
+            -0.124267578125,
+            -0.09747314453125,
+            0.513671875,
+            -0.439697265625,
+            -0.3076171875
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 48642
+        }
+    },
+    {
+        "Texto": "30. Goodman B. The algorithmic governance of health: a case study of the United States. Health Care Anal [Internet]. 2021 [acesso 8 jun 2025];29(1):39-57. DOI: 10.1007/s10728-019-00385-0\n31. Eubanks  V.  Automating  inequality:  how  high-tech  tools  profile,  police,  and  punish  the  poor. New York: Picador; 2019.\n32. Zuboff S. The age of surveillance capitalism. New York: PublicAffairs; 2019.",
+        "Embeddings": [
+            0.2442626953125,
+            0.2288818359375,
+            0.399169921875,
+            0.392333984375,
+            0.2430419921875,
+            -0.1856689453125,
+            -0.2130126953125,
+            0.4873046875,
+            -0.1251220703125,
+            -0.4267578125
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 48891
+        }
+    },
+    {
+        "Texto": "32. Zuboff S. The age of surveillance capitalism. New York: PublicAffairs; 2019.\n33. Nemitz P. Constitutional democracy and technology in the age of artificial intelligence. Philos Trans A Math Phys Eng Sci [Internet]. 2018 [acesso 7 jun 2025];376(2133):20180089. DOI: 10.1098/rsta.2018.0089\n34. Zhang B, Dafoe A. Artificial intelligence: American attitudes and trends [Internet]. Oxford: University of Oxford; 2019 [acesso 8 jun 2025]. DOI: 10.2139/ssrn.3312874",
+        "Embeddings": [
+            0.356201171875,
+            0.474609375,
+            0.033721923828125,
+            0.36865234375,
+            0.55029296875,
+            -0.10198974609375,
+            0.0660400390625,
+            0.390869140625,
+            -0.1434326171875,
+            -0.140869140625
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 49211
+        }
+    },
+    {
+        "Texto": "34. Zhang B, Dafoe A. Artificial intelligence: American attitudes and trends [Internet]. Oxford: University of Oxford; 2019 [acesso 8 jun 2025]. DOI: 10.2139/ssrn.3312874\n35. Sadan  T.  Toward  participatory  design  of  ethical  AI.  Philos  Technol  [Internet].  2020  [acesso  8  jun 2025];33(2):167-88. DOI: 10.1007/s13347-019-00371-1",
+        "Embeddings": [
+            0.38330078125,
+            0.317626953125,
+            -0.12176513671875,
+            0.5029296875,
+            0.595703125,
+            -0.10919189453125,
+            -0.04180908203125,
+            0.327880859375,
+            -0.08087158203125,
+            0.034088134765625
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 49503
+        }
+    },
+    {
+        "Texto": "35. Sadan  T.  Toward  participatory  design  of  ethical  AI.  Philos  Technol  [Internet].  2020  [acesso  8  jun 2025];33(2):167-88. DOI: 10.1007/s13347-019-00371-1\n36. Dove ES, Townend D, Meslin EM, Bobrow M, Littler K, Nicol D et al .  Ethics review for international data-intensive  research.  Science  [Internet].  2016  [acesso  8  jun  2025];351(6280):1399-400. DOI: 10.1126/science.aad5269",
+        "Embeddings": [
+            0.68408203125,
+            0.22021484375,
+            0.1605224609375,
+            0.1551513671875,
+            0.427490234375,
+            0.13330078125,
+            0.06402587890625,
+            0.421142578125,
+            0.031341552734375,
+            -0.2242431640625
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 49674
+        }
+    },
+    {
+        "Texto": "37. Benjamin R. Race after technology: abolitionist tools for the New Jim Code [Internet]. Cambridge: Polity Press; 2019 [acesso 8 jun 2025]. Disponível: https://tinyurl.com/272s7b8z",
+        "Embeddings": [
+            0.1925048828125,
+            0.70166015625,
+            -0.03936767578125,
+            0.253662109375,
+            0.4326171875,
+            -0.39013671875,
+            -0.01517486572265625,
+            0.154541015625,
+            -0.080078125,
+            -0.1873779296875
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 50074
+        }
+    },
+    {
+        "Texto": "## Juracy Barbosa dos Santos - Doutorando - drjuracybarbosa@gmail.com\n\n0009-0009-1729-9778\n\n<!-- image -->\n\nGuilhermina Rego - Doutora - guilherminarego@med.up.pt\n\n0000-0002-8590-9832\n\n<!-- image -->\n\nRui Nunes - Doutor - ruinunes@med.up.pt\n\n0000-0002-1377-9899\n\n<!-- image -->\n\n## Correspondência\n\nJuracy Barbosa dos Santos -Faculdade de Medicina/Universidade do Porto. Al. Professor Hernani Monteiro, CP 4200-319. Porto, Portugal.\n\n## Contribuição dos autores",
+        "Embeddings": [
+            0.036376953125,
+            0.1673583984375,
+            0.272705078125,
+            0.00536346435546875,
+            -0.447021484375,
+            -0.19677734375,
+            -0.0919189453125,
+            0.18505859375,
+            -0.142578125,
+            -0.77099609375
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 50258
+        }
+    },
+    {
+        "Texto": "<!-- image -->\n\n## Correspondência\n\nJuracy Barbosa dos Santos -Faculdade de Medicina/Universidade do Porto. Al. Professor Hernani Monteiro, CP 4200-319. Porto, Portugal.\n\n## Contribuição dos autores\n\nJuracy  Barbosa  dos  Santos  foi  responsável  pela  concepção  do  estudo,  análise  de  dados  e redação do manuscrito. Guilhermina Rego revisou o manuscrito. Rui Nunes realizou a análise crítica e a revisão final do manuscrito.",
+        "Embeddings": [
+            0.0960693359375,
+            0.45654296875,
+            -0.03375244140625,
+            0.07196044921875,
+            -0.3671875,
+            -0.047760009765625,
+            -0.10345458984375,
+            -0.1297607421875,
+            -0.262939453125,
+            -0.736328125
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 50521
+        }
+    },
+    {
+        "Texto": "Disponibilidade de dados: Todos os dados utilizados ou gerados na pesquisa estão integralmente descritos e apresentados no corpo do artigo.\n\nEditora responsável: Dilza Teresinha Ambrós Ribeiro\n\nRecebido:\n\n24.8.2025\n\nRevisado:\n\n18.12.2025\n\nAprovado:\n\n27.1.2026",
+        "Embeddings": [
+            0.35400390625,
+            0.72412109375,
+            0.08587646484375,
+            0.0565185546875,
+            -0.09014892578125,
+            0.1851806640625,
+            -0.235107421875,
+            0.134521484375,
+            -0.342041015625,
+            -0.327392578125
+        ],
+        "Metadados": {
+            "fonte": "/content/bioetica_e_ia.md",
+            "start_index": 50954
+        }
+    }
+]
