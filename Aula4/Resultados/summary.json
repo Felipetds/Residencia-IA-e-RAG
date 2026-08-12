@@ -1,0 +1,77 @@
+{
+  "document": "bioetica_e_ia.pdf",
+  "experiments": [
+    {
+      "test_id": 1,
+      "strategy": "fixed",
+      "chunk_size": 200,
+      "chunk_overlap": 0,
+      "num_chunks": 328,
+      "avg_chunk_size": 154.7408536585366,
+      "embedding_dimension": 1536,
+      "shortest string": 8,
+      "longest string": 199,
+      "tokens": 14743
+    },
+    {
+      "test_id": 2,
+      "strategy": "fixed",
+      "chunk_size": 500,
+      "chunk_overlap": 0,
+      "num_chunks": 149,
+      "avg_chunk_size": 342.1006711409396,
+      "embedding_dimension": 1536,
+      "shortest string": 9,
+      "longest string": 499,
+      "tokens": 14745
+    },
+    {
+      "test_id": 3,
+      "strategy": "fixed",
+      "chunk_size": 1000,
+      "chunk_overlap": 0,
+      "num_chunks": 73,
+      "avg_chunk_size": 699.7534246575342,
+      "embedding_dimension": 1536,
+      "shortest string": 10,
+      "longest string": 999,
+      "tokens": 14753
+    },
+    {
+      "test_id": 4,
+      "strategy": "fixed",
+      "chunk_size": 2000,
+      "chunk_overlap": 0,
+      "num_chunks": 32,
+      "avg_chunk_size": 1598.53125,
+      "embedding_dimension": 1536,
+      "shortest string": 626,
+      "longest string": 1965,
+      "tokens": 14757
+    },
+    {
+      "test_id": 5,
+      "strategy": "fixed with overlap",
+      "chunk_size": 500,
+      "chunk_overlap": 50,
+      "num_chunks": 150,
+      "avg_chunk_size": 353.02666666666664,
+      "embedding_dimension": 1536,
+      "shortest string": 36,
+      "longest string": 499,
+      "tokens": 15315
+    },
+    {
+      "test_id": 6,
+      "strategy": "fixed with overlap",
+      "chunk_size": 500,
+      "chunk_overlap": 200,
+      "num_chunks": 161,
+      "avg_chunk_size": 389.8447204968944,
+      "embedding_dimension": 1536,
+      "shortest string": 36,
+      "longest string": 499,
+      "tokens": 18108
+    }
+  ]
+}
