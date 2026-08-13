@@ -229,5 +229,82 @@
         "tokens": 19784
       }
     ]
+  },
+    {
+    "document": "escrita_academica_ia",
+    "experiments": [
+      {
+        "test_id": 1,
+        "strategy": "recursive",
+        "chunk_size": 200,
+        "chunk_overlap": 0,
+        "num_chunks": 274,
+        "avg_chunk_size": 151.66423357664235,
+        "embedding_dimension": 1536,
+        "shortest string": 1,
+        "longest string": 200,
+        "tokens": 10987
+      },
+      {
+        "test_id": 2,
+        "strategy": "recursive",
+        "chunk_size": 500,
+        "chunk_overlap": 0,
+        "num_chunks": 123,
+        "avg_chunk_size": 339.2845528455285,
+        "embedding_dimension": 1536,
+        "shortest string": 1,
+        "longest string": 499,
+        "tokens": 10950
+      },
+      {
+        "test_id": 3,
+        "strategy": "recursive",
+        "chunk_size": 1000,
+        "chunk_overlap": 0,
+        "num_chunks": 60,
+        "avg_chunk_size": 709.5166666666667,
+        "embedding_dimension": 1536,
+        "shortest string": 21,
+        "longest string": 999,
+        "tokens": 10963
+      },
+      {
+        "test_id": 4,
+        "strategy": "recursive",
+        "chunk_size": 2000,
+        "chunk_overlap": 0,
+        "num_chunks": 30,
+        "avg_chunk_size": 1420.7666666666667,
+        "embedding_dimension": 1536,
+        "shortest string": 37,
+        "longest string": 1996,
+        "tokens": 10962
+      },
+      {
+        "test_id": 5,
+        "strategy": "fixed with overlap",
+        "chunk_size": 500,
+        "chunk_overlap": 50,
+        "num_chunks": 125,
+        "avg_chunk_size": 349.04,
+        "embedding_dimension": 1536,
+        "shortest string": 1,
+        "longest string": 499,
+        "tokens": 11448
+      },
+      {
+        "test_id": 6,
+        "strategy": "fixed with overlap",
+        "chunk_size": 500,
+        "chunk_overlap": 200,
+        "num_chunks": 134,
+        "avg_chunk_size": 393.9925373134328,
+        "embedding_dimension": 1536,
+        "shortest string": 1,
+        "longest string": 499,
+        "tokens": 13747
+      }
+    ]
   }
 ]
