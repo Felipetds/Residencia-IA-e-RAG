@@ -81,7 +81,7 @@
     "experiments": [
       {
         "test_id": 1,
-        "strategy": "recursive",
+        "strategy": "fixed",
         "chunk_size": 200,
         "chunk_overlap": 0,
         "num_chunks": 345,
@@ -93,7 +93,7 @@
       },
       {
         "test_id": 2,
-        "strategy": "recursive",
+        "strategy": "fixed",
         "chunk_size": 500,
         "chunk_overlap": 0,
         "num_chunks": 136,
@@ -105,7 +105,7 @@
       },
       {
         "test_id": 3,
-        "strategy": "recursive",
+        "strategy": "fixed",
         "chunk_size": 1000,
         "chunk_overlap": 0,
         "num_chunks": 66,
@@ -117,7 +117,7 @@
       },
       {
         "test_id": 4,
-        "strategy": "recursive",
+        "strategy": "fixed",
         "chunk_size": 2000,
         "chunk_overlap": 0,
         "num_chunks": 31,
@@ -170,7 +170,7 @@
     "experiments": [
       {
         "test_id": 1,
-        "strategy": "recursive",
+        "strategy": "fixed",
         "chunk_size": 200,
         "chunk_overlap": 0,
         "num_chunks": 488,
@@ -182,7 +182,7 @@
       },
       {
         "test_id": 2,
-        "strategy": "recursive",
+        "strategy": "fixed",
         "chunk_size": 500,
         "chunk_overlap": 0,
         "num_chunks": 198,
@@ -194,7 +194,7 @@
       },
       {
         "test_id": 3,
-        "strategy": "recursive",
+        "strategy": "fixed",
         "chunk_size": 1000,
         "chunk_overlap": 0,
         "num_chunks": 94,
@@ -206,7 +206,7 @@
       },
       {
         "test_id": 4,
-        "strategy": "recursive",
+        "strategy": "fixed",
         "chunk_size": 2000,
         "chunk_overlap": 0,
         "num_chunks": 41,
@@ -259,7 +259,7 @@
     "experiments": [
       {
         "test_id": 1,
-        "strategy": "recursive",
+        "strategy": "fixed",
         "chunk_size": 200,
         "chunk_overlap": 0,
         "num_chunks": 274,
@@ -271,7 +271,7 @@
       },
       {
         "test_id": 2,
-        "strategy": "recursive",
+        "strategy": "fixed",
         "chunk_size": 500,
         "chunk_overlap": 0,
         "num_chunks": 123,
@@ -283,7 +283,7 @@
       },
       {
         "test_id": 3,
-        "strategy": "recursive",
+        "strategy": "fixed",
         "chunk_size": 1000,
         "chunk_overlap": 0,
         "num_chunks": 60,
@@ -295,7 +295,7 @@
       },
       {
         "test_id": 4,
-        "strategy": "recursive",
+        "strategy": "fixed",
         "chunk_size": 2000,
         "chunk_overlap": 0,
         "num_chunks": 30,
@@ -348,7 +348,7 @@
     "experiments": [
       {
         "test_id": 1,
-        "strategy": "recursive",
+        "strategy": "fixed",
         "chunk_size": 200,
         "chunk_overlap": 0,
         "num_chunks": 464,
@@ -360,7 +360,7 @@
       },
       {
         "test_id": 2,
-        "strategy": "recursive",
+        "strategy": "fixed",
         "chunk_size": 500,
         "chunk_overlap": 0,
         "num_chunks": 226,
@@ -372,7 +372,7 @@
       },
       {
         "test_id": 3,
-        "strategy": "recursive",
+        "strategy": "fixed",
         "chunk_size": 1000,
         "chunk_overlap": 0,
         "num_chunks": 103,
@@ -384,7 +384,7 @@
       },
       {
         "test_id": 4,
-        "strategy": "recursive",
+        "strategy": "fixed",
         "chunk_size": 2000,
         "chunk_overlap": 0,
         "num_chunks": 49,
@@ -425,7 +425,7 @@
     "experiments": [
       {
         "test_id": 1,
-        "strategy": "recursive",
+        "strategy": "fixed",
         "chunk_size": 200,
         "chunk_overlap": 0,
         "num_chunks": 1914,
@@ -437,7 +437,7 @@
       },
       {
         "test_id": 2,
-        "strategy": "recursive",
+        "strategy": "fixed",
         "chunk_size": 500,
         "chunk_overlap": 0,
         "num_chunks": 839,
@@ -449,7 +449,7 @@
       },
       {
         "test_id": 3,
-        "strategy": "recursive",
+        "strategy": "fixed",
         "chunk_size": 1000,
         "chunk_overlap": 0,
         "num_chunks": 391,
@@ -461,7 +461,7 @@
       },
       {
         "test_id": 4,
-        "strategy": "recursive",
+        "strategy": "fixed",
         "chunk_size": 2000,
         "chunk_overlap": 0,
         "num_chunks": 176,
@@ -502,7 +502,7 @@
     "experiments": [
       {
         "test_id": 1,
-        "strategy": "recursive",
+        "strategy": "fixed",
         "chunk_size": 200,
         "chunk_overlap": 0,
         "num_chunks": 1468,
@@ -514,7 +514,7 @@
       },
       {
         "test_id": 2,
-        "strategy": "recursive",
+        "strategy": "fixed",
         "chunk_size": 500,
         "chunk_overlap": 0,
         "num_chunks": 615,
@@ -526,7 +526,7 @@
       },
       {
         "test_id": 3,
-        "strategy": "recursive",
+        "strategy": "fixed",
         "chunk_size": 1000,
         "chunk_overlap": 0,
         "num_chunks": 291,
@@ -538,7 +538,7 @@
       },
       {
         "test_id": 4,
-        "strategy": "recursive",
+        "strategy": "fixed",
         "chunk_size": 2000,
         "chunk_overlap": 0,
         "num_chunks": 138,
@@ -579,7 +579,7 @@
     "experiments": [
       {
         "test_id": 1,
-        "strategy": "recursive",
+        "strategy": "fixed",
         "chunk_size": 200,
         "chunk_overlap": 0,
         "num_chunks": 715,
@@ -591,7 +591,7 @@
       },
       {
         "test_id": 2,
-        "strategy": "recursive",
+        "strategy": "fixed",
         "chunk_size": 500,
         "chunk_overlap": 0,
         "num_chunks": 306,
@@ -603,7 +603,7 @@
       },
       {
         "test_id": 3,
-        "strategy": "recursive",
+        "strategy": "fixed",
         "chunk_size": 1000,
         "chunk_overlap": 0,
         "num_chunks": 141,
@@ -615,7 +615,7 @@
       },
       {
         "test_id": 4,
-        "strategy": "recursive",
+        "strategy": "fixed",
         "chunk_size": 2000,
         "chunk_overlap": 0,
         "num_chunks": 63,
@@ -656,7 +656,7 @@
     "experiments": [
       {
         "test_id": 1,
-        "strategy": "recursive",
+        "strategy": "fixed",
         "chunk_size": 200,
         "chunk_overlap": 0,
         "num_chunks": 2030,
@@ -668,7 +668,7 @@
       },
       {
         "test_id": 2,
-        "strategy": "recursive",
+        "strategy": "fixed",
         "chunk_size": 500,
         "chunk_overlap": 0,
         "num_chunks": 909,
@@ -680,7 +680,7 @@
       },
       {
         "test_id": 3,
-        "strategy": "recursive",
+        "strategy": "fixed",
         "chunk_size": 1000,
         "chunk_overlap": 0,
         "num_chunks": 457,
@@ -692,7 +692,7 @@
       },
       {
         "test_id": 4,
-        "strategy": "recursive",
+        "strategy": "fixed",
         "chunk_size": 2000,
         "chunk_overlap": 0,
         "num_chunks": 214,
@@ -733,7 +733,7 @@
     "experiments": [
       {
         "test_id": 1,
-        "strategy": "recursive",
+        "strategy": "fixed",
         "chunk_size": 200,
         "chunk_overlap": 0,
         "num_chunks": 678,
@@ -745,7 +745,7 @@
       },
       {
         "test_id": 2,
-        "strategy": "recursive",
+        "strategy": "fixed",
         "chunk_size": 500,
         "chunk_overlap": 0,
         "num_chunks": 292,
@@ -757,7 +757,7 @@
       },
       {
         "test_id": 3,
-        "strategy": "recursive",
+        "strategy": "fixed",
         "chunk_size": 1000,
         "chunk_overlap": 0,
         "num_chunks": 142,
@@ -769,7 +769,7 @@
       },
       {
         "test_id": 4,
-        "strategy": "recursive",
+        "strategy": "fixed",
         "chunk_size": 2000,
         "chunk_overlap": 0,
         "num_chunks": 64,
@@ -810,7 +810,7 @@
     "experiments": [
       {
         "test_id": 1,
-        "strategy": "recursive",
+        "strategy": "fixed",
         "chunk_size": 200,
         "chunk_overlap": 0,
         "num_chunks": 344,
@@ -822,7 +822,7 @@
       },
       {
         "test_id": 2,
-        "strategy": "recursive",
+        "strategy": "fixed",
         "chunk_size": 500,
         "chunk_overlap": 0,
         "num_chunks": 158,
@@ -834,7 +834,7 @@
       },
       {
         "test_id": 3,
-        "strategy": "recursive",
+        "strategy": "fixed",
         "chunk_size": 1000,
         "chunk_overlap": 0,
         "num_chunks": 78,
@@ -846,7 +846,7 @@
       },
       {
         "test_id": 4,
-        "strategy": "recursive",
+        "strategy": "fixed",
         "chunk_size": 2000,
         "chunk_overlap": 0,
         "num_chunks": 33,
@@ -887,7 +887,7 @@
     "experiments": [
       {
         "test_id": 1,
-        "strategy": "recursive",
+        "strategy": "fixed",
         "chunk_size": 200,
         "chunk_overlap": 0,
         "num_chunks": 697,
@@ -899,7 +899,7 @@
       },
       {
         "test_id": 2,
-        "strategy": "recursive",
+        "strategy": "fixed",
         "chunk_size": 500,
         "chunk_overlap": 0,
         "num_chunks": 293,
@@ -911,7 +911,7 @@
       },
       {
         "test_id": 3,
-        "strategy": "recursive",
+        "strategy": "fixed",
         "chunk_size": 1000,
         "chunk_overlap": 0,
         "num_chunks": 135,
@@ -923,7 +923,7 @@
       },
       {
         "test_id": 4,
-        "strategy": "recursive",
+        "strategy": "fixed",
         "chunk_size": 2000,
         "chunk_overlap": 0,
         "num_chunks": 64,
