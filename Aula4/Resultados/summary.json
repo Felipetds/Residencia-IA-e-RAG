@@ -152,5 +152,82 @@
         "tokens": 12247
       }
     ]
+  },
+  {
+    "document": "bert_pretraining",
+    "experiments": [
+      {
+        "test_id": 1,
+        "strategy": "recursive",
+        "chunk_size": 200,
+        "chunk_overlap": 0,
+        "num_chunks": 488,
+        "avg_chunk_size": 141.53073770491804,
+        "embedding_dimension": 1536,
+        "shortest string": 1,
+        "longest string": 199,
+        "tokens": 16375
+      },
+      {
+        "test_id": 2,
+        "strategy": "recursive",
+        "chunk_size": 500,
+        "chunk_overlap": 0,
+        "num_chunks": 198,
+        "avg_chunk_size": 353.1111111111111,
+        "embedding_dimension": 1536,
+        "shortest string": 13,
+        "longest string": 499,
+        "tokens": 16386
+      },
+      {
+        "test_id": 3,
+        "strategy": "recursive",
+        "chunk_size": 1000,
+        "chunk_overlap": 0,
+        "num_chunks": 94,
+        "avg_chunk_size": 745.4042553191489,
+        "embedding_dimension": 1536,
+        "shortest string": 37,
+        "longest string": 994,
+        "tokens": 16386
+      },
+      {
+        "test_id": 4,
+        "strategy": "recursive",
+        "chunk_size": 2000,
+        "chunk_overlap": 0,
+        "num_chunks": 41,
+        "avg_chunk_size": 1711.219512195122,
+        "embedding_dimension": 1536,
+        "shortest string": 500,
+        "longest string": 2000,
+        "tokens": 16400
+      },
+      {
+        "test_id": 5,
+        "strategy": "fixed with overlap",
+        "chunk_size": 500,
+        "chunk_overlap": 50,
+        "num_chunks": 201,
+        "avg_chunk_size": 356.3880597014925,
+        "embedding_dimension": 1536,
+        "shortest string": 9,
+        "longest string": 499,
+        "tokens": 16814
+      },
+      {
+        "test_id": 6,
+        "strategy": "fixed with overlap",
+        "chunk_size": 500,
+        "chunk_overlap": 200,
+        "num_chunks": 220,
+        "avg_chunk_size": 379.48636363636365,
+        "embedding_dimension": 1536,
+        "shortest string": 9,
+        "longest string": 499,
+        "tokens": 19784
+      }
+    ]
   }
 ]
