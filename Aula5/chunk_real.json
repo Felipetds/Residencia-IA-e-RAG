@@ -1,0 +1,15 @@
+{
+  "text": "valores  fundamentais  como  beneficência,  não maleficência, confidencialidade e respeito à auto -nomia do doente - pilares da bioética ainda hoje 4 . Tais valores foram reforçados no século XX por documentos como o Código de Nüremberg e  a Declaração de Helsinki , que consolidaram as bases para a ética em pesquisa e prática médica 3 .",
+  "metadata": {
+    "fonte": "bioetica_e_ia.md",
+    "documento_id": "doc_001",
+    "chunk_index": 5323,
+    "estrategia": "fixed with overlap",
+    "chunk_size": 500,
+    "chunk_overlap": 50,
+    "n_caracteres": 338,
+    "tipo_conteudo": "texto",
+    "n_tokens": 85,
+    "percentual_documento": 0.6599886747505516
+  }
+}
