@@ -23,7 +23,7 @@ n_tokens:	Registra a quantidade de tokens presentes no chunk. Essa informação 
 percentual_documento:	Indica quanto do conteúdo total do documento é representado pelo chunk. Esse campo permite analisar a proporção que cada chunk ocupa no documento e comparar documentos de tamanhos diferentes. Também pode ajudar a identificar chunks muito pequenos ou muito grandes em relação ao documento de origem.
 
 ### Exemplo
-
+'''
 {
   "text": "valores  fundamentais  como  beneficência,  não maleficência, confidencialidade e respeito à auto -nomia do doente - pilares da bioética ainda hoje 4 . Tais valores foram reforçados no século XX por documentos como o Código de Nüremberg e  a Declaração de Helsinki , que consolidaram as bases para a ética em pesquisa e prática médica 3 .",
   "metadata": {
@@ -39,3 +39,4 @@ percentual_documento:	Indica quanto do conteúdo total do documento é represent
     "percentual_documento": 0.6599886747505516
   }
 }
+'''
