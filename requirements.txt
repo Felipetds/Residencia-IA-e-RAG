@@ -6,4 +6,4 @@ docling
 pydantic
 pathlib
 scikit-learn
-math
+langchain_core
