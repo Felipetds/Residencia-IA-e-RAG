@@ -99,13 +99,13 @@ O próximo nível de organização é o tipo de documento. Essa divisão é impo
 
 Exemplo:
 ```text
-1- área do Direito
+área do Direito
         ↓
-2- tipo de documento
+tipo de documento
         ↓
-3- busca semântica
+busca semântica
         ↓
-4- documentos mais relevantes
+documentos mais relevantes
 ```
 
 ### Existe documento que não deve entrar na base?
