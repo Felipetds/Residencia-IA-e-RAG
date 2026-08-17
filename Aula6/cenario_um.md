@@ -98,14 +98,15 @@ A organização dos documentos foi definida considerando a forma como o usuário
 O próximo nível de organização é o tipo de documento. Essa divisão é importante porque o usuário pode querer, por exemplo, encontrar sentenças semelhantes a uma determinada petição, sem necessariamente recuperar outras petições. Além disso, essas categorias podem posteriormente ser utilizadas como metadados e filtros no processo de recuperação.
 
 Exemplo:
-
+```text
 1- área do Direito
-
+        ↓
 2- tipo de documento
-
+        ↓
 3- busca semântica
-
+        ↓
 4- documentos mais relevantes
+```
 
 ### Existe documento que não deve entrar na base?
 Nem todo documento disponível deve ser inserido automaticamente na base de conhecimento, Alguns exemplos são:
@@ -122,18 +123,24 @@ Nem todo documento disponível deve ser inserido automaticamente na base de conh
 Para evitar conflitos relacionados a datas, versões ou outros casos, cada documento deve possuir metadados de versão e validade.
 
 ## Parte 3 - Pipeline de ingestão
-1 - Documentos
 
-2 - Extração
+### 3.1 Extração
+A extração de texto dos documentos seria realizada utilizando a biblioteca Docling em Python, que permite converter diferentes formatos de documentos para uma representação estruturada, preservando informações como texto, tabelas e estrutura do documento.
+Para PDFs que possuem uma camada de texto, o Docling realizará a extração diretamente do conteúdo textual, evitando a necessidade de OCR. Durante essa etapa, é importante preservar informações estruturais do documento, como:
 
-3 - Limpeza / normalização (principalmente se o documento chegar poluido demais)
+- títulos;
+- parágrafos;
+- listas;
+- tabelas;
+- páginas;
+- ordem do conteúdo.
 
-4 - Metadados (Lembram dos output estruturados do llm?)
+Essas informações serão utilizadas posteriormente na geração dos chunks e dos metadados para auxiliar o modelo a reponder às perguntas com mais eficiência e para referenciar as respostas.
 
-5 - Chunking / Splitting
+Para PDFs digitalizados, nos quais o conteúdo está armazenado como imagem e não existe uma camada de texto, será utilizado o recurso de OCR - Optical Character Recognition, ou Reconhecimento Óptico de Caracteres. Como o OCR pode apresentar erros, especialmente em nomes, números de processos, valores e termos jurídicos, o documento original deverá ser mantido para possibilitar a conferência das informações extraídas.
 
-6 - Embeddings
+As tabelas não serão descartadas, pois podem conter informações relevantes para a análise jurídica, como valores, datas, cálculos e comparações. A preservação dessas informações também é importante para perguntas que posteriormente possam exigir contagem, soma ou ordenação de informações.
 
-7 - Banco vetorial (até agora trabalhamos com uma lista de vetores/embeddings que estamos fazendo a pesquisa na mão)
+As imagens serão analisadas de acordo com sua relevância para o documento. Imagens que contenham informações relevantes, como gráficos, documentos, comprovantes ou outras evidências, não deverão ser simplesmente descartadas. Quando necessário, essas informações poderão ser processadas por OCR ou por modelos capazes de interpretar conteúdo visual. Imagens sem valor informacional serão descartadas para evitar o armazenamento de conteúdo desnecessário.
 
-
+### 3.2 Limpeza e normalização
