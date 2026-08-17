@@ -8,57 +8,57 @@ Jurisprudência é o conjunto de decisões e interpretações dadas pelos tribun
 ## 1.1 Descrição do problema
 
 ### Qual é o problema que você deseja resolver?
-- Confiabilidade de que as informações retornadas pelo modelo são reais e rastreaveis (O modelo deve retornar susgestões de decisões que se assemelhem com a petição inicial que está sendo escrita).
+Confiabilidade de que as informações retornadas pelo modelo são reais e rastreaveis (O modelo deve retornar susgestões de decisões que se assemelhem com a petição inicial que está sendo escrita).
 
 ### Quem utilizaria a aplicação? 
-- Advogados em geral.
+Advogados em geral.
 
 ### Que tipo de informação o usuário gostaria de consultar?
-- Sentenças: Ato que encerra a fase principal do processo ou a execução, julgando se o pedido é aceito ou negado.
-- Decisões Interlocutórias: Resposta dada pelo juiz a uma questão específica durante o andamento do processo.
+Sentenças: Ato que encerra a fase principal do processo ou a execução, julgando se o pedido é aceito ou negado.
+Decisões Interlocutórias: Resposta dada pelo juiz a uma questão específica durante o andamento do processo.
 
 ### De onde vêm essas informações?
-- Arquivos do proprio avogado e base de conhecimento (Documentos validados de outros casos).
+Arquivos do proprio avogado e base de conhecimento (Documentos validados de outros casos).
 
 ### Por que utilizar um LLM sozinho não seria suficiente?
-- Alto risco de alucinações: Erros de conceitos, jurisprudências que foram alteradas com o passar do tempo e inventar informações genéricas ou falsas. 
+Alto risco de alucinações: Erros de conceitos, jurisprudências que foram alteradas com o passar do tempo e inventar informações genéricas ou falsas. 
 
 ### Como o usuário vai utilizar o sistema? (API, aplicativo, interface web?)
-- Aplicativo ou interface web.
+Aplicativo ou interface web.
 
 ### Exemplos de perguntas realizadas pelos usuários:
-- "Estou preparando uma petição inicial sobre falha na prestação de serviço (X) contratado, O contrato possui valor (Y) e prazo de duração (Z). Encontre casos semelhantes na base de dados e mostre quais foram as decisões dos juízes."
+"Estou preparando uma petição inicial sobre falha na prestação de serviço (X) contratado, O contrato possui valor (Y) e prazo de duração (Z). Encontre casos semelhantes na base de dados e mostre quais foram as decisões dos juízes."
 
-- "Pedido de indenização por cobrança indevida no valor (X) realizada por empresa do setor (Y). Existem sentenças na nossa base em que o pedido de indenização por foi julgado procedente em casos parecidos com este? Quais foram os valores fixados?"
+"Pedido de indenização por cobrança indevida no valor (X) realizada por empresa do setor (Y). Existem sentenças na nossa base em que o pedido de indenização por foi julgado procedente em casos parecidos com este? Quais foram os valores fixados?"
 
-- "Analise esta petição inicial e me indique casos semelhantes da nossa base que tenham fatos e argumentos jurídicos semelhantes, informando de qual processo e documento cada decisão foi retirada."
+"Analise esta petição inicial e me indique casos semelhantes da nossa base que tenham fatos e argumentos jurídicos semelhantes, informando de qual processo e documento cada decisão foi retirada."
 
 ## 1.3
 
 ### Existe alguma pergunta, dentro do seu próprio cenário, que RAG responderia mal e um banco de dados relacional responderia bem? Qual, e por quê?
-- Um banco de dados relacional conseguiria desempenhar melhor em consultas simples como em utilização de filtros, exemplo: temas, datas e se a sentença foi favoravel ou não. O principal fator é o custo de tokens por consulta.
+Um banco de dados relacional conseguiria desempenhar melhor em consultas simples como em utilização de filtros, exemplo: temas, datas e se a sentença foi favoravel ou não. O principal fator é o custo de tokens por consulta.
 
 ### O que aconteceria se a pergunta do usuário exigisse contar, somar ou ordenar informação espalhada por muitos documentos?
-- Nesses caso o ideal é utilizar o modelo apenas para retornar as informações impondo um limite na consulta. Exemplo: Quantas decisões da base reconheceram dano moral em casos (X) e qual foi o maior valor de indenização?
-- O ideal é realizar a busca focando nos aspectos principais da pergunta, "reconheceram dano moral em casos (X)" e "valor de indenização". Retornar os 10 principais documentos, relizar a extração das informações, realizar a ordenação e os calculos dentro do proprio sistema e não pelo modelo.
-- Essas informações como "valor de indenização" podem ser adicionadas aos metadados dos chunks para facilitar as consultas.
+Nesses caso o ideal é utilizar o modelo apenas para retornar as informações impondo um limite na consulta. Exemplo: Quantas decisões da base reconheceram dano moral em casos (X) e qual foi o maior valor de indenização?
+O ideal é realizar a busca focando nos aspectos principais da pergunta, "reconheceram dano moral em casos (X)" e "valor de indenização". Retornar os 10 principais documentos, relizar a extração das informações, realizar a ordenação e os calculos dentro do proprio sistema e não pelo modelo.
+Essas informações como "valor de indenização" podem ser adicionadas aos metadados dos chunks para facilitar as consultas.
 
 ## Parte 2 - Organização dos documentos
 
 ### Quais tipos de arquivo existirão? (PDF, DOCX, HTML, Markdown, páginas web, planilhas, imagens, áudios, vídeos, outros)
-- Provavelmente seriam apenas PDFs por se tratar de documentos oficiais. "A principal extensão usada para envio e protocolo de documentos jurídicos nos tribunais brasileiros é o .pdf, exigido pela maioria absoluta dos sistemas de processo eletrônico (como PJe, e-SAJ e PROJUDI)."
+Provavelmente seriam apenas PDFs por se tratar de documentos oficiais. "A principal extensão usada para envio e protocolo de documentos jurídicos nos tribunais brasileiros é o .pdf, exigido pela maioria absoluta dos sistemas de processo eletrônico (como PJe, e-SAJ e PROJUDI)."
 
 ### Qual o volume aproximado? (dezenas, centenas, milhares de documentos?)
-- Provavelmente algo em torno de centenas inicialmente.
+Provavelmente algo em torno de centenas inicialmente.
 
 ### Qual o tamanho típico de cada documento? (Paginas, kbs)
-- O tamanho pode variar entre 10 a 50 páginas para cada documento aproximadamente podendo pesar de 0,3 MB a 4 MB em arquivos que possuem apenas texto e 10 MB a 50 MB em arquivos que possuem texto com gráficos, tabelas e imagens.
+ tamanho pode variar entre 10 a 50 páginas para cada documento aproximadamente podendo pesar de 0,3 MB a 4 MB em arquivos que possuem apenas texto e 10 MB a 50 MB em arquivos que possuem texto com gráficos, tabelas e imagens.
 
 ### Com que frequência novos documentos entram? Documentos antigos são atualizados ou substituídos?
-- Inicialmente seriam adicionados novos documentos a cada 3 meses, podendo ser em menos tempo em casos especiais. Documentos antigos seriam subistituidos ou removidos com o tempo para evitar respostas desatualizadas.
+Inicialmente seriam adicionados novos documentos a cada 3 meses, podendo ser em menos tempo em casos especiais. Documentos antigos seriam subistituidos ou removidos com o tempo para evitar respostas desatualizadas.
 
 ### Organização de pastas:
-- Os documentos seriam divididos de acordo com os temas principais.
+Os documentos seriam divididos de acordo com os temas principais.
 
 documentos/
 ├── direito_civil/
@@ -91,11 +91,11 @@ documentos/
     ├── sentencas/
     └── decisoes_interlocutorias/
 
-- A organização dos documentos foi definida considerando a forma como o usuário pode realizar buscas de informações jurídicas e os filtros que podem ser utilizados. A primeira divisão é feita pela área de atuação, pois esse é um dos principais critérios utilizados pelo usuário para delimitar uma pesquisa. Por exemplo, uma busca sobre cobrança indevida tende a estar relacionada ao Direito do Consumidor, enquanto uma busca sobre aposentadoria pertence ao Direito Previdenciário.
+A organização dos documentos foi definida considerando a forma como o usuário pode realizar buscas de informações jurídicas e os filtros que podem ser utilizados. A primeira divisão é feita pela área de atuação, pois esse é um dos principais critérios utilizados pelo usuário para delimitar uma pesquisa. Por exemplo, uma busca sobre cobrança indevida tende a estar relacionada ao Direito do Consumidor, enquanto uma busca sobre aposentadoria pertence ao Direito Previdenciário.
 
-- O próximo nível de organização é o tipo de documento. Essa divisão é importante porque o usuário pode querer, por exemplo, encontrar sentenças semelhantes a uma determinada petição, sem necessariamente recuperar outras petições. Além disso, essas categorias podem posteriormente ser utilizadas como metadados e filtros no processo de recuperação.
+O próximo nível de organização é o tipo de documento. Essa divisão é importante porque o usuário pode querer, por exemplo, encontrar sentenças semelhantes a uma determinada petição, sem necessariamente recuperar outras petições. Além disso, essas categorias podem posteriormente ser utilizadas como metadados e filtros no processo de recuperação.
 
-- Exemplo:
+Exemplo:
 
 área do Direito
        ↓
@@ -106,7 +106,7 @@ busca semântica
 documentos mais relevantes
 
 ### Existe documento que não deve entrar na base?
-- Nem todo documento disponível deve ser inserido automaticamente na base de conhecimento, Alguns exemplos são:
+Nem todo documento disponível deve ser inserido automaticamente na base de conhecimento, Alguns exemplos são:
 
 - Documentos contendo dados pessoais desnecessários;
 - Informações protegidas por sigilo profissional;
@@ -117,7 +117,7 @@ documentos mais relevantes
 - Versões preliminares ou documentos que ainda não foram validados.
 
 ### Como lidar com versões do mesmo documento?
-- Para evitar conflitos relacionados a datas, versões ou outros casos, cada documento deve possuir metadados de versão e validade.
+Para evitar conflitos relacionados a datas, versões ou outros casos, cada documento deve possuir metadados de versão e validade.
 
 ## Parte 3 - Pipeline de ingestão
 Documentos
