@@ -60,6 +60,7 @@ Inicialmente seriam adicionados novos documentos a cada 3 meses, podendo ser em 
 ### Organização de pastas:
 Os documentos seriam divididos de acordo com os temas principais.
 
+```text
 documentos/
 ├── direito_civil/
 │   ├── peticoes/
@@ -97,13 +98,13 @@ O próximo nível de organização é o tipo de documento. Essa divisão é impo
 
 Exemplo:
 
-área do Direito
-       ↓
-tipo de documento
-       ↓
-busca semântica
-       ↓
-documentos mais relevantes
+1- área do Direito
+
+2- tipo de documento
+
+3- busca semântica
+
+4- documentos mais relevantes
 
 ### Existe documento que não deve entrar na base?
 Nem todo documento disponível deve ser inserido automaticamente na base de conhecimento, Alguns exemplos são:
@@ -120,18 +121,18 @@ Nem todo documento disponível deve ser inserido automaticamente na base de conh
 Para evitar conflitos relacionados a datas, versões ou outros casos, cada documento deve possuir metadados de versão e validade.
 
 ## Parte 3 - Pipeline de ingestão
-Documentos
-    ↓
-Extração
-    ↓
-Limpeza / normalização (principalmente se o documento chegar poluido demais)
-    ↓
-Metadados (Lembram dos output estruturados do llm?)
-    ↓
-Chunking / Splitting
-    ↓
-Embeddings
-    ↓
-Banco vetorial (até agora trabalhamos com uma lista de vetores/embeddings que estamos fazendo a pesquisa na mão)
+1 - Documentos
+
+2 - Extração
+
+3 - Limpeza / normalização (principalmente se o documento chegar poluido demais)
+
+4 - Metadados (Lembram dos output estruturados do llm?)
+
+5 - Chunking / Splitting
+
+6 - Embeddings
+
+7 - Banco vetorial (até agora trabalhamos com uma lista de vetores/embeddings que estamos fazendo a pesquisa na mão)
 
 
