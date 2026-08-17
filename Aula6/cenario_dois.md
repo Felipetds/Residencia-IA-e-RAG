@@ -1,4 +1,5 @@
-# Projeto e Arquitetura de uma Aplicação RAG - Uma base de artigos científicos
+# Projeto e Arquitetura de uma Aplicação RAG - Assistente para dúvidas sobre produtos
+Catálogo, especificações, avaliações
 
 ## Parte 1 - Identificação dos problemas
 
