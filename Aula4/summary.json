@@ -73,6 +73,18 @@
         "shortest string": 36,
         "longest string": 499,
         "tokens": 18108
+      },
+      {
+        "test_id": 7,
+        "strategy": "markdown",
+        "chunk_size": 24000,
+        "chunk_overlap": 0,
+        "num_chunks": 22,
+        "avg_chunk_size": 2278.1363636363635,
+        "embedding_dimension": 1536,
+        "shortest string": 20,
+        "longest string": 8579,
+        "tokens": 14513
       }
     ]
   },
@@ -143,18 +155,6 @@
         "test_id": 6,
         "strategy": "fixed with overlap",
         "chunk_size": 500,
-        "chunk_overlap": 100,
-        "num_chunks": 138,
-        "avg_chunk_size": 371.4130434782609,
-        "embedding_dimension": 1536,
-        "shortest string": 26,
-        "longest string": 499,
-        "tokens": 10765
-      },
-      {
-        "test_id": 7,
-        "strategy": "fixed with overlap",
-        "chunk_size": 500,
         "chunk_overlap": 200,
         "num_chunks": 147,
         "avg_chunk_size": 387.81632653061223,
@@ -162,6 +162,18 @@
         "shortest string": 26,
         "longest string": 499,
         "tokens": 12247
+      },
+      {
+        "test_id": 7,
+        "strategy": "markdown",
+        "chunk_size": 24000,
+        "chunk_overlap": 0,
+        "num_chunks": 0,
+        "avg_chunk_size": 0,
+        "embedding_dimension": 1536,
+        "shortest string": 0,
+        "longest string": 0,
+        "tokens": 0
       }
     ]
   },
@@ -232,18 +244,6 @@
         "test_id": 6,
         "strategy": "fixed with overlap",
         "chunk_size": 500,
-        "chunk_overlap": 100,
-        "num_chunks": 202,
-        "avg_chunk_size": 365.78712871287127,
-        "embedding_dimension": 1536,
-        "shortest string": 9,
-        "longest string": 499,
-        "tokens": 17372
-      },
-      {
-        "test_id": 7,
-        "strategy": "fixed with overlap",
-        "chunk_size": 500,
         "chunk_overlap": 200,
         "num_chunks": 220,
         "avg_chunk_size": 379.48636363636365,
@@ -251,6 +251,18 @@
         "shortest string": 9,
         "longest string": 499,
         "tokens": 19784
+      },
+      {
+        "test_id": 7,
+        "strategy": "markdown",
+        "chunk_size": 24000,
+        "chunk_overlap": 0,
+        "num_chunks": 0,
+        "avg_chunk_size": 0,
+        "embedding_dimension": 1536,
+        "shortest string": 0,
+        "longest string": 0,
+        "tokens": 0
       }
     ]
   },
@@ -321,18 +333,6 @@
         "test_id": 6,
         "strategy": "fixed with overlap",
         "chunk_size": 500,
-        "chunk_overlap": 100,
-        "num_chunks": 127,
-        "avg_chunk_size": 362.81889763779526,
-        "embedding_dimension": 1536,
-        "shortest string": 1,
-        "longest string": 499,
-        "tokens": 12064
-      },
-      {
-        "test_id": 7,
-        "strategy": "fixed with overlap",
-        "chunk_size": 500,
         "chunk_overlap": 200,
         "num_chunks": 134,
         "avg_chunk_size": 393.9925373134328,
@@ -340,6 +340,18 @@
         "shortest string": 1,
         "longest string": 499,
         "tokens": 13747
+      },
+      {
+        "test_id": 7,
+        "strategy": "markdown",
+        "chunk_size": 24000,
+        "chunk_overlap": 0,
+        "num_chunks": 0,
+        "avg_chunk_size": 0,
+        "embedding_dimension": 1536,
+        "shortest string": 0,
+        "longest string": 0,
+        "tokens": 0
       }
     ]
   },
@@ -417,6 +429,18 @@
         "shortest string": 12,
         "longest string": 499,
         "tokens": 21132
+      },
+      {
+        "test_id": 7,
+        "strategy": "markdown",
+        "chunk_size": 24000,
+        "chunk_overlap": 0,
+        "num_chunks": 0,
+        "avg_chunk_size": 0,
+        "embedding_dimension": 1536,
+        "shortest string": 0,
+        "longest string": 0,
+        "tokens": 0
       }
     ]
   },
@@ -494,6 +518,18 @@
         "shortest string": 1,
         "longest string": 500,
         "tokens": 88327
+      },
+      {
+        "test_id": 7,
+        "strategy": "markdown",
+        "chunk_size": 24000,
+        "chunk_overlap": 0,
+        "num_chunks": 0,
+        "avg_chunk_size": 0,
+        "embedding_dimension": 1536,
+        "shortest string": 0,
+        "longest string": 0,
+        "tokens": 0
       }
     ]
   },
@@ -571,6 +607,18 @@
         "shortest string": 1,
         "longest string": 500,
         "tokens": 58184
+      },
+      {
+        "test_id": 7,
+        "strategy": "markdown",
+        "chunk_size": 24000,
+        "chunk_overlap": 0,
+        "num_chunks": 0,
+        "avg_chunk_size": 0,
+        "embedding_dimension": 1536,
+        "shortest string": 0,
+        "longest string": 0,
+        "tokens": 0
       }
     ]
   },
@@ -648,6 +696,18 @@
         "shortest string": 13,
         "longest string": 499,
         "tokens": 34740
+      },
+      {
+        "test_id": 7,
+        "strategy": "markdown",
+        "chunk_size": 24000,
+        "chunk_overlap": 0,
+        "num_chunks": 0,
+        "avg_chunk_size": 0,
+        "embedding_dimension": 1536,
+        "shortest string": 0,
+        "longest string": 0,
+        "tokens": 0
       }
     ]
   },
@@ -725,6 +785,18 @@
         "shortest string": 1,
         "longest string": 500,
         "tokens": 84478
+      },
+      {
+        "test_id": 7,
+        "strategy": "markdown",
+        "chunk_size": 24000,
+        "chunk_overlap": 0,
+        "num_chunks": 0,
+        "avg_chunk_size": 0,
+        "embedding_dimension": 1536,
+        "shortest string": 0,
+        "longest string": 0,
+        "tokens": 0
       }
     ]
   },
@@ -802,6 +874,18 @@
         "shortest string": 12,
         "longest string": 499,
         "tokens": 33341
+      },
+      {
+        "test_id": 7,
+        "strategy": "markdown",
+        "chunk_size": 24000,
+        "chunk_overlap": 0,
+        "num_chunks": 0,
+        "avg_chunk_size": 0,
+        "embedding_dimension": 1536,
+        "shortest string": 0,
+        "longest string": 0,
+        "tokens": 0
       }
     ]
   },
@@ -879,6 +963,18 @@
         "shortest string": 37,
         "longest string": 499,
         "tokens": 20468
+      },
+      {
+        "test_id": 7,
+        "strategy": "markdown",
+        "chunk_size": 24000,
+        "chunk_overlap": 0,
+        "num_chunks": 0,
+        "avg_chunk_size": 0,
+        "embedding_dimension": 1536,
+        "shortest string": 0,
+        "longest string": 0,
+        "tokens": 0
       }
     ]
   },
@@ -956,6 +1052,18 @@
         "shortest string": 14,
         "longest string": 499,
         "tokens": 26532
+      },
+      {
+        "test_id": 7,
+        "strategy": "markdown",
+        "chunk_size": 24000,
+        "chunk_overlap": 0,
+        "num_chunks": 0,
+        "avg_chunk_size": 0,
+        "embedding_dimension": 1536,
+        "shortest string": 0,
+        "longest string": 0,
+        "tokens": 0
       }
     ]
   }
