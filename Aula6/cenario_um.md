@@ -44,3 +44,94 @@ Jurisprudência é o conjunto de decisões e interpretações dadas pelos tribun
 - Essas informações como "valor de indenização" podem ser adicionadas aos metadados dos chunks para facilitar as consultas.
 
 ## Parte 2 - Organização dos documentos
+
+### Quais tipos de arquivo existirão? (PDF, DOCX, HTML, Markdown, páginas web, planilhas, imagens, áudios, vídeos, outros)
+- Provavelmente seriam apenas PDFs por se tratar de documentos oficiais. "A principal extensão usada para envio e protocolo de documentos jurídicos nos tribunais brasileiros é o .pdf, exigido pela maioria absoluta dos sistemas de processo eletrônico (como PJe, e-SAJ e PROJUDI)."
+
+### Qual o volume aproximado? (dezenas, centenas, milhares de documentos?)
+- Provavelmente algo em torno de centenas inicialmente.
+
+### Qual o tamanho típico de cada documento? (Paginas, kbs)
+- O tamanho pode variar entre 10 a 50 páginas para cada documento aproximadamente podendo pesar de 0,3 MB a 4 MB em arquivos que possuem apenas texto e 10 MB a 50 MB em arquivos que possuem texto com gráficos, tabelas e imagens.
+
+### Com que frequência novos documentos entram? Documentos antigos são atualizados ou substituídos?
+- Inicialmente seriam adicionados novos documentos a cada 3 meses, podendo ser em menos tempo em casos especiais. Documentos antigos seriam subistituidos ou removidos com o tempo para evitar respostas desatualizadas.
+
+### Organização de pastas:
+- Os documentos seriam divididos de acordo com os temas principais.
+
+documentos/
+├── direito_civil/
+│   ├── peticoes/
+│   ├── sentencas/
+│   └── decisoes_interlocutorias/
+│
+├── direito_consumidor/
+│   ├── peticoes/
+│   ├── sentencas/
+│   └── decisoes_interlocutorias/
+│
+├── direito_trabalhista/
+│   ├── peticoes/
+│   ├── sentencas/
+│   └── decisoes_interlocutorias/
+│
+├── direito_previdenciario/
+│   ├── peticoes/
+│   ├── sentencas/
+│   └── decisoes_interlocutorias/
+│
+├── direito_penal/
+│   ├── peticoes/
+│   ├── sentencas/
+│   └── decisoes_interlocutorias/
+│
+└── direito_ambiental/
+    ├── peticoes/
+    ├── sentencas/
+    └── decisoes_interlocutorias/
+
+- A organização dos documentos foi definida considerando a forma como o usuário pode realizar buscas de informações jurídicas e os filtros que podem ser utilizados. A primeira divisão é feita pela área de atuação, pois esse é um dos principais critérios utilizados pelo usuário para delimitar uma pesquisa. Por exemplo, uma busca sobre cobrança indevida tende a estar relacionada ao Direito do Consumidor, enquanto uma busca sobre aposentadoria pertence ao Direito Previdenciário.
+
+- O próximo nível de organização é o tipo de documento. Essa divisão é importante porque o usuário pode querer, por exemplo, encontrar sentenças semelhantes a uma determinada petição, sem necessariamente recuperar outras petições. Além disso, essas categorias podem posteriormente ser utilizadas como metadados e filtros no processo de recuperação.
+
+- Exemplo:
+
+área do Direito
+       ↓
+tipo de documento
+       ↓
+busca semântica
+       ↓
+documentos mais relevantes
+
+### Existe documento que não deve entrar na base?
+- Nem todo documento disponível deve ser inserido automaticamente na base de conhecimento, Alguns exemplos são:
+
+- Documentos contendo dados pessoais desnecessários;
+- Informações protegidas por sigilo profissional;
+- Documentos de processos que não podem ser compartilhados;
+- Documentos com informações financeiras ou pessoais sensíveis;
+- Arquivos incompletos ou corrompidos;
+- Documentos obsoletos;
+- Versões preliminares ou documentos que ainda não foram validados.
+
+### Como lidar com versões do mesmo documento?
+- Para evitar conflitos relacionados a datas, versões ou outros casos, cada documento deve possuir metadados de versão e validade.
+
+## Parte 3 - Pipeline de ingestão
+Documentos
+    ↓
+Extração
+    ↓
+Limpeza / normalização (principalmente se o documento chegar poluido demais)
+    ↓
+Metadados (Lembram dos output estruturados do llm?)
+    ↓
+Chunking / Splitting
+    ↓
+Embeddings
+    ↓
+Banco vetorial (até agora trabalhamos com uma lista de vetores/embeddings que estamos fazendo a pesquisa na mão)
+
+
