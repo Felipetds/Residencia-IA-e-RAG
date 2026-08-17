@@ -60,7 +60,7 @@ Inicialmente seriam adicionados novos documentos a cada 3 meses, podendo ser em 
 ### Organização de pastas:
 Os documentos seriam divididos de acordo com os temas principais.
 
-'''text
+```text
 documentos/
 ├── direito_civil/
 │   ├── peticoes/
@@ -91,7 +91,7 @@ documentos/
     ├── peticoes/
     ├── sentencas/
     └── decisoes_interlocutorias/
-'''
+```
 
 A organização dos documentos foi definida considerando a forma como o usuário pode realizar buscas de informações jurídicas e os filtros que podem ser utilizados. A primeira divisão é feita pela área de atuação, pois esse é um dos principais critérios utilizados pelo usuário para delimitar uma pesquisa. Por exemplo, uma busca sobre cobrança indevida tende a estar relacionada ao Direito do Consumidor, enquanto uma busca sobre aposentadoria pertence ao Direito Previdenciário.
 
