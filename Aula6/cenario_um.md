@@ -144,3 +144,17 @@ As tabelas não serão descartadas, pois podem conter informações relevantes p
 As imagens serão analisadas de acordo com sua relevância para o documento. Imagens que contenham informações relevantes, como gráficos, documentos, comprovantes ou outras evidências, não deverão ser simplesmente descartadas. Quando necessário, essas informações poderão ser processadas por OCR ou por modelos capazes de interpretar conteúdo visual. Imagens sem valor informacional serão descartadas para evitar o armazenamento de conteúdo desnecessário.
 
 ### 3.2 Limpeza e normalização
+
+### 3.3 Frequência de ingestão
+
+## Parte 4 - Metadados
+
+### 4.1 Metadados do documento
+
+### 4.2 Metadados do chunk
+
+## Parte 5 - Chunking / Splitting
+
+## Parte 6 - Embeddings
+
+## Arquitetura final
