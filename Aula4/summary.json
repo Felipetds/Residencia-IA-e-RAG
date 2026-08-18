@@ -76,6 +76,30 @@
       },
       {
         "test_id": 7,
+        "strategy": "fixed with overlap",
+        "chunk_size": 500,
+        "chunk_overlap": 100,
+        "num_chunks": 152,
+        "avg_chunk_size": 364.9407894736842,
+        "embedding_dimension": 1536,
+        "shortest string": 36,
+        "longest string": 499,
+        "tokens": 15979
+      },
+      {
+        "test_id": 8,
+        "strategy": "paragrafo_recursivo",
+        "chunk_size": 24000,
+        "chunk_overlap": 0,
+        "num_chunks": 76,
+        "avg_chunk_size": 20249.03947368421,
+        "embedding_dimension": 1536,
+        "shortest string": 1004,
+        "longest string": 40447,
+        "tokens": 362100
+      },
+      {
+        "test_id": 9,
         "strategy": "markdown",
         "chunk_size": 24000,
         "chunk_overlap": 0,
@@ -85,6 +109,18 @@
         "shortest string": 20,
         "longest string": 8579,
         "tokens": 14513
+      },
+      {
+        "test_id": 10,
+        "strategy": "sentencas_agrupadas",
+        "chunk_size": 24000,
+        "chunk_overlap": 0,
+        "num_chunks": 135,
+        "avg_chunk_size": 377.4888888888889,
+        "embedding_dimension": 1536,
+        "shortest string": 52,
+        "longest string": 1088,
+        "tokens": 14761
       }
     ]
   },
@@ -155,6 +191,18 @@
         "test_id": 6,
         "strategy": "fixed with overlap",
         "chunk_size": 500,
+        "chunk_overlap": 100,
+        "num_chunks": 138,
+        "avg_chunk_size": 371.4130434782609,
+        "embedding_dimension": 1536,
+        "shortest string": 26,
+        "longest string": 499,
+        "tokens": 10765
+      },
+      {
+        "test_id": 7,
+        "strategy": "fixed with overlap",
+        "chunk_size": 500,
         "chunk_overlap": 200,
         "num_chunks": 147,
         "avg_chunk_size": 387.81632653061223,
@@ -164,16 +212,40 @@
         "tokens": 12247
       },
       {
-        "test_id": 7,
+        "test_id": 8,
+        "strategy": "paragrafo_recursivo",
+        "chunk_size": 24000,
+        "chunk_overlap": 0,
+        "num_chunks": 117,
+        "avg_chunk_size": 20239.128205128207,
+        "embedding_dimension": 1536,
+        "shortest string": 1004,
+        "longest string": 40447,
+        "tokens": 544254
+      },
+      {
+        "test_id": 9,
         "strategy": "markdown",
         "chunk_size": 24000,
         "chunk_overlap": 0,
-        "num_chunks": 0,
-        "avg_chunk_size": 0,
+        "num_chunks": 27,
+        "avg_chunk_size": 1786.5555555555557,
         "embedding_dimension": 1536,
-        "shortest string": 0,
-        "longest string": 0,
-        "tokens": 0
+        "shortest string": 58,
+        "longest string": 10920,
+        "tokens": 10036
+      },
+      {
+        "test_id": 10,
+        "strategy": "sentencas_agrupadas",
+        "chunk_size": 24000,
+        "chunk_overlap": 0,
+        "num_chunks": 127,
+        "avg_chunk_size": 383.9133858267717,
+        "embedding_dimension": 1536,
+        "shortest string": 44,
+        "longest string": 9719,
+        "tokens": 10187
       }
     ]
   },
@@ -244,6 +316,18 @@
         "test_id": 6,
         "strategy": "fixed with overlap",
         "chunk_size": 500,
+        "chunk_overlap": 100,
+        "num_chunks": 202,
+        "avg_chunk_size": 365.78712871287127,
+        "embedding_dimension": 1536,
+        "shortest string": 9,
+        "longest string": 499,
+        "tokens": 17372
+      },
+      {
+        "test_id": 7,
+        "strategy": "fixed with overlap",
+        "chunk_size": 500,
         "chunk_overlap": 200,
         "num_chunks": 220,
         "avg_chunk_size": 379.48636363636365,
@@ -253,16 +337,40 @@
         "tokens": 19784
       },
       {
-        "test_id": 7,
+        "test_id": 8,
+        "strategy": "paragrafo_recursivo",
+        "chunk_size": 24000,
+        "chunk_overlap": 0,
+        "num_chunks": 146,
+        "avg_chunk_size": 20379.698630136987,
+        "embedding_dimension": 1536,
+        "shortest string": 1004,
+        "longest string": 40447,
+        "tokens": 694656
+      },
+      {
+        "test_id": 9,
         "strategy": "markdown",
         "chunk_size": 24000,
         "chunk_overlap": 0,
-        "num_chunks": 0,
-        "avg_chunk_size": 0,
+        "num_chunks": 30,
+        "avg_chunk_size": 2305.233333333333,
         "embedding_dimension": 1536,
-        "shortest string": 0,
-        "longest string": 0,
-        "tokens": 0
+        "shortest string": 69,
+        "longest string": 11364,
+        "tokens": 16185
+      },
+      {
+        "test_id": 10,
+        "strategy": "sentencas_agrupadas",
+        "chunk_size": 24000,
+        "chunk_overlap": 0,
+        "num_chunks": 199,
+        "avg_chunk_size": 351.38693467336685,
+        "embedding_dimension": 1536,
+        "shortest string": 55,
+        "longest string": 2793,
+        "tokens": 16394
       }
     ]
   },
@@ -333,6 +441,18 @@
         "test_id": 6,
         "strategy": "fixed with overlap",
         "chunk_size": 500,
+        "chunk_overlap": 100,
+        "num_chunks": 127,
+        "avg_chunk_size": 362.81889763779526,
+        "embedding_dimension": 1536,
+        "shortest string": 1,
+        "longest string": 499,
+        "tokens": 12064
+      },
+      {
+        "test_id": 7,
+        "strategy": "fixed with overlap",
+        "chunk_size": 500,
         "chunk_overlap": 200,
         "num_chunks": 134,
         "avg_chunk_size": 393.9925373134328,
@@ -342,16 +462,40 @@
         "tokens": 13747
       },
       {
-        "test_id": 7,
+        "test_id": 8,
+        "strategy": "paragrafo_recursivo",
+        "chunk_size": 24000,
+        "chunk_overlap": 0,
+        "num_chunks": 124,
+        "avg_chunk_size": 20290.064516129034,
+        "embedding_dimension": 1536,
+        "shortest string": 1004,
+        "longest string": 40447,
+        "tokens": 583298
+      },
+      {
+        "test_id": 9,
         "strategy": "markdown",
         "chunk_size": 24000,
         "chunk_overlap": 0,
-        "num_chunks": 0,
-        "avg_chunk_size": 0,
+        "num_chunks": 17,
+        "avg_chunk_size": 2462.823529411765,
         "embedding_dimension": 1536,
-        "shortest string": 0,
-        "longest string": 0,
-        "tokens": 0
+        "shortest string": 39,
+        "longest string": 6119,
+        "tokens": 10768
+      },
+      {
+        "test_id": 10,
+        "strategy": "sentencas_agrupadas",
+        "chunk_size": 24000,
+        "chunk_overlap": 0,
+        "num_chunks": 99,
+        "avg_chunk_size": 425.989898989899,
+        "embedding_dimension": 1536,
+        "shortest string": 5,
+        "longest string": 1827,
+        "tokens": 10964
       }
     ]
   },
@@ -407,7 +551,7 @@
         "tokens": 17654
       },
       {
-        "test_id": 5,
+        "test_id": 6,
         "strategy": "fixed with overlap",
         "chunk_size": 500,
         "chunk_overlap": 50,
@@ -419,7 +563,7 @@
         "tokens": 18284
       },
       {
-        "test_id": 6,
+        "test_id": 7,
         "strategy": "fixed with overlap",
         "chunk_size": 500,
         "chunk_overlap": 200,
@@ -431,16 +575,40 @@
         "tokens": 21132
       },
       {
-        "test_id": 7,
+        "test_id": 8,
+        "strategy": "paragrafo_recursivo",
+        "chunk_size": 24000,
+        "chunk_overlap": 0,
+        "num_chunks": 93,
+        "avg_chunk_size": 20272.129032258064,
+        "embedding_dimension": 1536,
+        "shortest string": 1004,
+        "longest string": 40447,
+        "tokens": 442822
+      },
+      {
+        "test_id": 9,
         "strategy": "markdown",
         "chunk_size": 24000,
         "chunk_overlap": 0,
-        "num_chunks": 0,
-        "avg_chunk_size": 0,
+        "num_chunks": 33,
+        "avg_chunk_size": 2150.5151515151515,
         "embedding_dimension": 1536,
-        "shortest string": 0,
-        "longest string": 0,
-        "tokens": 0
+        "shortest string": 100,
+        "longest string": 23229,
+        "tokens": 17451
+      },
+      {
+        "test_id": 10,
+        "strategy": "sentencas_agrupadas",
+        "chunk_size": 24000,
+        "chunk_overlap": 0,
+        "num_chunks": 219,
+        "avg_chunk_size": 326.73059360730593,
+        "embedding_dimension": 1536,
+        "shortest string": 44,
+        "longest string": 1753,
+        "tokens": 17668
       }
     ]
   },
@@ -496,7 +664,7 @@
         "tokens": 68000
       },
       {
-        "test_id": 5,
+        "test_id": 6,
         "strategy": "fixed with overlap",
         "chunk_size": 500,
         "chunk_overlap": 50,
@@ -508,7 +676,7 @@
         "tokens": 70152
       },
       {
-        "test_id": 6,
+        "test_id": 7,
         "strategy": "fixed with overlap",
         "chunk_size": 500,
         "chunk_overlap": 200,
@@ -520,16 +688,40 @@
         "tokens": 88327
       },
       {
-        "test_id": 7,
+        "test_id": 8,
+        "strategy": "paragrafo_recursivo",
+        "chunk_size": 24000,
+        "chunk_overlap": 0,
+        "num_chunks": 142,
+        "avg_chunk_size": 20459.204225352114,
+        "embedding_dimension": 1536,
+        "shortest string": 1004,
+        "longest string": 40447,
+        "tokens": 678250
+      },
+      {
+        "test_id": 9,
         "strategy": "markdown",
         "chunk_size": 24000,
         "chunk_overlap": 0,
-        "num_chunks": 0,
-        "avg_chunk_size": 0,
+        "num_chunks": 195,
+        "avg_chunk_size": 1452.9025641025642,
         "embedding_dimension": 1536,
-        "shortest string": 0,
-        "longest string": 0,
-        "tokens": 0
+        "shortest string": 11,
+        "longest string": 23304,
+        "tokens": 66623
+      },
+      {
+        "test_id": 10,
+        "strategy": "sentencas_agrupadas",
+        "chunk_size": 24000,
+        "chunk_overlap": 0,
+        "num_chunks": 653,
+        "avg_chunk_size": 441.698315467075,
+        "embedding_dimension": 1536,
+        "shortest string": 16,
+        "longest string": 17455,
+        "tokens": 68098
       }
     ]
   },
@@ -585,7 +777,7 @@
         "tokens": 46969
       },
       {
-        "test_id": 5,
+        "test_id": 6,
         "strategy": "fixed with overlap",
         "chunk_size": 500,
         "chunk_overlap": 50,
@@ -597,7 +789,7 @@
         "tokens": 48442
       },
       {
-        "test_id": 6,
+        "test_id": 7,
         "strategy": "fixed with overlap",
         "chunk_size": 500,
         "chunk_overlap": 200,
@@ -609,16 +801,40 @@
         "tokens": 58184
       },
       {
-        "test_id": 7,
+        "test_id": 8,
+        "strategy": "paragrafo_recursivo",
+        "chunk_size": 24000,
+        "chunk_overlap": 0,
+        "num_chunks": 89,
+        "avg_chunk_size": 20374.76404494382,
+        "embedding_dimension": 1536,
+        "shortest string": 1004,
+        "longest string": 40447,
+        "tokens": 425154
+      },
+      {
+        "test_id": 9,
         "strategy": "markdown",
         "chunk_size": 24000,
         "chunk_overlap": 0,
-        "num_chunks": 0,
-        "avg_chunk_size": 0,
+        "num_chunks": 116,
+        "avg_chunk_size": 1865.301724137931,
         "embedding_dimension": 1536,
-        "shortest string": 0,
-        "longest string": 0,
-        "tokens": 0
+        "shortest string": 23,
+        "longest string": 18211,
+        "tokens": 46307
+      },
+      {
+        "test_id": 10,
+        "strategy": "sentencas_agrupadas",
+        "chunk_size": 24000,
+        "chunk_overlap": 0,
+        "num_chunks": 534,
+        "avg_chunk_size": 403.62359550561797,
+        "embedding_dimension": 1536,
+        "shortest string": 27,
+        "longest string": 9209,
+        "tokens": 46957
       }
     ]
   },
@@ -674,7 +890,7 @@
         "tokens": 28062
       },
       {
-        "test_id": 5,
+        "test_id": 6,
         "strategy": "fixed with overlap",
         "chunk_size": 500,
         "chunk_overlap": 50,
@@ -686,7 +902,7 @@
         "tokens": 28653
       },
       {
-        "test_id": 6,
+        "test_id": 7,
         "strategy": "fixed with overlap",
         "chunk_size": 500,
         "chunk_overlap": 200,
@@ -698,16 +914,40 @@
         "tokens": 34740
       },
       {
-        "test_id": 7,
+        "test_id": 8,
+        "strategy": "paragrafo_recursivo",
+        "chunk_size": 24000,
+        "chunk_overlap": 0,
+        "num_chunks": 122,
+        "avg_chunk_size": 20272.885245901638,
+        "embedding_dimension": 1536,
+        "shortest string": 1004,
+        "longest string": 40447,
+        "tokens": 572328
+      },
+      {
+        "test_id": 9,
         "strategy": "markdown",
         "chunk_size": 24000,
         "chunk_overlap": 0,
-        "num_chunks": 0,
-        "avg_chunk_size": 0,
+        "num_chunks": 54,
+        "avg_chunk_size": 1914.4259259259259,
         "embedding_dimension": 1536,
-        "shortest string": 0,
-        "longest string": 0,
-        "tokens": 0
+        "shortest string": 68,
+        "longest string": 21323,
+        "tokens": 27682
+      },
+      {
+        "test_id": 10,
+        "strategy": "sentencas_agrupadas",
+        "chunk_size": 24000,
+        "chunk_overlap": 0,
+        "num_chunks": 297,
+        "avg_chunk_size": 344.6969696969697,
+        "embedding_dimension": 1536,
+        "shortest string": 17,
+        "longest string": 11084,
+        "tokens": 28028
       }
     ]
   },
@@ -763,7 +1003,7 @@
         "tokens": 69180
       },
       {
-        "test_id": 5,
+        "test_id": 6,
         "strategy": "fixed with overlap",
         "chunk_size": 500,
         "chunk_overlap": 50,
@@ -775,7 +1015,7 @@
         "tokens": 71125
       },
       {
-        "test_id": 6,
+        "test_id": 7,
         "strategy": "fixed with overlap",
         "chunk_size": 500,
         "chunk_overlap": 200,
@@ -787,16 +1027,40 @@
         "tokens": 84478
       },
       {
-        "test_id": 7,
+        "test_id": 8,
+        "strategy": "paragrafo_recursivo",
+        "chunk_size": 24000,
+        "chunk_overlap": 0,
+        "num_chunks": 109,
+        "avg_chunk_size": 20358.75229357798,
+        "embedding_dimension": 1536,
+        "shortest string": 1004,
+        "longest string": 40447,
+        "tokens": 512046
+      },
+      {
+        "test_id": 9,
         "strategy": "markdown",
         "chunk_size": 24000,
         "chunk_overlap": 0,
-        "num_chunks": 0,
-        "avg_chunk_size": 0,
+        "num_chunks": 62,
+        "avg_chunk_size": 5361.854838709677,
         "embedding_dimension": 1536,
-        "shortest string": 0,
-        "longest string": 0,
-        "tokens": 0
+        "shortest string": 262,
+        "longest string": 23877,
+        "tokens": 69078
+      },
+      {
+        "test_id": 10,
+        "strategy": "sentencas_agrupadas",
+        "chunk_size": 24000,
+        "chunk_overlap": 0,
+        "num_chunks": 639,
+        "avg_chunk_size": 508.9577464788732,
+        "embedding_dimension": 1536,
+        "shortest string": 5,
+        "longest string": 24000,
+        "tokens": 68965
       }
     ]
   },
@@ -852,7 +1116,7 @@
         "tokens": 26901
       },
       {
-        "test_id": 5,
+        "test_id": 6,
         "strategy": "fixed with overlap",
         "chunk_size": 500,
         "chunk_overlap": 50,
@@ -864,7 +1128,7 @@
         "tokens": 27682
       },
       {
-        "test_id": 6,
+        "test_id": 7,
         "strategy": "fixed with overlap",
         "chunk_size": 500,
         "chunk_overlap": 200,
@@ -876,16 +1140,40 @@
         "tokens": 33341
       },
       {
-        "test_id": 7,
+        "test_id": 8,
+        "strategy": "paragrafo_recursivo",
+        "chunk_size": 24000,
+        "chunk_overlap": 0,
+        "num_chunks": 129,
+        "avg_chunk_size": 20276.658914728683,
+        "embedding_dimension": 1536,
+        "shortest string": 1004,
+        "longest string": 40447,
+        "tokens": 610207
+      },
+      {
+        "test_id": 9,
         "strategy": "markdown",
         "chunk_size": 24000,
         "chunk_overlap": 0,
-        "num_chunks": 0,
-        "avg_chunk_size": 0,
+        "num_chunks": 38,
+        "avg_chunk_size": 2591.0526315789475,
         "embedding_dimension": 1536,
-        "shortest string": 0,
-        "longest string": 0,
-        "tokens": 0
+        "shortest string": 87,
+        "longest string": 13466,
+        "tokens": 26559
+      },
+      {
+        "test_id": 10,
+        "strategy": "sentencas_agrupadas",
+        "chunk_size": 24000,
+        "chunk_overlap": 0,
+        "num_chunks": 266,
+        "avg_chunk_size": 373.3383458646617,
+        "embedding_dimension": 1536,
+        "shortest string": 14,
+        "longest string": 4145,
+        "tokens": 26897
       }
     ]
   },
@@ -941,7 +1229,7 @@
         "tokens": 16049
       },
       {
-        "test_id": 5,
+        "test_id": 6,
         "strategy": "fixed with overlap",
         "chunk_size": 500,
         "chunk_overlap": 50,
@@ -953,7 +1241,7 @@
         "tokens": 16843
       },
       {
-        "test_id": 6,
+        "test_id": 7,
         "strategy": "fixed with overlap",
         "chunk_size": 500,
         "chunk_overlap": 200,
@@ -965,16 +1253,40 @@
         "tokens": 20468
       },
       {
-        "test_id": 7,
+        "test_id": 8,
+        "strategy": "paragrafo_recursivo",
+        "chunk_size": 24000,
+        "chunk_overlap": 0,
+        "num_chunks": 79,
+        "avg_chunk_size": 20169.151898734177,
+        "embedding_dimension": 1536,
+        "shortest string": 1004,
+        "longest string": 40447,
+        "tokens": 378162
+      },
+      {
+        "test_id": 9,
         "strategy": "markdown",
         "chunk_size": 24000,
         "chunk_overlap": 0,
-        "num_chunks": 0,
-        "avg_chunk_size": 0,
+        "num_chunks": 21,
+        "avg_chunk_size": 2552.5238095238096,
         "embedding_dimension": 1536,
-        "shortest string": 0,
-        "longest string": 0,
-        "tokens": 0
+        "shortest string": 73,
+        "longest string": 9800,
+        "tokens": 15891
+      },
+      {
+        "test_id": 10,
+        "strategy": "sentencas_agrupadas",
+        "chunk_size": 24000,
+        "chunk_overlap": 0,
+        "num_chunks": 122,
+        "avg_chunk_size": 444.04918032786884,
+        "embedding_dimension": 1536,
+        "shortest string": 14,
+        "longest string": 1090,
+        "tokens": 16037
       }
     ]
   },
@@ -1030,7 +1342,7 @@
         "tokens": 22001
       },
       {
-        "test_id": 5,
+        "test_id": 6,
         "strategy": "fixed with overlap",
         "chunk_size": 500,
         "chunk_overlap": 50,
@@ -1042,7 +1354,7 @@
         "tokens": 22911
       },
       {
-        "test_id": 6,
+        "test_id": 7,
         "strategy": "fixed with overlap",
         "chunk_size": 500,
         "chunk_overlap": 200,
@@ -1054,16 +1366,40 @@
         "tokens": 26532
       },
       {
-        "test_id": 7,
+        "test_id": 8,
+        "strategy": "paragrafo_recursivo",
+        "chunk_size": 24000,
+        "chunk_overlap": 0,
+        "num_chunks": 114,
+        "avg_chunk_size": 20342.324561403508,
+        "embedding_dimension": 1536,
+        "shortest string": 1004,
+        "longest string": 40447,
+        "tokens": 534064
+      },
+      {
+        "test_id": 9,
         "strategy": "markdown",
         "chunk_size": 24000,
         "chunk_overlap": 0,
-        "num_chunks": 0,
-        "avg_chunk_size": 0,
+        "num_chunks": 49,
+        "avg_chunk_size": 2006.5510204081634,
         "embedding_dimension": 1536,
-        "shortest string": 0,
-        "longest string": 0,
-        "tokens": 0
+        "shortest string": 64,
+        "longest string": 23386,
+        "tokens": 21739
+      },
+      {
+        "test_id": 10,
+        "strategy": "sentencas_agrupadas",
+        "chunk_size": 24000,
+        "chunk_overlap": 0,
+        "num_chunks": 428,
+        "avg_chunk_size": 228.50467289719626,
+        "embedding_dimension": 1536,
+        "shortest string": 5,
+        "longest string": 1811,
+        "tokens": 21947
       }
     ]
   }
