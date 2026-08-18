@@ -258,8 +258,8 @@ Exemplo:
 - Página: 8–10
 
 Os metadados terão diferentes origens, parte vem do proprio LLM e parte vem do sistema.
-Exemplo LLM: tribunal, processo e tipo_conteudo.
-Exemplo sistema: area_direito, tipo_documento e documento_id.
+- Exemplo LLM: tribunal, processo e tipo_conteudo.
+- Exemplo sistema: area_direito, tipo_documento e documento_id.
 
 ```text
 Estrutura de pastas
