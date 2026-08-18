@@ -59,18 +59,45 @@ Exemplos:
 - escrita_academica_ia: média de x caracteres.
 
 ### O chunking por sentença conseguiu preservar melhor o contexto?
-
+Sim, em comparação com o chunking puramente baseado em caracteres. A estratégia sentencas_agrupadas utiliza as sentenças como unidade de construção, evitando cortar uma frase arbitrariamente no meio.
 
 ### O Recursive Splitter apresentou vantagens?
 
 
 ### O Markdown Splitter conseguiu preservar a estrutura semântica?
+Sim, e foi uma das estratégias que apresentou os resultados mais interessantes. Como os documentos foram convertidos para Markdown, essa estratégia consegue utilizar elementos estruturais do documento, em vez de simplesmente considerar a quantidade de caracteres.
 
+Um resultado interessante é que ela gerou poucos chunks sem produzir necessariamente os chunks gigantes do método "paragrafo_recursivo".
+
+Por exemplo, bioetica_e_ia produziu:
+
+- Markdown: 22 chunks;
+- sentença: 135 chunks;
+- parágrafo recursivo: 76 chunks.
 
 ### Qual estratégia parece mais adequada para um sistema de RAG?
+Com base nos resultados desses experimentos, eu priorizaria:
 
+- markdown;
+- fixed with overlap: chunk_size = X e overlap = X.
+
+O Markdown parece especialmente interessante porque preserva melhor a estrutura semântica dos documentos com base nos arquivos que foram utilizados para teste.
+
+O fixed with overlap é interessante quando se deseja uma estratégia mais simples e controlável, utilizando o overlap para diminuir a perda de contexto entre partes consecutivas. Os resultados mostram que aumentar o overlap aumenta tanto o número de chunks quanto o número de tokens processados.
+
+É importante observar que o fato de termos utilizado documentos bem estruturados e padronizados, como artigos cientificos, facilita a extração dos textos quando geramos os arquivos ".md".
+
+Caso seja necessario a utilização de outros tipos de arquivos, provavelmente os resultados serão alterados.
 
 ### Quais estratégias devem ser descartadas?
 
 
-### Quais estratégias você acha que devem ser utilizadas nos próximos experimentos?
+### Quais estratégias você acha que devem ser utilizadas nos próximos experimentos? 
+Eu recomendaria concentrar os próximos testes em três estratégias:
+
+- markdown;
+- fixed with overlap:	chunk_size = "X" + overlap "X".
+
+Os experimentos mostraram que não basta buscar a maior ou menor quantidade de chunks. Para um RAG, o mais importante é encontrar um equilíbrio entre tamanho, quantidade, preservação do contexto e estrutura semântica.
+
+Por isso, ainda não é possivel definir um tamanho exato para o chunk_size e para o overlap. Mas acredito que possa ser interessante algo como chunk_size = 500 + overlap 100.
