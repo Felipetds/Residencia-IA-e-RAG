@@ -9,20 +9,20 @@ A estratégia markdown foi a que gerou menos chunks no conjunto dos experimentos
 Nas estratégias fixed, o aumento de chunk_size produziu chunks progressivamente maiores:
 
 A media de tamanho dos menores chunks foi: 
-chunk_size = 200 e overlap = 0: 1.58 caracteres.
-chunk_size = 500 e overlap = 0: 6.42 caracteres.
-chunk_size = 500 e overlap = 50: 12.50 caracteres.
-chunk_size = 500 e overlap = 200: 13.60 caracteres.
-chunk_size = 1000 e overlap = 0: 27.92 caracteres.
-chunk_size = 2000 e overlap = 0: 347.25 caracteres.
+- chunk_size = 200 e overlap = 0: 1.58 caracteres.
+- chunk_size = 500 e overlap = 0: 6.42 caracteres.
+- chunk_size = 500 e overlap = 50: 12.50 caracteres.
+- chunk_size = 500 e overlap = 200: 13.60 caracteres.
+- chunk_size = 1000 e overlap = 0: 27.92 caracteres.
+- chunk_size = 2000 e overlap = 0: 347.25 caracteres.
 
 A media de tamanho dos maiores chunks foi: 
-chunk_size = 200 e overlap = 0: 199.58 caracteres.
-chunk_size = 500 e overlap = 0: 499.17 caracteres.
-chunk_size = 500 e overlap = 50: 499.17 caracteres.
-chunk_size = 500 e overlap = 200: 499.25 caracteres.
-chunk_size = 1000 e overlap = 0: 998.17 caracteres.
-chunk_size = 2000 e overlap = 0: 1989.33 caracteres.
+- chunk_size = 200 e overlap = 0: 199.58 caracteres.
+- chunk_size = 500 e overlap = 0: 499.17 caracteres.
+- chunk_size = 500 e overlap = 50: 499.17 caracteres.
+- chunk_size = 500 e overlap = 200: 499.25 caracteres.
+- chunk_size = 1000 e overlap = 0: 998.17 caracteres.
+- chunk_size = 2000 e overlap = 0: 1989.33 caracteres.
 
 ### Qual estratégia preservou melhor a estrutura dos documentos?
 A estratégia que aparentou preservar melhor a estrutura dos documentos foi a "MarkdownHeaderTextSplitter". Isso ocorre porque ela utiliza a estrutura do Markdown como referência para a divisão. Os resultados mostram uma quantidade muito menor de chunks, sem produzir os chunks extremamente grandes observados em outros casos.
