@@ -144,17 +144,160 @@ As tabelas não serão descartadas, pois podem conter informações relevantes p
 As imagens serão analisadas de acordo com sua relevância para o documento. Imagens que contenham informações relevantes, como gráficos, documentos, comprovantes ou outras evidências, não deverão ser simplesmente descartadas. Quando necessário, essas informações poderão ser processadas por OCR ou por modelos capazes de interpretar conteúdo visual. Imagens sem valor informacional serão descartadas para evitar o armazenamento de conteúdo desnecessário.
 
 ### 3.2 Limpeza e normalização
+Após a extração dos documentos utilizando o Docling, será realizada uma etapa de limpeza e normalização para remover informações desnecessárias e corrigir problemas de formatação que possam prejudicar a geração dos chunks e a recuperação dos documentos. Serão removidos ou tratados elementos que aparecem repetidamente e não contribuem diretamente para o conteúdo jurídico.
+As referências, citações legais, números de processos, nomes de tribunais e outras informações jurídicas não serão removidas, pois podem ser importantes para a rastreabilidade das respostas.
+A limpeza não terá como objetivo deixar o documento "limpo", mas sim melhorar a qualidade do conteúdo utilizado pelo RAG sem comprometer a informação necessária para a recuperação e a rastreabilidade das informações jurídicas.
 
 ### 3.3 Frequência de ingestão
+Inicialmente, a ingestão de novos documentos será realizada de forma agendada, aproximadamente a cada três meses. Esse período poderá ser reduzido em situações especiais, como a publicação de decisões relevantes ou alterações importantes na legislação que exijam uma atualização mais rápida da base.
+Documentos antigos também serão avaliados periodicamente e poderão ser substituídos, desativados ou removidos, principalmente quando estiverem desatualizados e houver risco de contribuírem para respostas incorretas.
+Quando um documento for adicionado ou atualizado, não será necessário reprocessar toda a base. O ideal é realizar um processamento incremental, reprocessando somente o documento que sofreu alteração. Isso evita processamento desnecessário e reduz o custo e o tempo de atualização da base.
 
 ## Parte 4 - Metadados
 
 ### 4.1 Metadados do documento
+```text
+{
+  "documento_id": "doc_0000001",
+  "fonte": "sentenca_0000001.pdf",
+  "area_direito": "direito_consumidor",
+  "tipo_documento": "sentenca",
+  "tribunal": "TJRJ",
+  "numero_processo": "0000000-00.0000.0.00.0000",
+  "data_documento": "18-08-2026",
+  "versao": "1.0",
+  "status": "vigente",
+  "data_inicio_validade": "18-08-2026",
+  "data_fim_validade": null
+}
+```
+
+- documento_id: Identifica unicamente o documento e permite criar uma relação entre os seus chunks.
+- fonte: Permite identificar o arquivo original e apresentar a fonte ao usuário.
+- area_direito: Permite filtrar a busca por área.
+- tipo_documento: Permite diferenciar petições, sentenças e decisões interlocutórias.
+- tribunal: Permite restringir a busca a determinado tribunal e auxilia na identificação da fonte.
+- numero_processo: Permite rastrear a decisão até o processo original e apresentar essa informação ao usuário.
+- data_documento: Permite realizar filtros temporais e contextualizar a decisão.
+- versao: Permite diferenciar versões de um mesmo documento.
+- status: Indica se o documento está vigente, obsoleto ou pendente de validação.
+- data_inicio_validade: Permite determinar a partir de quando aquela versão é válida.
+- data_fim_validade: Permite determinar até quando aquela versão foi válida.
 
 ### 4.2 Metadados do chunk
+```text
+{
+  "documento_id": "doc_0000001",
+  "chunk_index": 15,
+  "pagina_inicio": 8,
+  "pagina_fim": 10,
+  "tipo_conteudo": "texto",
+  "n_caracteres": 1842,
+  "n_tokens": 420
+}
+```
+
+Os metadados do chunk serão utilizados para identificar onde o trecho está localizado no documento e quais são suas características.
+
+- documento_id: Relaciona o chunk ao documento de origem.
+- chunk_index: Identifica a posição do chunk dentro do documento e facilita sua rastreabilidade.
+- pagina_inicio: Permite localizar o início do conteúdo no documento original e citar a fonte.
+- pagina_fim: Permite identificar até onde o conteúdo do chunk se estende.
+- tipo_conteudo: Permite diferenciar texto, tabela, lista, código ou outros tipos de conteúdo.
+- n_caracteres: Permite analisar o tamanho dos chunks e avaliar a estratégia de chunking.
+- n_tokens: Permite controlar o tamanho dos chunks em relação ao limite de contexto do modelo e analisar o custo de processamento.
+
+```text
+Documento
+│
+├── Metadados do documento
+│   ├── documento_id
+│   ├── fonte
+│   ├── area_direito
+│   ├── tipo_documento
+│   ├── tribunal
+│   ├── numero_processo
+│   ├── data_documento
+│   ├── versao
+│   ├── status
+│   ├── data_inicio_validade
+│   └── data_fim_validade
+│
+├── Chunk 0
+│   └── Metadados do chunk
+│       ├── chunk_index
+│       ├── pagina_inicio
+│       ├── pagina_fim
+│       ├── tipo_conteudo
+│       ├── n_caracteres
+│       └── n_tokens
+│
+└── ...
+```
+
+Os principais filtros serão aplicados sobre os metadados do documento: area_direito, tipo_documento, tribunal, data_documento, status, data_inicio_validade e data_fim_validade.
+
+Exemplo: "Encontre sentenças do Direito do Consumidor do TJRJ sobre negativação indevida."
+
+O sistema poderia aplicar:
+```text
+{
+  "area_direito": "direito_consumidor",
+  "tipo_documento": "sentenca",
+  "tribunal": "TJRJ"
+}
+```
+
+Para apresentar a fonte ao usuário, serão combinados metadados dos dois níveis para permitir ao usuario voltar ao documento original e conferir o trecho utilizado.
+
+Exemplo:
+- Tribunal: TJRJ
+- Processo: 0000000-00.0000.0.00.0000
+- Documento: sentença_0000001.pdf
+- Data: 18-08-2026
+- Página: 8–10
+
+Os metadados terão diferentes origens, parte vem do proprio LLM e parte vem do sistema.
+Exemplo LLM: tribunal, processo e tipo_conteudo.
+Exemplo sistema: area_direito, tipo_documento e documento_id.
+
+```text
+Estrutura de pastas
+        ↓
+area_direito / tipo_documento
+
+Docling
+        ↓
+fonte / páginas / estrutura
+
+LLM com saída estruturada
+        ↓
+tribunal / processo / data
+
+Pipeline
+        ↓
+documento_id / versão / status
+
+Chunking
+        ↓
+chunk_index / tamanho / tipo_conteudo
+```
 
 ## Parte 5 - Chunking / Splitting
 
 ## Parte 6 - Embeddings
+
+| ITEM | RESPOSTAS |
+| --- | --- |
+| Modelo escolhido | text-embedding-3-small |
+| Dimensão do embedding | 1536 (padrão, mas aceita redução flexível via código) |
+| Suporta português? | Sim, com excelente desempenho em benchmarks locais |
+| É multilíngue? | Sim, possui suporte nativo a dezenas de idiomas com melhorias significativas sobre o modelo anterior |
+| Tamanho máximo de entrada | 8.191 tokens por requisição |
+| É open source? | Não, trata-se de um modelo proprietário |
+| Pode ser executado localmente? | Não, a execução depende exclusivamente dos servidores em nuvem da OpenAI |
+| Possui API? | Sim, integrada via endpoint oficial de Embeddings da OpenAI |
+| Custo aproximado | $0.02 por milhão (1M) de tokens de entrada |
+| Fonte da informação | https://help.openai.com/pt-br/articles/6824809-embeddings-faq |
 
 ## Arquitetura final
