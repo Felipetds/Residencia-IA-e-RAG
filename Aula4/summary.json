@@ -1393,7 +1393,7 @@
         "test_id": 10,
         "strategy": "sentencas_agrupadas",
         "chunk_size": 24000,
-        "chunk_overlap": 0,
+        "chunk_overlap": 0,     
         "num_chunks": 428,
         "avg_chunk_size": 228.50467289719626,
         "embedding_dimension": 1536,
