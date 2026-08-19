@@ -285,6 +285,13 @@ chunk_index / tamanho / tipo_conteudo
 
 ## Parte 5 - Chunking / Splitting
 
+O metodo escolhido foi de divisão em duas etapas, o "MarkdownHeaderTextSplitter" vai dividir o documento pela estrutura dos títulos com o "separators=["\n\n", "\n", " ", ""]". Em seguida, o resultado passa pelo "RecursiveCharacterTextSplitter" para limitar o tamanho maximo dos chunks e adaptar aos valores aceitos pela API.
+
+Não utilizaria o overlap por entender que esses metodos já preservam suficientemente o contexto.
+
+- Limite Máximo de Contexto (Tokens por String): O limite é de 8.191 tokens por string/texto individual enviado.
+- Limite de Lote (Batching Limits): A soma de todos os tokens de todas as strings contidas no mesmo lote (batch) não pode ultrapassar 300.000 tokens por requisição.
+
 ## Parte 6 - Embeddings
 
 | ITEM | RESPOSTAS |
@@ -300,4 +307,29 @@ chunk_index / tamanho / tipo_conteudo
 | Custo aproximado | $0.02 por milhão (1M) de tokens de entrada |
 | Fonte da informação | https://help.openai.com/pt-br/articles/6824809-embeddings-faq |
 
+### Considerou algum modelo alternativo e descartou? Qual, e por quê?
+Outras opções de modelos para serem utilizados localmente caso exista alguma necessidade de proteger os dados.
+
+- Multilingual-E5 (intfloat/multilingual-e5-small ou large): Suporte a mais de 100 idiomas, incluindo português, com ótima precisão para buscas semânticas e RAG.
+- BGE (BAAI/bge-m3): Modelo multilíngue de alta performance, muito robusto para recuperação de textos densos e esparsos.
+- Nomic Embed (nomic-ai/nomic-embed-text): Muito leve, excelente para rodar rapidamente apenas com CPU ou em dispositivos com restrição de hardware.
+- Qwen3-Embedding (Qwen/Qwen3-Embedding-0.6B): Modelo muito poderoso de código aberto que lida bem com densidade vetorial e recuperação em vários idiomas.
+
+### Se o cenário envolve documentos sigilosos, isso muda sua escolha entre modelo local e API? Como?
+Sim, é extremamente importante preservar os dados sensiveis. O foco passa a ser executar localmente para que nenhum dado ou documento seja enviado para APIs externas garantindo a privacidade e conformidade com leis como a LGPD.
+
+### O tamanho máximo de entrada do modelo tem relação com a sua decisão de chunking da Parte 5? Explique.
+Sim, essa limitação é uma das formas de controlar o custo da aplicação. O modelo text-embedding-3-small da OpenAI possui limitações estritas de entrada que afetam a quantidade de texto enviada por chamada.
+
+- Limite Máximo de Contexto (Tokens por String): O limite é de 8.191 tokens por string/texto individual enviado.
+- Limite de Lote (Batching Limits): A soma de todos os tokens de todas as strings contidas no mesmo lote (batch) não pode ultrapassar 300.000 tokens por requisição.
+
 ## Arquitetura final
+
+| ETAPA | DECISAO | JUSTIFICATIVA |
+| --- | --- | --- |
+| Extração |     |  |
+| Limpeza |  |  |
+| Chunking |  |  |
+| Metadados |  |  |
+| Embeddings |  |  |
