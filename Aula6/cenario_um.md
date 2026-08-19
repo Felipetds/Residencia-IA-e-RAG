@@ -328,8 +328,8 @@ Sim, essa limitação é uma das formas de controlar o custo da aplicação. O m
 
 | ETAPA | DECISAO | JUSTIFICATIVA |
 | --- | --- | --- |
-| Extração | Docling para converter documentos padronizados em Markdown. |  |
-| Limpeza | Limpeza mínima ou nula para documentos gerados nativamente pela aplicação. |  |
-| Chunking | Divisão inicial por seção e divisão sevundaria para garantir o tamanho dentro do limite da API |  |
-| Metadados | Dados de identificação, localização, tempo e tamanho dos documentos e dos chunks |  |
-| Embeddings | Modelo text-embedding-3-small (Pode ser uma alternativa local) |  |
+| Extração | Docling para converter documentos padronizados em Markdown. | Preserva a estrutura e facilita a leitura de arquivos |
+| Limpeza | Limpeza mínima ou nula para documentos gerados nativamente pela aplicação. | Interferencia minima para evitar perda de informações importantes |
+| Chunking | Divisão inicial por seção e divisão sevundaria para garantir o tamanho dentro do limite da API | Preserva o contexto e garante a adequação de tamanho ao input do modelo |
+| Metadados | Dados de identificação, localização, tempo e tamanho dos documentos e dos chunks | Essas informações garantem controle de versão e localização para referências |
+| Embeddings | Modelo text-embedding-3-small (Pode ser uma alternativa local) | Excelente custo-benefício e facil de acompanhar as métricas de utilização/custo |
