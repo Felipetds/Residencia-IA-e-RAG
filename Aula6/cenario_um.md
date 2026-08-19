@@ -367,3 +367,17 @@ Sim, essa limitação é uma das formas de controlar o custo da aplicação. O m
 | Chunking | Divisão inicial por seção e divisão secundaria para garantir o tamanho dentro do limite da API | Preserva o contexto e garante a adequação de tamanho ao input do modelo |
 | Metadados | Dados de identificação, localização, tempo e tamanho dos documentos e dos chunks | Essas informações garantem controle de versão e localização para referências |
 | Embeddings | Modelo text-embedding-3-small (Pode ser uma alternativa local) | Excelente custo-benefício e facil de acompanhar as métricas de utilização/custo |
+
+## Referências
+- 1. https://help.openai.com/pt-br/articles/6824809-embeddings-faq
+- 2. https://www.tjdft.jus.br/institucional/imprensa/campanhas-e-produtos/direito-facil/edicao-semanal/jurisprudencia-x-precedente
+- 3. https://reference.langchain.com/python/langchain-text-splitters/markdown/MarkdownTextSplitter
+- 4. https://help.openai.com/pt-br/articles/6824809-embeddings-faq
+- 5. https://huggingface.co/BAAI/bge-m3
+- 6. https://huggingface.co/nomic-ai/nomic-embed-text-v1.5
+- 7. https://huggingface.co/Qwen/Qwen3-Embedding-0.6B
+
+## Uso IA
+- As ferramentas de IA funcionaram como um assistente de apoio e revisão, enquanto a definição das arquiteturas e a escolha das soluções apresentadas foram feitas por mim.
+- Seu uso ocorreu principalmente na organização das estratégias e dos documentos e tambem na formatação de diagramas, tabelas e fluxos.
+- As sugestões fornecidas não foram adotadas automaticamente: elas foram avaliadas de acordo com o cada cenário antes de serem incorporadas aos projetos.
