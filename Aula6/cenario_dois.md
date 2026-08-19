@@ -59,9 +59,9 @@ Essa informação pode estar espalhada por centenas de documentos. O modelo pode
 
 Exemplo:
 ```text
-área do Direito
-        ↓
-tipo de documento
+setor
+  ↓
+tipo de produtos
         ↓
 busca semântica
         ↓
@@ -70,16 +70,38 @@ documentos mais relevantes
 
 ### Existe documento que não deve entrar na base?
 
+Serão adicionados somente arquivos que possuam informações relevantes dos produtos como manuais, informações sobre garatias e descrições de especificações técnicas.
+
 ### Como lidar com versões do mesmo documento?
+
+Para evitar conflitos relacionados a datas, versões ou outros casos, cada documento deve possuir metadados de versão, validade e identificação do produto.
 
 ## Parte 3 - Pipeline de ingestão
 
 ### 3.1 Extração
 
+A extração de texto dos documentos seria realizada utilizando a biblioteca Docling em Python, que permite converter diferentes formatos de documentos para uma representação estruturada, preservando informações como texto, tabelas e estrutura do documento.
+Para PDFs que possuem uma camada de texto, o Docling realizará a extração diretamente do conteúdo textual, evitando a necessidade de OCR. Durante essa etapa, é importante preservar informações estruturais do documento.
+
+As tabelas não serão descartadas, pois podem conter informações relevantes. A preservação dessas informações também é importante para perguntas que posteriormente possam exigir contagem, soma ou ordenação de informações.
+
+As imagens serão analisadas de acordo com sua relevância para o documento. Imagens que contenham informações relevantes, como gráficos, documentos, comprovantes ou outros casos, não deverão ser simplesmente descartadas. Quando necessário, essas informações poderão ser processadas por OCR ou por modelos capazes de interpretar conteúdo visual. Imagens sem valor informacional serão descartadas para evitar o armazenamento de conteúdo desnecessário.
 
 ### 3.2 Limpeza e normalização
 
+A limpeza não terá como objetivo deixar o documento "limpo", mas sim melhorar a qualidade do conteúdo utilizado pelo RAG sem comprometer a informação necessária para a recuperação e a rastreabilidade das informações.
+
+O principal ponto é remover informações duplicadas.
+
+Exemplo: Manual de uma ferramenta. 
+
+Geralmente existe as mesmas intruções em idiomas diferentes, nesses casos deve ser mantida somente as instruções em português. Caso não possua, devera ser mantido em inglês. 
+
 ### 3.3 Frequência de ingestão
+
+Sempre que um novo produto for adicionado ao catálogo da empresa.
+Documentos antigos também serão avaliados periodicamente e poderão ser substituídos, desativados ou removidos, principalmente quando estiverem desatualizados e houver risco de contribuírem para respostas incorretas.
+Quando um documento for adicionado ou atualizado, não será necessário reprocessar toda a base. O ideal é realizar um processamento incremental, reprocessando somente o documento que sofreu alteração. Isso evita processamento desnecessário e reduz o custo e o tempo de atualização da base.
 
 ## Parte 4 - Metadados
 
@@ -87,7 +109,60 @@ documentos mais relevantes
 
 ### 4.2 Metadados do chunk
 
+```text
+{
+  "documento_id": "doc_0001",
+  "chunk_index": 15,
+  "pagina_inicio": 6,
+  "pagina_fim": 6,
+  "tipo_conteudo": "texto",
+  "n_caracteres": 368,
+  "n_tokens": 106
+}
+```
+
+Os metadados do chunk serão utilizados para identificar onde o trecho está localizado no documento e quais são suas características.
+
+- documento_id: Relaciona o chunk ao documento de origem.
+- chunk_index: Identifica a posição do chunk dentro do documento e facilita sua rastreabilidade.
+- pagina_inicio: Permite localizar o início do conteúdo no documento original e citar a fonte.
+- pagina_fim: Permite identificar até onde o conteúdo do chunk se estende.
+- tipo_conteudo: Permite diferenciar texto, tabela, lista, código ou outros tipos de conteúdo.
+- n_caracteres: Permite analisar o tamanho dos chunks e avaliar a estratégia de chunking.
+- n_tokens: Permite controlar o tamanho dos chunks em relação ao limite de contexto do modelo e analisar o custo de processamento.
+
+```text
+Documento
+│
+├── Metadados do documento
+│   ├── documento_id
+│   ├── fonte
+│   ├── setor
+│   ├── tipo_documento
+│   ├── marca
+│   └── tipo_de_equipamento
+│
+├── Chunk 0
+│   └── Metadados do chunk
+│       ├── chunk_index
+│       ├── pagina_inicio
+│       ├── pagina_fim
+│       ├── tipo_conteudo
+│       ├── n_caracteres
+│       └── n_tokens
+│
+└── ...
+```
+
 ## Parte 5 - Chunking / Splitting
+
+O metodo escolhido foi o "MarkdownHeaderTextSplitter", ele vai dividir o documento pela estrutura dos títulos com o "separators=["\n\n", "\n", " ", ""]". 
+
+Não utilizaria o overlap por entender que o metodo já preserva suficientemente o contexto.
+
+- Limite Máximo de Contexto (Tokens por String): O limite é de 8.191 tokens por string/texto individual enviado.
+- Limite de Lote (Batching Limits): A soma de todos os tokens de todas as strings contidas no mesmo lote (batch) não pode ultrapassar 300.000 tokens por requisição.
+
 
 ## Parte 6 - Embeddings
 
@@ -120,8 +195,8 @@ Sim, essa limitação é uma das formas de controlar o custo da aplicação. O m
 
 | ETAPA | DECISAO | JUSTIFICATIVA |
 | --- | --- | --- |
-| Extração |  |  |
-| Limpeza |  |  |
-| Chunking |  |  |
-| Metadados |  |  |
-| Embeddings |  |  |
+| Extração | Docling para converter documentos padronizados em Markdown. | Preserva a estrutura e facilita a leitura de arquivos |
+| Limpeza | Limpeza mínima ou nula | Interferencia minima para evitar perda de informações importantes |
+| Chunking | Divisão inicial por seção | Preserva o contexto e não gera chunks extremamente grandes |
+| Metadados | Dados de identificação, localização e tamanho dos documentos e dos chunks | Essas informações garantem localização para referências |
+| Embeddings | Modelo text-embedding-3-small (Pode ser uma alternativa local) | Excelente custo-benefício e facil de acompanhar as métricas de utilização/custo |
