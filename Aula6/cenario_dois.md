@@ -91,4 +91,37 @@ documentos mais relevantes
 
 ## Parte 6 - Embeddings
 
+| ITEM | RESPOSTAS |
+| --- | --- |
+| Modelo escolhido | text-embedding-3-small |
+| Dimensão do embedding | 1536 (padrão, mas aceita redução flexível via código) |
+| Suporta português? | Sim, com excelente desempenho em benchmarks locais |
+| É multilíngue? | Sim, possui suporte nativo a dezenas de idiomas com melhorias significativas sobre o modelo anterior |
+| Tamanho máximo de entrada | 8.191 tokens por requisição |
+| É open source? | Não, trata-se de um modelo proprietário |
+| Pode ser executado localmente? | Não, a execução depende exclusivamente dos servidores em nuvem da OpenAI |
+| Possui API? | Sim, integrada via endpoint oficial de Embeddings da OpenAI |
+| Custo aproximado | $0.02 por milhão (1M) de tokens de entrada |
+| Fonte da informação | https://help.openai.com/pt-br/articles/6824809-embeddings-faq |
+
+### Considerou algum modelo alternativo e descartou? Qual, e por quê?
+Considerei o uso de algum modelo que seja gratuito para tonar o projeto mais acessivel. 
+
+### Se o cenário envolve documentos sigilosos, isso muda sua escolha entre modelo local e API? Como?
+Não, inicialmente o sistema não possuiria dados sigilosos.
+
+### O tamanho máximo de entrada do modelo tem relação com a sua decisão de chunking da Parte 5? Explique.
+Sim, essa limitação é uma das formas de controlar o custo da aplicação. O modelo text-embedding-3-small da OpenAI possui limitações estritas de entrada que afetam a quantidade de texto enviada por chamada.
+
+- Limite Máximo de Contexto (Tokens por String): O limite é de 8.191 tokens por string/texto individual enviado.
+- Limite de Lote (Batching Limits): A soma de todos os tokens de todas as strings contidas no mesmo lote (batch) não pode ultrapassar 300.000 tokens por requisição.
+
 ## Arquitetura final
+
+| ETAPA | DECISAO | JUSTIFICATIVA |
+| --- | --- | --- |
+| Extração |  |  |
+| Limpeza |  |  |
+| Chunking |  |  |
+| Metadados |  |  |
+| Embeddings |  |  |
