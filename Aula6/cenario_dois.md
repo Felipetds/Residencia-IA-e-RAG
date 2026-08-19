@@ -186,7 +186,6 @@ Os metadados do chunk serão utilizados para identificar onde o trecho está loc
 
 ```text
 Documento
-Documento
 │
 ├── Metadados do documento
 │   ├── documento_id
@@ -249,7 +248,7 @@ Sim, essa limitação é uma das formas de controlar o custo da aplicação. O m
 - Limite de Lote (Batching Limits): A soma de todos os tokens de todas as strings contidas no mesmo lote (batch) não pode ultrapassar 300.000 tokens por requisição.
 
 ## Arquitetura final
-
+```text
 +----------------------+       +------------------------+       +-------------------------+
 |    Fontes de Dados   |       |  Pipeline de Ingestão |       |  Armazenamento & Base   |
 |                      |       |                        |       |                         |
@@ -280,6 +279,7 @@ Sim, essa limitação é uma das formas de controlar o custo da aplicação. O m
                             | - Disponibilidade      |
                             | - Dados estruturados   |
                             +------------------------+
+```
 
 | ETAPA | DECISAO | JUSTIFICATIVA |
 | --- | --- | --- |
