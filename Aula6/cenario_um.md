@@ -328,26 +328,26 @@ Sim, essa limitação é uma das formas de controlar o custo da aplicação. O m
 
 ## Arquitetura final
 ```text
-+-------------------------+       +-------------------------+       +-------------------------+
++-------------------------+       +-------------------------+      +-------------------------+
 |     Fontes de Dados     |       |  Pipeline de Ingestão  |       |  Armazenamento & Base   |
-|                         |       |                         |       |                         |
+|                         |       |                        |       |                         |
 | - Petições              |------>| - Extração (Docling)   |------>| - Banco Vetorial        |
 | - Sentenças             |       | - OCR quando necessário|       | - Embeddings            |
-| - Decisões              |       | - PDF -> Markdown      |       |   text-embedding-3-small|
+| - Decisões              |       | - PDF -> Markdown      |       |  text-embedding-3-small |
 |   interlocutórias       |       | - Limpeza mínima       |       | - Metadados jurídicos   |
 | - Documentos validados  |       | - Chunking em 2 etapas |       |                         |
-+-------------------------+       +-------------------------+       +-------------------------+
++-------------------------+       +-------------------------+      +-------------------------+
                                                                             |
                                                                             v
-+-------------------------+       +-------------------------+       +-------------------------+
++-------------------------+      +-------------------------+      +-------------------------+
 |  Resposta ao Advogado  |       |   Orquestração & LLM   |       |  Fase de Recuperação    |
-|                         |       |                         |       |                         |
+|                        |       |                                |                         |
 | - Decisões semelhantes |<------| - Pergunta/petição     |<------| - Busca semântica       |
 | - Trechos relevantes   |       | - Chunks recuperados   |       | - Top-K documentos      |
 | - Tribunal             |       | - Metadados            |       | - Filtro por metadados  |
 | - Número do processo   |       | - Geração da resposta  |       | - Área do Direito       |
-| - Documento / páginas  |       |                         |       | - Tribunal / tipo doc.  |
-+-------------------------+       +-------------------------+       +-------------------------+
+| - Documento / páginas  |       |                        |       | - Tribunal / tipo doc.  |
++-------------------------+      +-------------------------+      +-------------------------+
                                       ^
                                       |
                             +-------------------------+

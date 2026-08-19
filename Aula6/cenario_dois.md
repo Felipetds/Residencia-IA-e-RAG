@@ -249,26 +249,26 @@ Sim, essa limitação é uma das formas de controlar o custo da aplicação. O m
 
 ## Arquitetura final
 ```text
-+----------------------+       +------------------------+       +-------------------------+
++----------------------+       +------------------------+      +-------------------------+
 |    Fontes de Dados   |       |  Pipeline de Ingestão |       |  Armazenamento & Base   |
-|                      |       |                        |       |                         |
+|                      |       |                       |       |                         |
 | - PDFs               |------>| - Extração (Docling)  |------>| - Banco Vetorial        |
 | - Manuais            |       | - PDF -> Markdown     |       | - Embeddings            |
 | - Especificações     |       | - Limpeza mínima      |       |   text-embedding-3-small|
 | - FAQs               |       | - Chunking por seção  |       | - Metadados             |
 | - Garantias          |       | - Geração metadados   |       |                         |
-+----------------------+       +------------------------+       +-------------------------+
++----------------------+       +------------------------+      +-------------------------+
                                                                          |
                                                                          v
-+----------------------+       +------------------------+       +-------------------------+
-|  Resposta ao Cliente|       |   Orquestração & LLM  |       |  Fase de Recuperação    |
-|                      |       |                        |       |                         |
++----------------------+       +------------------------+      +-------------------------+
+|  Resposta ao Cliente |       |   Orquestração & LLM  |       |  Fase de Recuperação    |
+|                      |       |                       |       |                         |
 | - Resposta sobre     |<------| - Pergunta + chunks   |<------| - Busca semântica       |
 |   produto            |       | - Contexto recuperado |       | - Top-K chunks          |
 | - Especificações     |       | - Geração da resposta |       | - Filtro por metadados  |
-| - Comparações        |       |                        |       | - Categoria / marca     |
-| - Fonte utilizada    |       |                        |       | - Modelo / tipo doc.    |
-+----------------------+       +------------------------+       +-------------------------+
+| - Comparações        |       |                       |       | - Categoria / marca     |
+| - Fonte utilizada    |       |                       |       | - Modelo / tipo doc.    |
++----------------------+       +------------------------+      +-------------------------+
                                       ^
                                       |
                             +------------------------+
