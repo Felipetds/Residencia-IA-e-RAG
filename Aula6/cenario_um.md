@@ -48,11 +48,13 @@ Essas informações como "valor de indenização" podem ser adicionadas aos meta
 ### Quais tipos de arquivo existirão? (PDF, DOCX, HTML, Markdown, páginas web, planilhas, imagens, áudios, vídeos, outros)
 Provavelmente seriam apenas PDFs por se tratar de documentos oficiais. "A principal extensão usada para envio e protocolo de documentos jurídicos nos tribunais brasileiros é o .pdf, exigido pela maioria absoluta dos sistemas de processo eletrônico (como PJe, e-SAJ e PROJUDI)."
 
+Após o processo de extrassão todos os documentos serão no formato markdown.
+
 ### Qual o volume aproximado? (dezenas, centenas, milhares de documentos?)
 Provavelmente algo em torno de centenas inicialmente.
 
 ### Qual o tamanho típico de cada documento? (Paginas, kbs)
- tamanho pode variar entre 10 a 50 páginas para cada documento aproximadamente podendo pesar de 0,3 MB a 4 MB em arquivos que possuem apenas texto e 10 MB a 50 MB em arquivos que possuem texto com gráficos, tabelas e imagens.
+O tamanho pode variar entre 10 a 50 páginas para cada documento aproximadamente podendo pesar de 0,3 MB a 4 MB em arquivos que possuem apenas texto e 10 MB a 50 MB em arquivos que possuem texto com gráficos, tabelas e imagens.
 
 ### Com que frequência novos documentos entram? Documentos antigos são atualizados ou substituídos?
 Inicialmente seriam adicionados novos documentos a cada 3 meses, podendo ser em menos tempo em casos especiais. Documentos antigos seriam subistituidos ou removidos com o tempo para evitar respostas desatualizadas.
