@@ -328,8 +328,8 @@ Sim, essa limitação é uma das formas de controlar o custo da aplicação. O m
 
 | ETAPA | DECISAO | JUSTIFICATIVA |
 | --- | --- | --- |
-| Extração |     |  |
-| Limpeza |  |  |
-| Chunking |  |  |
-| Metadados |  |  |
-| Embeddings |  |  |
+| Extração | Docling para converter documentos padronizados em Markdown. |  |
+| Limpeza | Limpeza mínima ou nula para documentos gerados nativamente pela aplicação. |  |
+| Chunking | Divisão inicial por seção e divisão sevundaria para garantir o tamanho dentro do limite da API |  |
+| Metadados | Dados de identificação, localização, tempo e tamanho dos documentos e dos chunks |  |
+| Embeddings | Modelo text-embedding-3-small (Pode ser uma alternativa local) |  |
