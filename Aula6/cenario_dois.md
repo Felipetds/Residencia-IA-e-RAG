@@ -212,9 +212,7 @@ Documento
 
 ## Parte 5 - Chunking / Splitting
 
-O metodo escolhido foi o "MarkdownHeaderTextSplitter", ele vai dividir o documento pela estrutura dos títulos com o "separators=["\n\n", "\n", " ", ""]". 
-
-Não utilizaria o overlap por entender que o metodo já preserva suficientemente o contexto.
+O metodo escolhido foi o Recursive text splitter com chunk size de 500 e overlap de 100. 
 
 - Limite Máximo de Contexto (Tokens por String): O limite é de 8.191 tokens por string/texto individual enviado.
 - Limite de Lote (Batching Limits): A soma de todos os tokens de todas as strings contidas no mesmo lote (batch) não pode ultrapassar 300.000 tokens por requisição.
@@ -255,7 +253,7 @@ Sim, essa limitação é uma das formas de controlar o custo da aplicação. O m
 | - PDFs               |------>| - Extração (Docling)  |------>| - Banco Vetorial        |
 | - Manuais            |       | - PDF -> Markdown     |       | - Embeddings            |
 | - Especificações     |       | - Limpeza mínima      |       |   text-embedding-3-small|
-| - FAQs               |       | - Chunking por seção  |       | - Metadados             |
+| - FAQs               |       | - Chunking            |       | - Metadados             |
 | - Garantias          |       | - Geração metadados   |       |                         |
 +----------------------+       +------------------------+      +-------------------------+
                                                                          |
@@ -285,7 +283,7 @@ Sim, essa limitação é uma das formas de controlar o custo da aplicação. O m
 | --- | --- | --- |
 | Extração | Docling para converter documentos padronizados em Markdown. | Preserva a estrutura e facilita a leitura de arquivos |
 | Limpeza | Limpeza mínima ou nula | Interferencia minima para evitar perda de informações importantes |
-| Chunking | Divisão inicial por seção | Preserva o contexto e não gera chunks extremamente grandes |
+| Chunking | Divisão recursiva com chunksize e overlap | Preserva o contexto e não gera chunks extremamente grandes |
 | Metadados | Dados de identificação, localização e tamanho dos documentos e dos chunks | Essas informações garantem localização para referências |
 | Embeddings | Modelo text-embedding-3-small (Pode ser uma alternativa local) | Excelente custo-benefício e facil de acompanhar as métricas de utilização/custo |
 
