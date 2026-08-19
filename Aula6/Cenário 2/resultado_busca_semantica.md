@@ -1,3 +1,5 @@
+### A pergunta foi: "Quais são os primeiro passos antes de utilizar a maquina pela primeira vez?"
+
 ```text
 [
   {
