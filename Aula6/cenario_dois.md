@@ -45,16 +45,55 @@ Essa informação pode estar espalhada por centenas de documentos. O modelo pode
 ## Parte 2 - Organização dos documentos
 
 ### Quais tipos de arquivo existirão? (PDF, DOCX, HTML, Markdown, páginas web, planilhas, imagens, áudios, vídeos, outros)
+Apeas arquivos PDF que vão ser covertidos para o formato markdown.
 
 ### Qual o volume aproximado? (dezenas, centenas, milhares de documentos?)
+Provavelmente algo em torno de centenas inicialmente.
 
 ### Qual o tamanho típico de cada documento? (Paginas, kbs)
+O tamanho pode variar entre 1 a 50 páginas para cada documento aproximadamente podendo pesar até 4 MB em arquivos que possuem apenas texto e até a 50 MB em arquivos que possuem texto com gráficos, tabelas e imagens.
 
 ### Com que frequência novos documentos entram? Documentos antigos são atualizados ou substituídos?
+Novos documentos só vão ser adicionados conforme novos produtos forem adicionados. Documentos antigos seriam subistituidos ou removidos com o tempo para evitar respostas desatualizadas.
 
 ### Organização de pastas:
 
 ```text
+documentos/
+├── eletronicos/
+│   ├── smartphones/
+│   │   ├── especificacoes/
+│   │   ├── manuais/
+│   │   └── faq/
+│   ├── notebooks/
+│   │   ├── especificacoes/
+│   │   ├── manuais/
+│   │   └── faq/
+│
+├── eletrodomesticos/
+│   ├── geladeiras/
+│   │   ├── especificacoes/
+│   │   ├── manuais/
+│   │   └── faq/
+│   ├── maquinas_de_lavar/
+│   │   ├── especificacoes/
+│   │   ├── manuais/
+│   │   └── faq/
+│
+├── informatica/
+│   ├── teclados/
+│   │   ├── especificacoes/
+│   │   ├── manuais/
+│   │   └── faq/
+│   ├── mouses/
+│   │   ├── especificacoes/
+│   │   ├── manuais/
+│   │   └── faq/
+│
+└── politicas/
+    ├── garantia/
+    ├── devolucao/
+    └── troca/
 ```
 
 Exemplo:
@@ -106,18 +145,32 @@ Quando um documento for adicionado ou atualizado, não será necessário reproce
 ## Parte 4 - Metadados
 
 ### 4.1 Metadados do documento
-
+```text
+{
+  "documento_id": "PROD-001",
+  "nome_produto": "Notebook Dell Inspiron 15",
+  "categoria": "informatica",
+  "subcategoria": "notebooks",
+  "marca": "Dell",
+  "modelo": "Inspiron 15",
+  "tipo_documento": "produto",
+  "fonte": "dell_inspiron_15.md",
+  "data_atualizacao": "2026-08-15",
+  "status": "ativo"
+}
+```
 ### 4.2 Metadados do chunk
 
 ```text
 {
-  "documento_id": "doc_0001",
-  "chunk_index": 15,
-  "pagina_inicio": 6,
-  "pagina_fim": 6,
-  "tipo_conteudo": "texto",
-  "n_caracteres": 368,
-  "n_tokens": 106
+  "documento_id": "PROD-001",
+  "chunk_id": "PROD-001-004",
+  "chunk_index": 4,
+  "n_caracteres": 438,
+  "n_tokens": 112,
+  "tipo_conteudo": "especificacao",
+  "secao": "Conectividade",
+  "percentual_documento": 12.4
 }
 ```
 
@@ -133,25 +186,29 @@ Os metadados do chunk serão utilizados para identificar onde o trecho está loc
 
 ```text
 Documento
+Documento
 │
 ├── Metadados do documento
 │   ├── documento_id
-│   ├── fonte
-│   ├── setor
-│   ├── tipo_documento
+│   ├── nome_produto
+│   ├── categoria
+│   ├── subcategoria
 │   ├── marca
-│   └── tipo_de_equipamento
+│   ├── modelo
+│   ├── tipo_doc
+│   ├── fonte
+│   ├── data_atualizacao
+│   └── status
 │
-├── Chunk 0
-│   └── Metadados do chunk
-│       ├── chunk_index
-│       ├── pagina_inicio
-│       ├── pagina_fim
-│       ├── tipo_conteudo
-│       ├── n_caracteres
-│       └── n_tokens
-│
-└── ...
+└── Chunk 0
+    ├── documento_id
+    ├── chunk_id
+    ├── chunk_index
+    ├── n_caracteres
+    ├── n_tokens
+    ├── tipo_conteudo
+    ├── secao
+    └── percentual_documento
 ```
 
 ## Parte 5 - Chunking / Splitting
