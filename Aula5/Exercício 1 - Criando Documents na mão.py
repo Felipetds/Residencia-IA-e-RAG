@@ -96,5 +96,14 @@ Embeddings permitem comparar a similaridade entre textos.
 len(documentos)
 '''
 resposta: 6
+'''
 
 '''
+- Que tipos de dado são aceitos dentro de `metadata`? Teste colocar uma lista ou um dicionário aninhado e relate o que acontece.
+O campo metadata é do tipo "dict" ou dicionário . O "dict" é uma estrutura de dados mutável que armazena informações em pares de chave e valor e pode 
+armazenar diferentes tipos de dados, como strings, números inteiros, números decimais, booleanos, listas e até dicionários aninhados.
+
+- O que acontece se você criar um `Document` sem passar `metadata`?
+O Document é criado normalmente e o LangChain utiliza um dicionário vazio ({}) como valor padrão.
+'''
+
