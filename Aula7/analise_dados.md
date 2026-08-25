@@ -215,7 +215,7 @@ Documento
     "data_documento": "2026-08-15",
     "cliente_id": "CUST-001"
   },
-
+```
 Chunk
 ```text
   "chunk": {
