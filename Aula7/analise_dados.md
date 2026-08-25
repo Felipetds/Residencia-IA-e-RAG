@@ -197,6 +197,12 @@ Chunk
 
 - E-mails — emails/*.txt
 
+Tentar manter o email com apenas um chunk?
+maior: 1051 caracteres
+menor: 531 caracteres
+
+Vale a pena mapear casos onde tem mais de um assunto?
+
 Documento
 ```text
 {
