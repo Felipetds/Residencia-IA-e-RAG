@@ -74,7 +74,7 @@ Existem dados apropriados para consulta determinística/SQL e conteúdo apropria
 
 > **FAISS\***: sanitizar senhas, credenciais, chaves de API e outros segredos antes da vetorização.
 
-### Reuniões / atas
+### Reuniões / atas - Estratégia: MarkdownHeaderTextSplitter.
 
 | Arquivo | Destino |
 | --- | --- |
@@ -97,7 +97,7 @@ Existem dados apropriados para consulta determinística/SQL e conteúdo apropria
 | 2026-03-sales_enterprise_feedback.md | FAISS |
 | 2026-03-ux_ui_pdv_redesign.md | FAISS |
 
-### Políticas
+### Políticas - Estratégia: MarkdownHeaderTextSplitter.
 
 | Arquivo | Destino |
 | --- | --- |
@@ -110,7 +110,7 @@ Existem dados apropriados para consulta determinística/SQL e conteúdo apropria
 | seguranca_lgpd.md | FAISS |
 | seguranca_lgpd.pdf | Não indexar se for duplicata do .md |
 
-### Documentação
+### Documentação - Estratégia: MarkdownHeaderTextSplitter.
 
 | Arquivo | Destino |
 | --- | --- |
@@ -126,3 +126,25 @@ Existem dados apropriados para consulta determinística/SQL e conteúdo apropria
 | hardware_e_perifericos.md | FAISS |
 | manual_pdv.md | FAISS |
 | troca_e_devolucao.md | FAISS |
+
+---------------------------------------------------------------------------------------------------------------
+
+| Categoria | Arquivo / grupo | Destino principal | Metadados para RAG? |
+|---|---|---|---|
+| **Structured** | `customers.csv` | SQL | Não |
+| **Structured** | `employees.csv` | SQL | Não |
+| **Structured** | `products.json` | SQL | Não* |
+| **Structured** | `sales.csv` | SQL | Não |
+| **Structured** | `stores.json` | SQL | Não |
+| **Semi-structured** | `system_logs.csv` | SQL | Não* |
+| **Semi-structured** | `tickets.jsonl` | SQL + Vetorial | Sim |
+| **Unstructured** | `emails/customer_*.txt` | Vetorial | Sim |
+| **Unstructured** | `emails/internal_*.txt` | Vetorial | Sim |
+| **Unstructured** | `meetings/*.md` | Vetorial | Sim |
+| **Unstructured** | `policies/*.md` | Vetorial | Sim |
+| **Unstructured** | `policies/*.pdf` | Vetorial | Sim |
+| **Unstructured** | `documentation/analytics/*` | Vetorial | Sim |
+| **Unstructured** | `documentation/ecommerce/*` | Vetorial | Sim |
+| **Unstructured** | `documentation/estoque/*` | Vetorial | Sim |
+| **Unstructured** | `documentation/pay/*` | Vetorial | Sim |
+| **Unstructured** | `documentation/pdv/*` | Vetorial | Sim |
