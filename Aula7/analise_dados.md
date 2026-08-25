@@ -129,6 +129,8 @@ Existem dados apropriados para consulta determinística/SQL e conteúdo apropria
 
 ---------------------------------------------------------------------------------------------------------------
 
+### Metadados
+
 | Categoria | Arquivo / grupo | Destino principal | Metadados para RAG? |
 |---|---|---|---|
 | **Structured** | `customers.csv` | SQL | Não |
@@ -148,3 +150,205 @@ Existem dados apropriados para consulta determinística/SQL e conteúdo apropria
 | **Unstructured** | `documentation/estoque/*` | Vetorial | Sim |
 | **Unstructured** | `documentation/pay/*` | Vetorial | Sim |
 | **Unstructured** | `documentation/pdv/*` | Vetorial | Sim |
+
+---------------------------------------------------------------------------------------------------------------
+
+### Metadados
+
+- Tickets — tickets.jsonl
+
+Documento
+
+```text
+{
+  "documento": {
+    "documento_id": "ticket_001",
+    "fonte": "tickets.jsonl",
+    "caminho": "semi_structured/tickets.jsonl",
+    "categoria": "semi_structured",
+    "tipo_documento": "ticket",
+    "dominio": "suporte",
+    "formato": "jsonl",
+    "ticket_id": "TKT-001",
+    "cliente_id": "CUST-001",
+    "data_documento": "2026-08-20",
+    "status": "fechado",
+    "prioridade": "alta",
+    "assunto": "Problema de sincronização"
+  },
+```
+
+Chunk
+
+```text
+  "chunk": {
+    "chunk_id": "ticket_001_chunk_000",
+    "documento_id": "ticket_001",
+    "chunk_index": 0,
+    "estrategia": "recursive",
+    "chunk_size": 500,
+    "chunk_overlap": 100,
+    "n_caracteres": 432,
+    "n_tokens": 108,
+    "tipo_conteudo": "texto"
+  }
+}
+```
+
+- E-mails — emails/*.txt
+
+Documento
+```text
+{
+  "documento": {
+    "documento_id": "email_001",
+    "fonte": "customer_001_sincronizacao.txt",
+    "caminho": "unstructured/emails/customer_001_sincronizacao.txt",
+    "categoria": "unstructured",
+    "tipo_documento": "email",
+    "tipo_email": "customer",
+    "dominio": "suporte",
+    "formato": "txt",
+    "remetente": "cliente",
+    "destinatario": "suporte",
+    "assunto": "Problema de sincronização",
+    "data_documento": "2026-08-15",
+    "cliente_id": "CUST-001"
+  },
+
+Chunk
+```text
+  "chunk": {
+    "chunk_id": "email_001_chunk_000",
+    "documento_id": "email_001",
+    "chunk_index": 0,
+    "estrategia": "recursive",
+    "chunk_size": 500,
+    "chunk_overlap": 100,
+    "n_caracteres": 465,
+    "n_tokens": 117,
+    "tipo_conteudo": "texto"
+  }
+}
+
+```
+- Reuniões — meetings/*.md
+
+Documento
+```text
+{
+  "documento": {
+    "documento_id": "meeting_001",
+    "fonte": "reuniao_pdv.md",
+    "caminho": "unstructured/meetings/reuniao_pdv.md",
+    "categoria": "unstructured",
+    "tipo_documento": "meeting",
+    "dominio": "pdv",
+    "formato": "md",
+    "titulo": "Reunião sobre melhorias no PDV",
+    "data_documento": "2026-08-10",
+    "participantes": [
+      "Produto",
+      "Desenvolvimento",
+      "Suporte"
+    ]
+  },
+```
+
+Chunk
+
+```text
+  "chunk": {
+    "chunk_id": "meeting_001_chunk_000",
+    "documento_id": "meeting_001",
+    "chunk_index": 0,
+    "secao": "Problemas identificados",
+    "subsecao": null,
+    "estrategia": "markdown_recursive",
+    "chunk_size": 500,
+    "chunk_overlap": 100,
+    "n_caracteres": 487,
+    "n_tokens": 121,
+    "tipo_conteudo": "texto"
+  }
+}
+```
+
+4. Políticas — policies/*.md e policies/*.pdf
+
+Documento
+```text
+{
+  "documento": {
+    "documento_id": "policy_001",
+    "fonte": "politica_reembolso.pdf",
+    "caminho": "unstructured/policies/politica_reembolso.pdf",
+    "categoria": "unstructured",
+    "tipo_documento": "policy",
+    "dominio": "financeiro",
+    "formato": "pdf",
+    "titulo": "Política de Reembolso",
+    "versao": "2.0",
+    "data_documento": "2026-01-01",
+    "data_vigencia": "2026-01-01",
+    "status": "ativa",
+    "area_responsavel": "Financeiro"
+  },
+```
+
+Chunk
+```text
+  "chunk": {
+    "chunk_id": "policy_001_chunk_003",
+    "documento_id": "policy_001",
+    "chunk_index": 3,
+    "secao": "Reembolso",
+    "subsecao": "Prazo",
+    "pagina_inicio": 4,
+    "pagina_fim": 4,
+    "estrategia": "markdown_recursive",
+    "chunk_size": 500,
+    "chunk_overlap": 100,
+    "n_caracteres": 451,
+    "n_tokens": 113,
+    "tipo_conteudo": "texto"
+  }
+}
+```
+
+5. Documentação — documentation/*
+
+Documento
+```text
+{
+  "documento": {
+    "documento_id": "documentation_001",
+    "fonte": "integracao_pix.md",
+    "caminho": "unstructured/documentation/pay/integracao_pix.md",
+    "categoria": "unstructured",
+    "tipo_documento": "documentation",
+    "dominio": "pay",
+    "formato": "md",
+    "titulo": "Integração PIX",
+    "versao": "1.2",
+    "data_documento": "2026-07-10"
+  },
+```
+
+Chunk
+```text
+  "chunk": {
+    "chunk_id": "documentation_001_chunk_005",
+    "documento_id": "documentation_001",
+    "chunk_index": 5,
+    "secao": "Integração",
+    "subsecao": "Autenticação",
+    "estrategia": "markdown_recursive",
+    "chunk_size": 500,
+    "chunk_overlap": 100,
+    "n_caracteres": 476,
+    "n_tokens": 119,
+    "tipo_conteudo": "texto"
+  }
+}
+```
